@@ -1,15 +1,7 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text"
+      "slider-layout#home__slider--top"
     ]
-  },
-    "rich-text": {
-    "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "Welcome to TechInn Store",
-      "font": "t-heading-1"
-    }
   }
 }
