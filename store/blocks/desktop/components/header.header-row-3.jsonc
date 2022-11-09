@@ -2,20 +2,23 @@
   // Section 3
   "flex-layout.row#desktop__header--row-3": {
     "props": {
-      "horizontalAlign": "left",
+      "horizontalAlign": "between",
       "verticalAlign": "center",
-      "preventHorizontalStretch": true,
+      "preventHorizontalStretch": false,
       "preventVerticalStretch": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "colSizing": "auto"
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      "search-bar",
+      "flex-layout.col#header__row-3--search-bar",
       "locale-switcher",
       "login",
       "minicart.v2"
     ]
   },
+
+  // Logo
   "flex-layout.col#logo-desktop": {
     "props": {
       "verticalAlign": "middle"
@@ -29,5 +32,21 @@
       "url": "assets/images/techinn-logo.svg",
       "width": "164"
     }
+  },
+
+  // Search-bar
+  "flex-layout.col#header__row-3--search-bar": {
+    "props": {
+      "verticalAlign": "middle",
+      "width": "70%"
+    },
+    "children": ["search-bar"]
+  },
+  "search-bar": {
+    "props": {
+        "placeholder": "Buscar productos",
+        "maxWidth": "100%"
+    }
   }
+
 }
