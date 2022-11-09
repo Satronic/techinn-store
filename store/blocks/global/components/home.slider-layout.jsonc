@@ -1,0 +1,41 @@
+{
+  "slider-layout#home__slider--top": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "phone": 1,
+        "tablet": 1
+      },
+      "infinite": true,
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      },
+      "arrowSize": {
+        "desktop": 42,
+        "phone": 32,
+        "tablet": 26
+      }
+    },
+    "children": [
+      "image#home__slider-top--image-1",
+      "image#home__slider-top--image-2",
+      "image#home__slider-top--image-3"
+    ]
+  },
+  "image#home__slider-top--image-1": {
+    "props": {
+      "src": "assets/images/GTR.jpg"
+    }
+  },
+  "image#home__slider-top--image-2": {
+    "props": {
+      "src": "assets/images/PDP.jpg"
+    }
+  },
+  "image#home__slider-top--image-3": {
+    "props": {
+      "src": "assets/images/LODR.jpg"
+    }
+  }
+}
