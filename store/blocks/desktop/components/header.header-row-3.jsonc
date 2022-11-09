@@ -10,17 +10,11 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
       "search-bar",
       "locale-switcher",
       "login",
       "minicart.v2"
     ]
-  },
-  "flex-layout.col#spacer": {
-    "props": {
-      "width": "grow"
-    }
   },
   "flex-layout.col#logo-desktop": {
     "props": {
