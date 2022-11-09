@@ -35,7 +35,7 @@
     },
     "children": ["logo#row-2__logo--1"]
   },
-  "logo#section-2__logo--1": {
+  "logo#row-2__logo--1": {
     "props": {
       "title": "Logo",
       "href": "/",
@@ -51,7 +51,7 @@
     },
     "children": ["logo#row-2__logo--2"]
   },
-  "logo#section-2__logo--2": {
+  "logo#row-2__logo--2": {
     "props": {
       "title": "Logo",
       "href": "/",
@@ -67,7 +67,7 @@
     },
     "children": ["logo#row-2__logo--3"]
   },
-  "logo#section-2__logo--3": {
+  "logo#row-2__logo--3": {
     "props": {
       "title": "Logo",
       "href": "/",
