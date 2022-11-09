@@ -1,0 +1,116 @@
+{
+  "header-layout.desktop": {
+    "children": ["sticky-layout#desktop"]
+  },
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#desktop__header--row-2",
+      "flex-layout.row#desktop__header--row-3"
+    ]
+  },
+
+  // Section 2
+  "flex-layout.row#desktop__header--row-2": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#header__row-2--logo-1",
+      "flex-layout.col#header__row-2--logo-2",
+      "flex-layout.col#header__row-2--logo-3"
+    ]
+  },
+
+  // Section 2 - Children 1
+  "flex-layout.col#header__row-2--logo-1": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#row-2__logo--1"]
+  },
+  "logo#section-2__logo--1": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/images/techinn-logo-mini.svg",
+      "width": "66"
+    }
+  },
+
+  // Section 2 - Children 2
+  "flex-layout.col#header__row-2--logo-2": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#row-2__logo--2"]
+  },
+  "logo#section-2__logo--2": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/images/bricoinn-logo-mini.svg",
+      "width": "70"
+    }
+  },
+
+  // Section 2 - Children 3
+  "flex-layout.col#header__row-2--logo-3": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#row-2__logo--3"]
+  },
+  "logo#section-2__logo--3": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/images/outletinn-logo-mini.svg",
+      "width": "70"
+    }
+  },
+
+  // Section 3
+  "flex-layout.row#desktop__header--row-3": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#spacer",
+      "search-bar",
+      "locale-switcher",
+      "login",
+      "minicart.v2"
+    ]
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo"]
+  },
+  "logo": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/images/techinn-logo.svg",
+      "width": "164"
+    }
+  }
+}
