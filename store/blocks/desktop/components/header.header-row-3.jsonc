@@ -12,7 +12,6 @@
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#header__row-3--search-bar",
-      "locale-switcher",
       "login",
       "minicart.v2"
     ]
