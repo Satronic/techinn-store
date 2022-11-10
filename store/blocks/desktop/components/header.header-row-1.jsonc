@@ -1,0 +1,105 @@
+{
+  // Section 1
+  "flex-layout.row#desktop__header--row-1": {
+    "props": {
+      "horizontalAlign": "between",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "colSizing": "auto",
+      "blockClass": "desktop__header--row-1"
+    },
+    "children": [
+      "flex-layout.col#header__row-1--col-1",
+      "flex-layout.col#header__row-1--col-2",
+      "flex-layout.col#header__row-1--col-3",
+      "flex-layout.col#header__row-1--col-4",
+      "flex-layout.col#header__row-1--col-5"
+    ]
+  },
+
+  // Col 1
+  "flex-layout.col#header__row-1--col-1": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "width": "10%"
+    },
+    "children": ["rich-text#1"]
+  },
+  "rich-text#1": {
+    "props": {
+      "text": "Enviar a: ",
+      "textAlign": "CENTER",
+      "font": "t-mini",
+      "blockClass": ""
+    }
+  },
+
+  // Col 2
+  "flex-layout.col#header__row-1--col-2": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "width": "10%"
+    },
+    "children": ["rich-text#2"]
+  },
+  "rich-text#2": {
+    "props": {
+      "text": "Idioma: ",
+      "textAlign": "center",
+      "font": "t-mini",
+      "blockClass": ""
+    }
+  },
+
+  // Col 3
+  "flex-layout.col#header__row-1--col-3": {
+    "props": {
+      "verticalAlign": "middle",
+      "width": "60%"
+    },
+    "children": ["rich-text#3"]
+  },
+  "rich-text#3": {
+    "props": {
+      "text": ""
+    }
+  },
+
+  // Col 4
+  "flex-layout.col#header__row-1--col-4": {
+    "props": {
+      "verticalAlign": "middle",
+      "width": "10%"
+    },
+    "children": ["rich-text#4"]
+  },
+  "rich-text#4": {
+    "props": {
+      "text": "Centro de Soporte",
+      "textAlign": "center",
+      "font": "t-mini",
+      "blockClass": ""
+    }
+  },
+
+  // Col 5
+  "flex-layout.col#header__row-1--col-5": {
+    "props": {
+      "verticalAlign": "middle",
+      "width": "10%"
+    },
+    "children": ["rich-text#5"]
+  },
+  "rich-text#5": {
+    "props": {
+      "text": "Devoluciones",
+      "textAlign": "center",
+      "font": "t-mini",
+      "blockClass": ""
+    }
+  }
+}
