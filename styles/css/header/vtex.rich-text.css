@@ -2,3 +2,14 @@
     margin: 0.2rem;
     padding: 0.1rem;
 }
+
+.paragraph--row-4__menu-categories,
+.paragraph--row-4__menu-brands,
+.paragraph--row-4__link-computers,
+.paragraph--row-4__link-phones,
+.paragraph--row-4__link-gaming,
+.paragraph--row-4__link-smarthome,
+.paragraph--row-4__link-devices,
+.paragraph--row-4__link-hotDeals {
+    color: #fff;
+}

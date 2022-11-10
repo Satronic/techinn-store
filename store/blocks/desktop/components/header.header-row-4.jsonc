@@ -1,0 +1,168 @@
+{
+  // Section 4
+  "flex-layout.row#desktop__header--row-4": {
+    "props": {
+      "horizontalAlign": "around",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "desktop__header--row-4"
+    },
+    "children": [
+      "flex-layout.col#header__row-4--col-1",
+      "flex-layout.col#header__row-4--col-2",
+      "flex-layout.col#header__row-4--col-3",
+      "flex-layout.col#header__row-4--col-4",
+      "flex-layout.col#header__row-4--col-5",
+      "flex-layout.col#header__row-4--col-6",
+      "flex-layout.col#header__row-4--col-7",
+      "flex-layout.col#header__row-4--col-8"
+    ]
+  },
+
+  // Col 1
+  "flex-layout.col#header__row-4--col-1": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "width": "12.5%"
+    },
+    "children": ["rich-text#row-4__menu-categories"]
+  },
+  "rich-text#row-4__menu-categories": {
+    "props": {
+      "text": "Todas las CATEGORIAS",
+      "textAlign": "CENTER",
+      "font": "t-mini",
+      "blockClass": "row-4__menu-categories"
+    }
+  },
+
+  // Col 2
+  "flex-layout.col#header__row-4--col-2": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "width": "12.5%"
+    },
+    "children": ["rich-text#row-4__menu-brands"]
+  },
+  "rich-text#row-4__menu-brands": {
+    "props": {
+      "text": "Todas las MARCAS",
+      "textAlign": "CENTER",
+      "font": "t-mini",
+      "blockClass": "row-4__menu-brands"
+    }
+  },
+
+  // Col 3
+  "flex-layout.col#header__row-4--col-3": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "width": "12.5%"
+    },
+    "children": ["rich-text#row-4__link-computers"]
+  },
+  "rich-text#row-4__link-computers": {
+    "props": {
+      "text": "Computadores",
+      "textAlign": "CENTER",
+      "font": "t-mini",
+      "blockClass": "row-4__link-computers"
+    }
+  },
+
+  // Col 4
+  "flex-layout.col#header__row-4--col-4": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "width": "12.5%"
+    },
+    "children": ["rich-text#row-4__link-phones"]
+  },
+  "rich-text#row-4__link-phones": {
+    "props": {
+      "text": "Telefonia",
+      "textAlign": "CENTER",
+      "font": "t-mini",
+      "blockClass": "row-4__link-phones"
+    }
+  },
+
+  // Col 5
+  "flex-layout.col#header__row-4--col-5": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "width": "12.5%"
+    },
+    "children": ["rich-text#row-4__link-gaming"]
+  },
+  "rich-text#row-4__link-gaming": {
+    "props": {
+      "text": "Juegos",
+      "textAlign": "CENTER",
+      "font": "t-mini",
+      "blockClass": "row-4__link-gaming"
+    }
+  },
+
+  // Col 6
+  "flex-layout.col#header__row-4--col-6": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "width": "12.5%"
+    },
+    "children": ["rich-text#row-4__link-smarthome"]
+  },
+  "rich-text#row-4__link-smarthome": {
+    "props": {
+      "text": "Smart Home",
+      "textAlign": "CENTER",
+      "font": "t-mini",
+      "blockClass": "row-4__link-smarthome"
+    }
+  },
+
+  // Col 7
+  "flex-layout.col#header__row-4--col-7": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "width": "12.5%"
+    },
+    "children": ["rich-text#row-4__link-devices"]
+  },
+  "rich-text#row-4__link-devices": {
+    "props": {
+      "text": "Perifericos",
+      "textAlign": "CENTER",
+      "font": "t-mini",
+      "blockClass": "row-4__link-devices"
+    }
+  },
+
+  // Col 8
+  "flex-layout.col#header__row-4--col-8": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "width": "12.5%"
+    },
+    "children": ["rich-text#row-4__link-hotDeals"]
+  },
+  "rich-text#row-4__link-hotDeals": {
+    "props": {
+      "text": "¡Ultimas Unidades!",
+      "textAlign": "CENTER",
+      "font": "t-mini",
+      "blockClass": "row-4__link-hotDeals"
+    }
+  }
+
+}

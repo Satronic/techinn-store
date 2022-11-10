@@ -9,7 +9,8 @@
     "children": [
       "flex-layout.row#desktop__header--row-1",
       "flex-layout.row#desktop__header--row-2",
-      "flex-layout.row#desktop__header--row-3"
+      "flex-layout.row#desktop__header--row-3",
+      "flex-layout.row#desktop__header--row-4"
     ]
   }
 }
