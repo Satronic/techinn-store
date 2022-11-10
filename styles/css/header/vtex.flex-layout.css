@@ -1,0 +1,14 @@
+.flexRowContent {
+  margin: 0;
+  padding: 0;
+}
+.flex-col,
+.flexColChild {
+  margin: 0;
+  padding: 0;
+}
+
+.flexRowContent--desktop__header--row-1 {
+  background-color: #f4f3f3;
+  padding: 0.2rem;
+}

@@ -1,0 +1,11 @@
+.logoContainer,
+.sizeDestop {
+  margin: 0;
+  padding: 0;
+}
+
+.logoImage,
+.lazyLoad {
+  margin: 0.2rem 1rem;
+  padding: 0.2rem;
+}
