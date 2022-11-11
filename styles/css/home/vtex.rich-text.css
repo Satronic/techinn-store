@@ -1,0 +1,16 @@
+.paragraph--cat-computers__title,
+.paragraph--cat-phones__title {
+  position: absolute;
+  transform: translate(-10%, -400%);
+}
+
+.paragraph--cat-devices__title,
+.paragraph--cat-consoles__title {
+  position: absolute;
+  transform: translate(20%, -400%);
+}
+
+.paragraph--cat-bigApliances__title {
+  position: absolute;
+  transform: translate(-20%, -225%);
+}

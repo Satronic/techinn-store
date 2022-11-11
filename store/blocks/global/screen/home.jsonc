@@ -1,7 +1,9 @@
 {
   "store.home": { 
     "blocks": [
-      "slider-layout#home__slider--top"
+      "slider-layout#home__slider--top",
+      "flex-layout.row#home__banner-categories--section-1",
+      "flex-layout.row#home__banner-categories--section-2"
     ]
   }
 }
