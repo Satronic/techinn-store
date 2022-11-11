@@ -4,7 +4,7 @@
       "slider-layout#home__slider--top",
       "flex-layout.row#home__banner-categories--section-1",
       "flex-layout.row#home__banner-categories--section-2",
-      "list-context.product-list#demo1"
+      "list-context.product-list#home__product-list--top-sell"
     ]
   }
 }
