@@ -1,0 +1,46 @@
+{
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf#demo1"],
+    "children": ["rich-text#title", "slider-layout#demo-products"]
+  },
+
+  "product-summary.shelf#demo1": {
+    "children": [
+    "product-summary-image",
+    "product-summary-description"
+    ]
+  },
+
+  "product-summary-image": {
+    "props": {
+      "showBadge": true,
+      "height": 220
+    }
+  },
+
+  "rich-text#title": {
+    "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "font": "t-heading-3",
+        "text": "Productos mas vendidos"
+    }
+  },
+
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "phone": 1,
+        "tablet": 1
+      },
+      "infinite": false,
+
+      "arrowSize": {
+        "desktop": 36,
+        "phone": 30,
+        "tablet": 24
+      }
+    }
+  }
+}
