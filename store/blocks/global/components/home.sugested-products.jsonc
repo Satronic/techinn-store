@@ -1,0 +1,18 @@
+{
+  "list-context.product-list#home__product-list--sugested": {
+    "blocks": ["product-summary.shelf#product-list__product-card"],
+    "children": [
+      "rich-text#product-list__title--sugested",
+      "slider-layout#product-list__slider--top-sell"
+    ]
+  },
+
+  "rich-text#product-list__title--sugested": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-3",
+      "text": "Nuestra selección para ti"
+    }
+  }
+}

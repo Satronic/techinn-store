@@ -1,0 +1,12 @@
+.flexColChild--banner-categories__cat-computers,
+.flexColChild--banner-categories__cat-phones,
+.flexColChild--banner-categories__cat-devices,
+.flexColChild--banner-categories__cat-consoles,
+.flexColChild--banner-categories__cat-bigApliances
+ {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}

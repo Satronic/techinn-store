@@ -1,0 +1,47 @@
+{
+  "list-context.product-list#home__product-list--top-sell": {
+    "blocks": ["product-summary.shelf#product-list__product-card"],
+    "children": ["rich-text#product-list__title--top-sell", "slider-layout#product-list__slider--top-sell"]
+  },
+
+  "product-summary.shelf#product-list__product-card": {
+    "children": [
+    "product-summary-image",
+    "product-summary-description"
+    ]
+  },
+
+  "product-summary-image": {
+    "props": {
+      "showBadge": true,
+      "height": 220,
+      "width": 180
+    }
+  },
+
+  "rich-text#product-list__title--top-sell": {
+    "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "font": "t-heading-3",
+        "text": "Productos mas vendidos"
+    }
+  },
+
+  "slider-layout#product-list__slider--top-sell": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "phone": 1,
+        "tablet": 1
+      },
+      "infinite": false,
+
+      "arrowSize": {
+        "desktop": 36,
+        "phone": 30,
+        "tablet": 24
+      }
+    }
+  }
+}

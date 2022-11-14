@@ -1,0 +1,23 @@
+{
+  "flex-layout.row#home__about-us": {
+    "children": [
+      "flex-layout.col#about-us"
+    ]
+  },
+
+  "flex-layout.col#about-us": {
+    "children": ["rich-text#about-us__title", "rich-text#about-us__content"]
+  },
+
+  "rich-text#about-us__title": {
+    "props": {
+      "text": "ACERCA DE TECHINN"
+    }
+  },
+  "rich-text#about-us__content": {
+    "props": {
+      "font": "t-mini",
+      "text": "En Techinn, la tienda online de tecnología del grupo Tradeinn, descubre todo lo relacionado con informática, electrónica, telefonía móvil y gaming. Encuentra los mejores productos electrónicos con calidad garantizada, excelente durabilidad, buen rendimiento, conectividad, velocidad, potencia y gran almacenamiento en una amplia variedad. En nuestro catálogo podrá encontrar ordenadores portátiles y de sobremesa, accesorios de informática. Disponemos de teléfonos móviles, iPhones y smartphones de las mejores marcas. También cámaras y drones para capturar momentos inolvidables y ipads, tablets y ebooks que puedes llevar fácilmente contigo en una mochila para portátil. También tendrás la posibilidad de elegir artículos deportivos electrónicos como smartwatches o relojes deportivos, pulseras de actividad, cronómetros y GPS de montaña, muy necesarios para tus excursiones o entrenamientos del día a día. Pero si lo que buscas son vehículos eléctricos y de transporte ligero para moverte por la ciudad, elige entre hoverboards, patinetes eléctricos, monociclos eléctricos y segways. Techinn es también una completa tienda gaming donde podrás comprar ordenadores gaming ya que disponemos de todos los procesadores gamer, consolas retro, videoconsolas Nintendo, Xbox, Playstation< /strong> strong> y accesorios para juegos. Las primeras marcas del mundo de la tecnología nos acompañan para garantizarte productos de calidad contrastada. comoMac, HP; portátiles Lenovo, Acer o Dell; Teléfonos inteligentes Apple, Xiaomi, Samsung o Huawei; Relojes inteligentes Apple, Samsung y Garmin. Compra la mejor tecnología como Ordenadores, Telefonía, Gaming, Smarthome, Periféricos en techinn. Más información"
+    }
+  }
+}
