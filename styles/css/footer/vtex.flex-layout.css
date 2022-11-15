@@ -1,3 +1,8 @@
 /* .footerLayout {
   background-color: black;
 } */
+
+.flexColChild {
+  justify-content: center;
+  margin-left: 1rem;
+}

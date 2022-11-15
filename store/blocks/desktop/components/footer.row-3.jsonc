@@ -1,0 +1,151 @@
+{
+  "flex-layout.row#footer__row-3": {
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "footer__row-2"
+    },
+    "children": [
+      "flex-layout.col#footer__row-3--our-international-event",
+      "flex-layout.col#footer__row-3--our-triathlon-club",
+      "flex-layout.col#footer__row-3--download-our-app",
+      "flex-layout.col#footer__row-3--follow-us-on"
+    ]
+  },
+
+  // Column 1
+  "flex-layout.col#footer__row-3--our-international-event": {
+    "children": [
+      "rich-text#our-international-event",
+      "image#our-international-event"
+    ]
+  },
+
+  "rich-text#our-international-event": {
+    "props": {
+      "text": "NUESTRO EVENTO INTERNACIONAL",
+      "blockClass": "footer__row-3--title"
+    }
+  },
+
+  "image#our-international-event": {
+    "props": {
+      "src": "assets/images/event.svg",
+      "link": {
+        "newTab": true,
+        "url": "https://www.1406inn.com/"
+      }
+    }
+  },
+
+  // Column 2
+  "flex-layout.col#footer__row-3--our-triathlon-club": {
+    "children": ["rich-text#our-triathlon-club", "image#our-triathlon-club"]
+  },
+
+  "rich-text#our-triathlon-club": {
+    "props": {
+      "text": "NUESTRO CLUB DE TRIATLÓN",
+      "blockClass": "footer__row-3--title"
+    }
+  },
+
+  "image#our-triathlon-club": {
+    "props": {
+      "src": "assets/images/club.svg",
+      "link": {
+        "newTab": true,
+        "url": "https://www.tgcbinn.com/"
+      }
+    }
+  },
+
+  // Column 3
+  "flex-layout.col#footer__row-3--download-our-app": {
+    "children": [
+        "rich-text#download-our-app",
+        "image#apple-store",
+        "image#google-play"
+    ]
+  },
+
+  "rich-text#download-our-app": {
+    "props": {
+      "text": "DESCARGATE NUESTRA APP",
+      "blockClass": "footer__row-3--title"
+    }
+  },
+
+  "image#apple-store": {
+    "props": {
+      "src": "assets/images/apple-store.svg",
+      "link": {
+        "newTab": true,
+        "url": "https://apps.apple.com/es/app/tradeinn/id819275420"
+      }
+    }
+  },
+
+  "image#google-play": {
+    "props": {
+      "src": "assets/images/google-play.svg",
+      "link": {
+        "newTab": true,
+        "url": "https://play.google.com/store/apps/details?id=com.tradeinnsl&pli=1"
+      }
+    }
+  },
+
+
+  // Column 4
+  "flex-layout.col#footer__row-3--follow-us-on": {
+    "children": [
+        "rich-text#follow-us-on",
+        "flex-layout.row#social-network"
+    ]
+  },
+
+  "rich-text#follow-us-on": {
+    "props": {
+      "text": "SIGUENOS EN NUESTRAS REDES",
+      "blockClass": "footer__row-3--title"
+    }
+  },
+
+  "flex-layout.row#social-network": {
+    "children": [
+        "image#facebook-logo",
+        "image#instagram-logo",
+        "image#youtube-logo"
+    ]
+  },
+
+  "image#facebook-logo": {
+    "props": {
+      "src": "assets/images/facebook-logo.svg",
+      "link": {
+        "newTab": true,
+        "url": "https://www.facebook.com/tradeinnSL/"
+      }
+    }
+  },
+
+  "image#instagram-logo": {
+    "props": {
+      "src": "assets/images/instagram-logo.svg",
+      "link": {
+        "newTab": true,
+        "url": "https://www.instagram.com/tradeinnofficial/?hl=es"
+      }
+    }
+  },
+
+  "image#youtube-logo": {
+    "props": {
+      "src": "assets/images/youtube-logo.svg",
+      "link": {
+        "newTab": true,
+        "url": "https://www.youtube.com/channel/UCQvHG5zVBvfj8Nxpatm9fOA/videos"
+      }
+    }
+  }
+}
