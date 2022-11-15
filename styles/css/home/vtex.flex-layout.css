@@ -2,11 +2,24 @@
 .flexColChild--banner-categories__cat-phones,
 .flexColChild--banner-categories__cat-devices,
 .flexColChild--banner-categories__cat-consoles,
-.flexColChild--banner-categories__cat-bigApliances
- {
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    margin: 0;
-    padding: 0;
+.flexColChild--banner-categories__cat-bigApliances {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
+
+.flexRow--home__about-us {
+  padding: 1rem;
+  border-top: 2px solid #ccc;
+}
+
+.flexRowContent--footer__newsletter {
+  padding: 1rem 0;
+  border-top: 2px solid #ccc;
+}
+
+/* .footerLayout {
+  background-color: black;
+} */
