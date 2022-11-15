@@ -1,0 +1,262 @@
+{
+  "flex-layout.row#footer__row-2": {
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "footer__row-2"
+    },
+    "children": [
+      "flex-layout.col#footer__row-2--about-techinn",
+      "flex-layout.col#footer__row-2--buy-with-confidence",
+      "flex-layout.col#footer__row-2--customer-support",
+      "flex-layout.col#footer__row-2--sustainable-delivery",
+      "flex-layout.col#footer__row-2--others-stores"
+    ]
+  },
+
+  // Column 1
+  "flex-layout.col#footer__row-2--about-techinn": {
+    "children": [
+      "rich-text#about-techinn",
+      "link#about-us",
+      "link#our-team",
+      "link#our-physical-store",
+      "link#term&conditions",
+      "link#afiliate-program"
+    ]
+  },
+
+  "rich-text#about-techinn": {
+    "props": {
+      "text": "SOBRE TECHINN",
+      "blockClass": "footer__row-2--title"
+    }
+  },
+
+  "link#about-us": {
+    "props": {
+      "href": "/quienes-somos/st",
+      "label": "Quienes somos",
+      "blockClass": "footer__row-2--link"
+    }
+  },
+
+  "link#our-team": {
+    "props": {
+      "href": "/quines-somos/st",
+      "label": "Nuestro Equipo",
+      "blockClass": "footer__row-2--link"
+    }
+  },
+
+  "link#our-physical-store": {
+    "props": {
+      "href": "/tiendafisica/st",
+      "label": "Nuestra Tienda Fisica",
+      "blockClass": "footer__row-2--link"
+    }
+  },
+
+  "link#term&conditions": {
+    "props": {
+      "href": "/terminos/st",
+      "label": "Términos y Condiciones",
+      "blockClass": "footer__row-2--link"
+    }
+  },
+
+  "link#afiliate-program": {
+    "props": {
+      "href": "/afiliados/st",
+      "label": "Programa de Afiliación",
+      "blockClass": "footer__row-2--link"
+    }
+  },
+
+  // Column 2
+  "flex-layout.col#footer__row-2--buy-with-confidence": {
+    "children": [
+      "rich-text#buy-with-confidence",
+      "link#how-to-place-an-order",
+      "link#shipping-delivery",
+      "link#payment-methods",
+      "link#safe-shopping-guarantee",
+      "link#satisfied-or-refunded"
+    ]
+  },
+
+  "rich-text#buy-with-confidence": {
+    "props": {
+      "text": "COMPRA CON CONFIANZA",
+      "blockClass": "footer__row-2--title"
+    }
+  },
+
+  "link#how-to-place-an-order": {
+    "props": {
+      "href": "/centro_soporte/st#realizando-el-pedido",
+      "label": "¿Cómo hacer un pedido?",
+      "blockClass": "footer__row-2--link"
+    }
+  },
+
+  "link#shipping-delivery": {
+    "props": {
+      "href": "/centro_soporte/st#envio-de-mi-pedido",
+      "label": "Pedidos y entregas",
+      "blockClass": "footer__row-2--link"
+    }
+  },
+
+  "link#payment-methods": {
+    "props": {
+      "href": "/centro_soporte/st#formas-de-pago-y-precios",
+      "label": "Métodos de pago",
+      "blockClass": "footer__row-2--link"
+    }
+  },
+
+  "link#safe-shopping-guarantee": {
+    "props": {
+      "href": "/centro_soporte/st#realizando-el-pedido",
+      "label": "Garantia de compra segura",
+      "blockClass": "footer__row-2--link"
+    }
+  },
+
+  "link#satisfied-or-refunded": {
+    "props": {
+      "href": "/centro_soporte/st#devoluciones-y-reembolso",
+      "label": "Satisfecho o reembolsado",
+      "blockClass": "footer__row-2--link"
+    }
+  },
+
+  // Column 3
+  "flex-layout.col#footer__row-2--customer-support": {
+    "children": [
+      "rich-text#customer-support",
+      "link#order-tracking",
+      "link#contact-us",
+      "link#frequently-asked-questions",
+      "link#easy-return",
+      "link#customer-testimonials"
+    ]
+  },
+
+  "rich-text#customer-support": {
+    "props": {
+      "text": "SOPORTE AL CLIENTE",
+      "blockClass": "footer__row-2--title"
+    }
+  },
+
+  "link#order-tracking": {
+    "props": {
+      "href": "/", // El usuario debe haber iniciado sesión
+      "label": "Seguimiento del pedido",
+      "blockClass": "footer__row-2--link"
+    }
+  },
+
+  "link#contact-us": {
+    "props": {
+      "href": "/centro_soporte/st",
+      "label": "Contáctanos",
+      "blockClass": "footer__row-2--link"
+    }
+  },
+
+  "link#frequently-asked-questions": {
+    "props": {
+      "href": "/centro_soporte/st",
+      "label": "Preguntas frecuentes",
+      "blockClass": "footer__row-2--link"
+    }
+  },
+
+  "link#easy-return": {
+    "props": {
+      "href": "/devoluciones/st",
+      "label": "Devolución fácil",
+      "blockClass": "footer__row-2--link"
+    }
+  },
+
+  "link#customer-testimonials": {
+    "props": {
+      "href": "/reviews/lp-134",
+      "label": "Opiniones de clientes",
+      "blockClass": "footer__row-2--link"
+    }
+  },
+
+  // Column 4
+  "flex-layout.col#footer__row-2--sustainable-delivery": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": ["rich-text#sustainable-delivery", "image#sustainable"]
+  },
+
+  "rich-text#sustainable-delivery": {
+    "props": {
+      "text": "ENTREGA SOSTENIBLE",
+      "blockClass": "footer__row-2--title"
+    }
+  },
+
+  "image#sustainable": {
+    "props": {
+      "src": "assets/images/sustainable.svg",
+      "maxWidth": "100%",
+      "link": {
+        "newTab": true,
+        "url": "https://www.tradeinn.com/es/spring-gds/lp-153"
+      }
+    }
+  },
+
+  // Column 5
+  "flex-layout.col#footer__row-2--others-stores": {
+    "props": {
+      "verticalAlign": "top"
+    },
+    "children": [
+      "rich-text#others-stores",
+      "link#techinn",
+      "link#bricoinn",
+      "link#outletinn"
+    ]
+  },
+
+  "rich-text#others-stores": {
+    "props": {
+      "text": "OTRAS TIENDAS",
+      "blockClass": "footer__row-2--title"
+    }
+  },
+
+  "link#techinn": {
+    "props": {
+      "href": "/techinn",
+      "label": "Techinn",
+      "blockClass": "footer__row-2--link"
+    }
+  },
+
+  "link#bricoinn": {
+    "props": {
+      "href": "https://www.tradeinn.com/bricoinn/es",
+      "label": "Bricoinn",
+      "blockClass": "footer__row-2--link"
+    }
+  },
+
+  "link#outletinn": {
+    "props": {
+      "href": "https://www.tradeinn.com/outletinn/es",
+      "label": "Outletinn",
+      "blockClass": "footer__row-2--link"
+    }
+  }
+}
