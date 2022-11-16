@@ -5,7 +5,6 @@
       "preventVerticalStretch": false,
       "horizontalAlign": "between",
       "colGap": 5,
-    //   "colJustify": "between",
       "colSizing": "equal",
       "blockClass": "footer__row-5"
     },

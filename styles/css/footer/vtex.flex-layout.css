@@ -16,11 +16,17 @@
 .flexRow--footer__row-2,
 .flexRow--footer__row-3,
 .flexRow--footer__row-4,
-.flexRow--footer__row-5 {
+.flexRow--footer__row-5,
+.flexRow--footer__row-6 {
   background-color: #efefef;
   padding: 1rem;
 }
 
 .flexRowContent--footer__row-5 {
   height: 1.5rem;
+}
+
+.flexRow--footer__row-6 {
+  background-color: #efefef;
+  padding: 1rem 0 1rem 0;
 }
