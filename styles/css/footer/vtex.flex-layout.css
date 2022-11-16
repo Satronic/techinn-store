@@ -15,7 +15,12 @@
 
 .flexRow--footer__row-2,
 .flexRow--footer__row-3,
-.flexRow--footer__row-4 {
+.flexRow--footer__row-4,
+.flexRow--footer__row-5 {
   background-color: #efefef;
   padding: 1rem;
+}
+
+.flexRowContent--footer__row-5 {
+  height: 1.5rem;
 }

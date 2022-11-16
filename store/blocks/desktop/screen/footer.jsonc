@@ -7,7 +7,8 @@
       "flex-layout.row#footer__newsletter",
       "flex-layout.row#footer__row-2",
       "flex-layout.row#footer__row-3",
-      "flex-layout.row#footer__row-4"
+      "flex-layout.row#footer__row-4",
+      "flex-layout.row#footer__row-5"
     ]
   },
 
