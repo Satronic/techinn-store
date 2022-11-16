@@ -1,0 +1,8 @@
+.link--footer__row-2--link,
+.link--footer__row-4--link {
+  text-decoration: none;
+  color: #333;
+  font-size: 0.85rem;
+  padding: 0.4rem;
+  margin: 1rem;
+}

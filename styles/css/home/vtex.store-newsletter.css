@@ -1,0 +1,13 @@
+.emailInputContainer{
+  display: inline-block;
+  width: 70%;
+}
+
+.formSubmitContainer {
+  display: inline-block;
+  width: 30%;
+}
+
+.imageElement {
+  margin-left: 1rem;
+}

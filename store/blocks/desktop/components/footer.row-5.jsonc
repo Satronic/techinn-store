@@ -1,0 +1,109 @@
+{
+  "flex-layout.row#footer__row-5": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": false,
+      "horizontalAlign": "between",
+      "colGap": 5,
+      "colSizing": "equal",
+      "blockClass": "footer__row-5"
+    },
+    "children": [
+      "image#footer__row-5--paypal-logo",
+      "image#footer__row-5--visa-logo",
+      "image#footer__row-5--mastercard-logo",
+      "image#footer__row-5--american-express-logo",
+      "image#footer__row-5--adyen-logo",
+      "image#footer__row-5--verisign-logo",
+      "image#footer__row-5--netrivals-logo",
+      "image#footer__row-5--confianza-online-europ_gris-logo",
+      "image#footer__row-5--geotrust-logo",
+      "image#footer__row-5--security-payment-logo",
+      "image#footer__row-5--scalapay-logo",
+      "image#footer__row-5--klarna-logo"
+    ]
+  },
+
+  "image#footer__row-5--paypal-logo": {
+    "props": {
+      "src": "assets/images/paypal_gris.svg"
+    }
+  },
+
+  "image#footer__row-5--visa-logo": {
+    "props": {
+    //   "maxWidth": "50%",
+      "src": "assets/images/visa_gris.svg"
+    }
+  },
+
+  "image#footer__row-5--mastercard-logo": {
+    "props": {
+      //"maxWidth": "8.3%",
+      "src": "assets/images/mastercard_gris.svg"
+    }
+  },
+
+  "image#footer__row-5--american-express-logo": {
+    "props": {
+      //"maxWidth": "8.3%",
+      "src": "assets/images/american-express_gris.svg"
+    }
+  },
+
+  "image#footer__row-5--adyen-logo": {
+    "props": {
+      //"maxWidth": "8.3%",
+      "src": "assets/images/adyen_gris.svg"
+    }
+  },
+
+  "image#footer__row-5--verisign-logo": {
+    "props": {
+      //"maxWidth": "8.3%",
+      "src": "assets/images/verisign_gris.svg"
+    }
+  },
+
+  "image#footer__row-5--netrivals-logo": {
+    "props": {
+      //"maxWidth": "8.3%",
+      "src": "assets/images/netrivals_gris.svg"
+    }
+  },
+
+  "image#footer__row-5--confianza-online-europ_gris-logo": {
+    "props": {
+      //"maxWidth": "8.3%",
+      "src": "assets/images/confianza-online-europ_gris.svg"
+    }
+  },
+
+  "image#footer__row-5--geotrust-logo": {
+    "props": {
+      //"maxWidth": "8.3%",
+      "src": "assets/images/geotrust_gris.svg"
+    }
+  },
+
+  "image#footer__row-5--security-payment-logo": {
+    "props": {
+      //"maxWidth": "8.3%",
+      "src": "assets/images/security-payment_gris.svg"
+    }
+  },
+
+  "image#footer__row-5--scalapay-logo": {
+    "props": {
+      //"maxWidth": "8.3%",
+      "src": "assets/images/scalapay_gris.svg"
+    }
+  },
+
+  "image#footer__row-5--klarna-logo": {
+    "props": {
+      //"maxWidth": "8.3%",
+      "src": "assets/images/klarna_gris.svg"
+    }
+  }
+}

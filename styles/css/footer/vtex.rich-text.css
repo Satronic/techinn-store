@@ -1,0 +1,9 @@
+.paragraph--footer__row-2--title,
+.paragraph--footer__row-3--title,
+.paragraph--footer__row-4--title {
+    font-weight: bold;
+}
+
+.paragraph--footer__row-6--text {
+    color: #808080;
+}

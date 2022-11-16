@@ -1,0 +1,317 @@
+{
+  "flex-layout.row#footer__row-4": {
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "footer__row-4"
+    },
+    "children": [
+      "flex-layout.col#footer__row-4--categories",
+      "flex-layout.col#footer__row-4--top-brands-1",
+      "flex-layout.col#footer__row-4--top-brands-2",
+      "flex-layout.col#footer__row-4--top-brands-3",
+      "flex-layout.col#footer__row-4--promotions"
+      //   "flex-layout.col#footer__row-4--follow-us-on"
+    ]
+  },
+
+  // Column 1
+  "flex-layout.col#footer__row-4--categories": {
+    "children": [
+      "rich-text#categories",
+      "link#car",
+      "link#components",
+      "link#consumibles",
+      "link#ordenadores",
+      "link#tv-audio"
+    ]
+  },
+
+  "rich-text#categories": {
+    "props": {
+      "text": "CATEGORIAS",
+      "blockClass": "footer__row-4--title"
+    }
+  },
+
+  "link#car": {
+    "props": {
+      "href": "/automovil/11517/f",
+      "label": "Automovil",
+      "blockClass": "footer__row-4--link"
+    }
+  },
+
+  "link#components": {
+    "props": {
+      "href": "/componentes/11504/f",
+      "label": "Componentes",
+      "blockClass": "footer__row-4--link"
+    }
+  },
+
+  "link#consumibles": {
+    "props": {
+      "href": "/consumibles/11566/f",
+      "label": "Consumibles",
+      "blockClass": "footer__row-4--link"
+    }
+  },
+
+  "link#ordenadores": {
+    "props": {
+      "href": "/ordenadores/11486/f",
+      "label": "Ordenadores",
+      "blockClass": "footer__row-4--link"
+    }
+  },
+
+  "link#tv-audio": {
+    "props": {
+      "href": "/tv-audio/11487/f",
+      "label": "TV-Audio",
+      "blockClass": "footer__row-4--link"
+    }
+  },
+
+  // Column 2
+  "flex-layout.col#footer__row-4--top-brands-1": {
+    "children": [
+      "rich-text#top-brands-1",
+      "link#samsung",
+      "link#philips",
+      "link#asus",
+      "link#hp",
+      "link#bosch"
+    ]
+  },
+
+  "rich-text#top-brands-1": {
+    "props": {
+      "text": "TOP MARCAS",
+      "blockClass": "footer__row-4--title"
+    }
+  },
+
+  "link#samsung": {
+    "props": {
+      "href": "/samsung/2947/m",
+      "label": "Samsung",
+      "blockClass": "footer__row-4--link"
+    }
+  },
+
+  "link#philips": {
+    "props": {
+      "href": "/philips/2065/m",
+      "label": "Philips",
+      "blockClass": "footer__row-4--link"
+    }
+  },
+
+  "link#asus": {
+    "props": {
+      "href": "/asus/4382/m",
+      "label": "Asus",
+      "blockClass": "footer__row-4--link"
+    }
+  },
+
+  "link#hp": {
+    "props": {
+      "href": "/hp/4326/m",
+      "label": "HP",
+      "blockClass": "footer__row-4--link"
+    }
+  },
+
+  "link#bosch": {
+    "props": {
+      "href": "/bosch/4477/m",
+      "label": "Bosch",
+      "blockClass": "footer__row-4--link"
+    }
+  },
+
+  // Column 3
+  "flex-layout.col#footer__row-4--top-brands-2": {
+    "props": {
+      "verticalAlign": "bottom"
+    },
+    "children": [
+      "rich-text#top-brands-2",
+      "link#lenovo",
+      "link#beko",
+      "link#brother",
+      "link#gigabyte",
+      "link#axis"
+    ]
+  },
+
+  "rich-text#top-brands-2": {
+    "props": {
+      "text": "",
+      "blockClass": "footer__row-4--title"
+    }
+  },
+
+  "link#lenovo": {
+    "props": {
+      "href": "/lenovo/4317/m",
+      "label": "Lenovo",
+      "blockClass": "footer__row-4--link"
+    }
+  },
+
+  "link#beko": {
+    "props": {
+      "href": "/beko/5487/m",
+      "label": "Beko",
+      "blockClass": "footer__row-4--link"
+    }
+  },
+
+  "link#brother": {
+    "props": {
+      "href": "/brother/4371/m",
+      "label": "Brother",
+      "blockClass": "footer__row-4--link"
+    }
+  },
+
+  "link#gigabyte": {
+    "props": {
+      "href": "/gigabyte/4425/m",
+      "label": "Gigabyte",
+      "blockClass": "footer__row-4--link"
+    }
+  },
+
+  "link#axis": {
+    "props": {
+      "href": "/axis/5224/m",
+      "label": "Axis",
+      "blockClass": "footer__row-4--link"
+    }
+  },
+
+  // Column 4
+  "flex-layout.col#footer__row-4--top-brands-3": {
+    "props": {
+      "verticalAlign": "bottom"
+    },
+    "children": [
+      "rich-text#top-brands-3",
+      "link#cooler-master",
+      "link#google",
+      "link#cosori",
+      "link#hpe",
+      "link#apc"
+    ]
+  },
+
+  "rich-text#top-brands-3": {
+    "props": {
+      "text": "",
+      "blockClass": "footer__row-4--title"
+    }
+  },
+
+  "link#cooler-master": {
+    "props": {
+      "href": "/cooler-master/4466/m",
+      "label": "Cooler Master",
+      "blockClass": "footer__row-4--link"
+    }
+  },
+
+  "link#google": {
+    "props": {
+      "href": "/google/4400/m",
+      "label": "Google",
+      "blockClass": "footer__row-4--link"
+    }
+  },
+
+  "link#cosori": {
+    "props": {
+      "href": "/cosori/10490/m",
+      "label": "Cosori",
+      "blockClass": "footer__row-4--link"
+    }
+  },
+
+  "link#hpe": {
+    "props": {
+      "href": "/hpe/4429/m",
+      "label": "Hpe",
+      "blockClass": "footer__row-4--link"
+    }
+  },
+
+  "link#apc": {
+    "props": {
+      "href": "/apc/4446/m",
+      "label": "Apc",
+      "blockClass": "footer__row-4--link"
+    }
+  },
+
+  // Column 5
+  "flex-layout.col#footer__row-4--promotions": {
+    "children": [
+      "rich-text#promotions",
+      "link#latest-news",
+      "link#best-sellers",
+      "link#offers",
+      "link#black-friday",
+      "link#navidad"
+    ]
+  },
+
+  "rich-text#promotions": {
+    "props": {
+      "text": "PROMOCIONES",
+      "blockClass": "footer__row-4--title"
+    }
+  },
+
+  "link#latest-news": {
+    "props": {
+      "href": "/novedades",
+      "label": "Ultimas novedades",
+      "blockClass": "footer__row-4--link"
+    }
+  },
+
+  "link#best-sellers": {
+    "props": {
+      "href": "/mas_vendido",
+      "label": "Más vendidos",
+      "blockClass": "footer__row-4--link"
+    }
+  },
+
+  "link#offers": {
+    "props": {
+      "href": "/ofertas",
+      "label": "Ofertas",
+      "blockClass": "footer__row-4--link"
+    }
+  },
+
+  "link#black-friday": {
+    "props": {
+      "href": "/black-friday/lp-155",
+      "label": "Black Friday",
+      "blockClass": "footer__row-4--link"
+    }
+  },
+
+  "link#navidad": {
+    "props": {
+      "href": "https://www.tradeinn.com/",
+      "label": "Navidad",
+      "blockClass": "footer__row-4--link"
+    }
+  }
+}

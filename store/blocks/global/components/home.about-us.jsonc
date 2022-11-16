@@ -1,5 +1,8 @@
 {
   "flex-layout.row#home__about-us": {
+    "props": {
+      "blockClass": "home__about-us"
+    },
     "children": [
       "flex-layout.col#about-us"
     ]

@@ -1,0 +1,41 @@
+{
+  "flex-layout.row#footer__row-6": {
+    "props": {
+      "verticalAlign": "top",
+      "blockClass": "footer__row-6"
+    },
+    "children": [
+      "flex-layout.col#footer__row-6--tradeinn-logo",
+      "flex-layout.col#footer__row-6--tradeinn-text"
+    ]
+  },
+
+  // Column 1
+  "flex-layout.col#footer__row-6--tradeinn-logo": {
+    "props": {
+      "width": "15%"
+    },
+    "children": ["logo#footer"]
+  },
+
+  "logo#footer": {
+    "props": {
+      "width": 130,
+      "height": 33,
+      "url": "assets/images/tradeinn_logo.svg"
+    }
+  },
+
+  // Column 2
+  "flex-layout.col#footer__row-6--tradeinn-text": {
+    "children": ["rich-text#footer__row-6"]
+  },
+
+  "rich-text#footer__row-6": {
+    "props": {
+      "font": "t-small",
+      "text": "Copyright 2009 - 2022 by techinn. TRADEINN RETAIL SERVICES, S.L. CIF/VAT ES-B-17527524, C/ Pirineus, 9, 17460 Celrà (Girona), Spain. Terms & Conditions | Affiliate programs | Cookies policy | Privacy policy | Legal notice | Privacy policy social networks",
+      "blockClass": "footer__row-6--text"
+    }
+  }
+}
