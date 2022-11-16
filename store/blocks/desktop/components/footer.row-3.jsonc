@@ -2,7 +2,7 @@
   "flex-layout.row#footer__row-3": {
     "props": {
       "horizontalAlign": "center",
-      "blockClass": "footer__row-2"
+      "blockClass": "footer__row-3"
     },
     "children": [
       "flex-layout.col#footer__row-3--our-international-event",
