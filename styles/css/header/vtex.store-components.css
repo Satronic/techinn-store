@@ -9,3 +9,8 @@
   margin: 0.2rem 1rem;
   padding: 0.2rem;
 }
+
+.imageElement--down-arrow {
+  padding: 0;
+  margin: 0 0.2rem;
+}

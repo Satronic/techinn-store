@@ -6,7 +6,8 @@
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "blockClass": "desktop__header--row-2"
     },
     "children": [
       "flex-layout.col#header__row-2--logo-1",

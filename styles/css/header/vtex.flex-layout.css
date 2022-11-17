@@ -13,6 +13,21 @@
   padding: 0.2rem;
 }
 
+.flexRowContent--desktop__header--row-2 {
+  background-color: #ffffff;
+}
+
+/* Row 3 */
+.flexRowContent--desktop__header--row-3 {
+  background-color: #ffffff;
+}
+
+.flexRowContent--login__trigger {
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Row 4 */
 .flexRowContent--desktop__header--row-4 {
   background-color: #000000;
 }
