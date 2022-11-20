@@ -73,8 +73,7 @@
     }
   },
 
-  // Tab Create Acount
-
+  // Tabs
   "tab-content#login__tab": {
     "children": [
       "tab-content.item#login__tab--content-login",
@@ -82,16 +81,21 @@
     ]
   },
   
+
+  // Tab Login
   "tab-content.item#login__tab--content-login": {
     "props": {
       "tabId": "item-login"
     },
-    "children": ["image#login"]
+    "children": ["login-content"]
   },
 
-  "image#login": {
+  "login-content": {
     "props": {
-      "src": "assets/images/login.jpg"
+      "isInitialScreenOptionOnly": true,
+      "defaultOption": 1,
+      "emailPlaceholder": "Correo electrónico",
+      "passwordPlaceholder": "Contraseña"
     }
   },
 
