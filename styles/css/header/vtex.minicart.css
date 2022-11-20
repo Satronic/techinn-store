@@ -1,0 +1,11 @@
+.cartIcon {
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  margin: 0;
+}
+
+.openIconContainer {
+  padding: 0;
+  margin: 0 1rem 0 0;
+}

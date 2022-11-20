@@ -42,10 +42,20 @@
     },
     "children": ["search-bar"]
   },
+
   "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
     "props": {
       "placeholder": "Buscar productos",
-      "maxWidth": "100%"
+      "maxWidth": "100%",
+      "openAutocompleteOnFocus": true
+    }
+  },
+
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary.shelf#product-list__product-card"],
+    "props": {
+      "autocompleteWidth": 68
     }
   },
 
