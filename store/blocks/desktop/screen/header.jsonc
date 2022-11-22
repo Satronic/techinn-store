@@ -14,7 +14,7 @@
   },
   "flex-layout.row#mobile": {
     "children": [
-      "drawer",
+      "drawer#desktop__header--menu-categories",
       "logo",
       "login",
       "minicart.v2"

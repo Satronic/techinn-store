@@ -46,3 +46,7 @@
 .flexColChild--subcategory {
   background-color: #fff;
 }
+
+.flexRowContent--desktop__header--menu-brands {
+  margin: 1rem;
+}
