@@ -28,15 +28,7 @@
       "verticalAlign": "middle",
       "width": "12.5%"
     },
-    "children": ["rich-text#row-4__menu-categories"]
-  },
-  "rich-text#row-4__menu-categories": {
-    "props": {
-      "text": "Todas las CATEGORIAS",
-      "textAlign": "CENTER",
-      "font": "t-mini",
-      "blockClass": "row-4__menu-categories"
-    }
+    "children": ["modal-trigger#desktop__header--menu-categories"]
   },
 
   // Col 2

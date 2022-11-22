@@ -18,3 +18,8 @@
     padding: 0;
     margin: 0;
 }
+
+.paragraph--desktop__header--menu-categories {
+    color: #fff;
+    cursor: pointer;
+}
