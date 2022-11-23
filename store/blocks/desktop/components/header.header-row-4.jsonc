@@ -28,7 +28,7 @@
       "verticalAlign": "middle",
       "width": "10%"
     },
-    "children": ["modal-trigger#desktop__header--menu-categories"]
+    "children": ["flex-layout.col#trigger-mega-menu"]
   },
 
   // Col 2
