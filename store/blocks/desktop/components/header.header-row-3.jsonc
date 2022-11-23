@@ -7,12 +7,13 @@
       "preventHorizontalStretch": false,
       "preventVerticalStretch": true,
       "fullWidth": true,
-      "colSizing": "auto"
+      "colSizing": "auto",
+      "blockClass": "desktop__header--row-3"
     },
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#header__row-3--search-bar",
-      "login",
+      "flex-layout.col#header__row-3--login",
       "minicart.v2"
     ]
   },
@@ -41,11 +42,40 @@
     },
     "children": ["search-bar"]
   },
+
   "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
     "props": {
-        "placeholder": "Buscar productos",
-        "maxWidth": "100%"
+      "placeholder": "Buscar productos",
+      "maxWidth": "100%",
+      "openAutocompleteOnFocus": true
+    }
+  },
+
+  "autocomplete-result-list.v2": {
+    // "blocks": ["product-summary.shelf#product-list__product-card"],
+    "blocks": ["product-summary"],
+    "props": {
+      "autocompleteWidth": 68
+    }
+  },
+
+  // Login
+  "flex-layout.col#header__row-3--login": {
+    "props": {
+      "verticalAlign": "middle",
+      "width": "10%",
+      "marginLeft": 6,
+      "blockClass": "header__row-3--login"
+    },
+    "children": ["rich-text#login__text", "modal-trigger#login"]
+  },
+
+  "rich-text#login__text": {
+    "props": {
+      "font": "t-mini",
+      "text": "Identificate",
+      "blockClass": "login__trigger"
     }
   }
-
 }

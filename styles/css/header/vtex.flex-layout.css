@@ -13,6 +13,40 @@
   padding: 0.2rem;
 }
 
+.flexRowContent--desktop__header--row-2 {
+  background-color: #ffffff;
+}
+
+/* Row 3 */
+.flexRowContent--desktop__header--row-3 {
+  background-color: #ffffff;
+}
+
+.flexRowContent--login__trigger {
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Row 4 */
 .flexRowContent--desktop__header--row-4 {
   background-color: #000000;
+}
+
+.flexCol--menu-item {
+  margin: 1rem;
+}
+
+.flexColChild--menu-item {
+  background-color: #efefef;
+  margin-top: 0.5rem;
+  padding: 0;
+  font-weight: bold;
+}
+
+.flexColChild--subcategory {
+  background-color: #fff;
+}
+
+.flexRowContent--desktop__header--menu-brands {
+  margin: 1rem;
 }

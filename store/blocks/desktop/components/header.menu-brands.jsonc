@@ -1,0 +1,166 @@
+{
+  "modal-trigger#desktop__header--menu-brands": {
+    "children": [
+      "flex-layout.row#menu-brands",
+      "modal-layout#desktop__header--menu-brands"
+    ]
+  },
+
+  "flex-layout.row#menu-brands": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": false,
+      "blockClass": "menu-brands"
+    },
+    "children": [
+      "rich-text#desktop__header--menu-brands",
+      "image#desktop__header--menu-categories"
+    ]
+  },
+
+  "rich-text#desktop__header--menu-brands": {
+    "props": {
+      "text": "Todas las MARCAS",
+      "textAlign": "CENTER",
+      "font": "t-mini",
+      "blockClass": "desktop__header--menu-brands"
+    }
+  },
+
+  "image#desktop__header--menu-categories": {
+    "props": {
+      "src": "assets/images/down-arrow.png",
+      "maxWidth": "12px",
+      "maxHeight": "12px",
+      "blockClass": "down-arrow"
+    }
+  },
+
+  // Modal Layout Menu
+  "modal-layout#desktop__header--menu-brands": {
+    "props": {
+      "blockClass": "desktop__header--menu-brands"
+    },
+    "children": [
+      "flex-layout.row#desktop__header--menu-brands-1",
+      "flex-layout.row#desktop__header--menu-brands-2"
+    ]
+  },
+
+  // HEADER BRANDS -----------------------------------------------------------------
+  "flex-layout.row#desktop__header--menu-brands-1": {
+    "props": {
+      "blockClass": "desktop__header--menu-brands"
+    },
+    "children": [
+      "flex-layout.col#top-brand",
+      "flex-layout.col#alphabetical-brands"
+    ]
+  },
+
+  // Col
+  "flex-layout.col#top-brand": {
+    "props": {
+      "width": "10%",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    },
+    "children": ["rich-text#top-brand"]
+  },
+
+  "rich-text#top-brand": {
+    "props": { "font": "heading-3", "text": "A" }
+  },
+
+  // Col 2
+  "flex-layout.col#alphabetical-brands": {
+    "props": {
+      "width": "87%"
+    },
+    "children": ["rich-text#list-brand", "search-bar"]
+  },
+
+  "rich-text#list-brand": {
+    "props": { "font": "heading-3", "text": "A B C D F" }
+  },
+
+  // CONTENT BRANDS --------------------------------------------------------------
+  "flex-layout.row#desktop__header--menu-brands-2": {
+    "props": {
+      "blockClass": "desktop__header--menu-brands"
+    },
+    "children": [
+      "flex-layout.col#brands-1",
+      "flex-layout.col#brands-2",
+      "flex-layout.col#brands-3",
+      "flex-layout.col#brands-4",
+      "flex-layout.col#brands-5",
+      "flex-layout.col#brands-6",
+      "flex-layout.col#brands-7",
+      "flex-layout.col#brands-8",
+      "flex-layout.col#brands-9"
+    ]
+  },
+
+  "flex-layout.col#brands-1": {
+    "children": ["image#acme-brand", "image#adler-brand", "image#aiwa-brand", "image#asus-brand", "image#acer-brand"]
+  },
+  "flex-layout.col#brands-2": {
+    "children": ["image#adler-brand"]
+  },
+  "flex-layout.col#brands-3": {
+    "children": []
+  },
+
+  "flex-layout.col#brands-4": {
+    "children": ["image#acme-brand", "image#adler-brand"]
+  },
+  "flex-layout.col#brands-5": {
+    "children": ["image#adler-brand"]
+  },
+  "flex-layout.col#brands-6": {
+    "children": []
+  },
+
+  "flex-layout.col#brands-7": {
+    "children": ["image#acme-brand", "image#adler-brand"]
+  },
+  "flex-layout.col#brands-8": {
+    "children": ["image#adler-brand"]
+  },
+  "flex-layout.col#brands-9": {
+    "children": []
+  },
+
+
+  "image#acme-brand": {
+    "props": {
+      "src": "assets/images/acme-brand.jpg"
+    }
+  },
+
+  "image#adler-brand": {
+    "props": {
+      "src": "assets/images/adler-brand.jpg"
+    }
+  },
+
+  "image#aiwa-brand": {
+    "props": {
+      "src": "assets/images/aiwa-brand.jpg"
+    }
+  },
+
+  "image#asus-brand": {
+    "props": {
+      "src": "assets/images/asus-brand.jpg"
+    }
+  },
+
+  "image#acer-brand": {
+    "props": {
+      "src": "assets/images/acer-brand.jpg"
+    }
+  }
+
+}

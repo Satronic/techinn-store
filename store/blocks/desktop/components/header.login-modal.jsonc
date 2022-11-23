@@ -1,0 +1,115 @@
+{
+  "modal-trigger#login": {
+    "children": ["flex-layout.row#login__trigger", "modal-layout#login__layout"]
+  },
+
+  "flex-layout.row#login__trigger": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": false,
+      "verticalAlign": "bottom",
+      "blockClass": "login__trigger"
+    },
+    "children": ["rich-text#login__trigger", "image#login__trigger"]
+  },
+
+  "rich-text#login__trigger": {
+    "props": {
+      "font": "t-small",
+      "text": "Mi cuenta",
+      "blockClass": "login__trigger"
+    }
+  },
+
+  "image#login__trigger": {
+    "props": {
+      "src": "assets/images/down-arrow.png",
+      "maxWidth": "12px",
+      "maxHeight": "12px",
+      "blockClass": "down-arrow"
+    }
+  },
+
+  "modal-layout#login__layout": {
+    "props": {
+      "blockClass": "login__layout"
+    },
+    "children": ["modal-header#login__layout", "tab-layout#login__tab"]
+  },
+
+  "modal-header#login__layout": {
+    "props": {
+      "showCloseButton": true
+    }
+  },
+
+  "tab-layout#login__tab": {
+    "children": ["tab-list#login__tab", "tab-content#login__tab"],
+    "props": {
+      "defaultActiveTabId": "item-login"
+    }
+  },
+  "tab-list#login__tab": {
+    "children": [
+      "tab-list.item#login__tab--item-login",
+      "tab-list.item#login__tab--item-create-acount"
+    ]
+  },
+
+  // Tab Login
+  "tab-list.item#login__tab--item-login": {
+    "props": {
+      "tabId": "item-login",
+      "label": " Iniciar sesión ",
+      "defaultActiveTab": true,
+      "blockClass": "login__tab--item-login"
+    }
+  },
+
+  "tab-list.item#login__tab--item-create-acount": {
+    "props": {
+      "tabId": "item-create-acount",
+      "label": " Crear cuenta "
+    }
+  },
+
+  // Tabs
+  "tab-content#login__tab": {
+    "children": [
+      "tab-content.item#login__tab--content-login",
+      "tab-content.item#login__tab--content-create-acount"
+    ]
+  },
+  
+
+  // Tab Login
+  "tab-content.item#login__tab--content-login": {
+    "props": {
+      "tabId": "item-login"
+    },
+    "children": ["login-content"]
+  },
+
+  "login-content": {
+    "props": {
+      "isInitialScreenOptionOnly": true,
+      "defaultOption": 1,
+      "emailPlaceholder": "Correo electrónico",
+      "passwordPlaceholder": "Contraseña"
+    }
+  },
+
+  // Create acount
+  "tab-content.item#login__tab--content-create-acount": {
+    "props": {
+      "tabId": "item-create-acount"
+    },
+    "children": ["image#create-acount"]
+  },
+
+  "image#create-acount": {
+    "props": {
+      "src": "assets/images/create-acount.jpg"
+    }
+  }
+}

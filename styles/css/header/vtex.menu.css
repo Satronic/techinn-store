@@ -1,0 +1,8 @@
+.menuContainer {
+  height: 400px;
+}
+
+.menuItem--menu-item {
+  background-color: #efefef;
+  margin-left: 1rem;
+}

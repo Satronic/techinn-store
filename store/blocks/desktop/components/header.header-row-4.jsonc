@@ -2,10 +2,10 @@
   // Section 4
   "flex-layout.row#desktop__header--row-4": {
     "props": {
-      "horizontalAlign": "around",
+      "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": false,
-      "preventVerticalStretch": true,
+      "preventVerticalStretch": false,
       "fullWidth": true,
       "blockClass": "desktop__header--row-4"
     },
@@ -26,17 +26,9 @@
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "middle",
-      "width": "12.5%"
+      "width": "10%"
     },
-    "children": ["rich-text#row-4__menu-categories"]
-  },
-  "rich-text#row-4__menu-categories": {
-    "props": {
-      "text": "Todas las CATEGORIAS",
-      "textAlign": "CENTER",
-      "font": "t-mini",
-      "blockClass": "row-4__menu-categories"
-    }
+    "children": ["flex-layout.col#trigger-mega-menu"]
   },
 
   // Col 2
@@ -44,25 +36,17 @@
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "middle",
-      "width": "12.5%"
+      "width": "10%"
     },
-    "children": ["rich-text#row-4__menu-brands"]
+    "children": ["modal-trigger#desktop__header--menu-brands"]
   },
-  "rich-text#row-4__menu-brands": {
-    "props": {
-      "text": "Todas las MARCAS",
-      "textAlign": "CENTER",
-      "font": "t-mini",
-      "blockClass": "row-4__menu-brands"
-    }
-  },
-
+  
   // Col 3
   "flex-layout.col#header__row-4--col-3": {
     "props": {
       "horizontalAlign": "center",
-      "verticalAlign": "middle",
-      "width": "12.5%"
+      "verticalAlign": "middle"
+      //"width": "12%"
     },
     "children": ["rich-text#row-4__link-computers"]
   },
@@ -79,8 +63,8 @@
   "flex-layout.col#header__row-4--col-4": {
     "props": {
       "horizontalAlign": "center",
-      "verticalAlign": "middle",
-      "width": "12.5%"
+      "verticalAlign": "middle"
+      // "width": "11.5%"
     },
     "children": ["rich-text#row-4__link-phones"]
   },
@@ -97,8 +81,8 @@
   "flex-layout.col#header__row-4--col-5": {
     "props": {
       "horizontalAlign": "center",
-      "verticalAlign": "middle",
-      "width": "12.5%"
+      "verticalAlign": "middle"
+      //"width": "12%"
     },
     "children": ["rich-text#row-4__link-gaming"]
   },
@@ -115,8 +99,8 @@
   "flex-layout.col#header__row-4--col-6": {
     "props": {
       "horizontalAlign": "center",
-      "verticalAlign": "middle",
-      "width": "12.5%"
+      "verticalAlign": "middle"
+      //"width": "12%"
     },
     "children": ["rich-text#row-4__link-smarthome"]
   },
@@ -133,8 +117,8 @@
   "flex-layout.col#header__row-4--col-7": {
     "props": {
       "horizontalAlign": "center",
-      "verticalAlign": "middle",
-      "width": "12.5%"
+      "verticalAlign": "middle"
+      //"width": "12%"
     },
     "children": ["rich-text#row-4__link-devices"]
   },
@@ -151,8 +135,8 @@
   "flex-layout.col#header__row-4--col-8": {
     "props": {
       "horizontalAlign": "center",
-      "verticalAlign": "middle",
-      "width": "12.5%"
+      "verticalAlign": "middle"
+      //"width": "12%"
     },
     "children": ["rich-text#row-4__link-hotDeals"]
   },

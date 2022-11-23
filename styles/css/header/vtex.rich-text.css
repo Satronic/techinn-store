@@ -1,6 +1,6 @@
 .paragraph {
-    margin: 0.2rem;
-    padding: 0.1rem;
+  margin: 0.2rem;
+  padding: 0.1rem;
 }
 
 .paragraph--row-4__menu-categories,
@@ -11,6 +11,16 @@
 .paragraph--row-4__link-smarthome,
 .paragraph--row-4__link-devices,
 .paragraph--row-4__link-hotDeals {
-    color: #fff;
+  color: #fff;
 }
 
+.paragraph--login__trigger {
+  padding: 0;
+  margin: 0;
+}
+
+.paragraph--desktop__header--menu-categories,
+.paragraph--desktop__header--menu-brands {
+  color: #fff;
+  cursor: pointer;
+}
