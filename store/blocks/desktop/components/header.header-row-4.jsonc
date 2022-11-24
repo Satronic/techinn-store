@@ -29,6 +29,7 @@
       "width": "10%"
     },
     "children": ["flex-layout.col#trigger-mega-menu"]
+    // "children": ["modal-trigger#desktop__header--menu-categories"]
   },
 
   // Col 2
