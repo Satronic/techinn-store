@@ -3,16 +3,6 @@
     "blocks": ["search-result-layout"]
   },
 
-  "store.search#category": {
-    "blocks": ["search-result-layout"],
-    "props": {
-      "context": {
-        "skusFilter": "FIRST_AVAILABLE",
-        "simulationBehavior": "default"
-      }
-    }
-  },
-
   "store.search#subcategory": {
     "blocks": ["search-result-layout"],
     "props": {

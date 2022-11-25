@@ -55,9 +55,7 @@
   },
 
   "search-result-layout.mobile#department": {
-    "children": [
-      "flex-layout.row#department__breadcrumb"
-    ]
+    "children": ["flex-layout.row#department__breadcrumb"]
   },
 
   // Breadcrumb
@@ -69,9 +67,8 @@
   "flex-layout.row#department__results": {
     "title": "Department Results",
     "children": [
-      // "gallery-layout-switcher",
       "search-content"
-      // "gallery",
+      // "gallery"
     ]
   },
 

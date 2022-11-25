@@ -39,8 +39,8 @@
   // Modal Layout Menu
   "modal-layout#desktop__header--menu-categories": {
     "props": {
-      "blockClass": "desktop__header--menu-categories1"
-      // "blockClass": "desktop__header--menu-categories2"
+      // "blockClass": "desktop__header--menu-categories1"
+      "blockClass": "desktop__header--menu-categories2"
     },
     "children": ["flex-layout.row#desktop__header--menu-categories"]
   },
