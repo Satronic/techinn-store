@@ -1,0 +1,26 @@
+.searchResultContainer {
+  padding: 0;
+}
+
+.container--layout {
+  padding: 1rem;
+}
+
+.filters--layout {
+  padding: 1rem;
+  font-size: 75%;
+}
+
+.filter__container--selectedFilters {
+  display: none;
+}
+
+.filterMessage,
+.filterTitleSpan {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.filterMessage {
+  text-transform: uppercase;
+}

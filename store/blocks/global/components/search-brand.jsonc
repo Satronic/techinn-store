@@ -1,14 +1,4 @@
 {
-  "store.search#brand": {
-    "blocks": ["search-result-layout#brand"],
-    "props": {
-      "context": {
-        "skusFilter": "ALL_AVAILABLE",
-        "simulationBehavior": "default"
-      }
-    }
-  },
-
   "search-result-layout#brand": {
     "blocks": [
       "search-result-layout.desktop#brand",
@@ -33,24 +23,17 @@
   // Sidebar Filters
   "flex-layout.col#brand__filters": {
     "props": {
-      "width": "20%"
+      "width": "15%",
+      "blockClass": "desktop__filters"
     },
-    "children": ["filter-navigator.v3"]
-  },
-
-  "filter-navigator.v3": {
-    "props": {
-      "facetOrdering": [
-        {
-          "key": "brand",
-          "orderBy": "name",
-          "order": "ASC"
-        }
-      ]
-    }
+    "children": ["filter-navigator.v3#desktop__search-result--filter-navigator"]
   },
 
   "flex-layout.col#brand__results": {
+    "props": {
+      "width": "85%",
+      "blockClass": "desktop__results"
+    },
     "children": ["flex-layout.row#brand__results"]
   },
 

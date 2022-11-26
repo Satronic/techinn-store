@@ -1,53 +1,44 @@
 {
-  "store.search": {
-    "blocks": []
-  },
-
-  // "store.search#subcategory": {
-  //   "blocks": ["search-result-layout"],
-  //   "props": {
-  //     "context": {
-  //       "skusFilter": "FIRST_AVAILABLE",
-  //       "simulationBehavior": "default"
-  //     }
-  //   }
-  // },
-
-  // "store.search#brand": {
-  //   "blocks": ["search-result-layout"],
-  //   "props": {
-  //     "context": {
-  //       "skusFilter": "FIRST_AVAILABLE",
-  //       "simulationBehavior": "default"
-  //     }
-  //   }
-  // },
-
-  "search-result-layout": {
-    "blocks": [
-      "search-result-layout.desktop",
-      "search-result-layout.mobile",
-      "search-not-found-layout"
-    ]
-  },
-
-  "search-result-layout.desktop": {
-    "children": ["rich-text#desktop"]
-  },
-
-  "search-result-layout.mobile": {
-    "children": ["rich-text#mobile"]
-  },
-
-  "rich-text#desktop": {
+  "store.search#department": {
+    "blocks": ["search-result-layout#department"],
     "props": {
-      "text": "Hola"
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
     }
   },
 
-  "rich-text#mobile": {
+  "store.search#category": {
+    "blocks": ["search-result-layout#category"],
     "props": {
-      "text": "Hola"
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+
+  "store.search#brand": {
+    "blocks": ["search-result-layout#brand"],
+    "props": {
+      "context": {
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+
+  "filter-navigator.v3#desktop__search-result--filter-navigator": {
+    "props": {
+      "facetOrdering": [
+        {
+          "key": "brand",
+          "orderBy": "name",
+          "order": "ASC"
+        }
+      ],
+      "blockClass": "desktop__search-result--filter-navigator"
     }
   }
 }

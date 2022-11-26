@@ -45,6 +45,8 @@
     "children": ["flex-layout.row#desktop__header--menu-categories"]
   },
 
+  
+
   "flex-layout.row#desktop__header--menu-categories": {
     "children": [
       // "flex-layout.col#desktop__header--row-4__menu-categories--col-1",
@@ -55,6 +57,16 @@
       // "flex-layout.col#desktop__header--row-4__menu-categories--col-6"
       "category-menu"
     ]
+  },
+
+  "category-menu": {
+    "props": {
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "left",
+      "departments": [],
+      "sortSubcategories": "name"
+    }
   },
 
   // Col 1
