@@ -1,0 +1,48 @@
+{
+  "store.custom#about-us": {
+    "blocks": [
+      "flex-layout.row#desktop__about-us"
+      // "flex-layout.row#desktop__our-team",
+      // "flex-layout.row#desktop__our-strategy",
+      // "flex-layout.row#desktop__international-event",
+      // "flex-layout.row#desktop__environmental-commitment"
+    ]
+  },
+
+  // ABOUT US
+  "flex-layout.row#desktop__about-us": {
+    "children": [
+      "flex-layout.col#desktop__about-us"
+    ]
+  },
+
+  "flex-layout.col#desktop__about-us": {
+    "children": [
+      "rich-text#desktop__about-us--title",
+      "rich-text#desktop__about-us--content",
+      "image#desktop__about-us--image"
+    ]
+  },
+
+  "rich-text#desktop__about-us--title": {
+    "props": {
+      "font": "t-heading-1",
+      "text": "Quienes Somos",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "rich-text#desktop__about-us--content": {
+    "props": {
+      "font": "t-small",
+      "text": "Tradeinn es un e-commerce especializado en la venta de material deportivo, moda y lifestyle, localizado en Girona (España). Entregamos pedidos a clientes de 190 países. Más de 20 millones de clientes en todo el mundo han confiado en nosotros. Enviamos alrededor de 20.000 pedidos al día."
+    }
+  },
+
+  "image#desktop__about-us--image": {
+    "props": {
+      "src": "assets/images/about-us.gif"
+    }
+  }
+
+}
