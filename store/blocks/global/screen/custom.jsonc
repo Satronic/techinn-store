@@ -1,8 +1,8 @@
 {
   "store.custom#about-us": {
     "blocks": [
-      "flex-layout.row#desktop__about-us"
-      // "flex-layout.row#desktop__our-team",
+      "flex-layout.row#desktop__about-us",
+      "flex-layout.row#desktop__our-team"
       // "flex-layout.row#desktop__our-strategy",
       // "flex-layout.row#desktop__international-event",
       // "flex-layout.row#desktop__environmental-commitment"
@@ -42,6 +42,42 @@
   "image#desktop__about-us--image": {
     "props": {
       "src": "assets/images/about-us.gif"
+    }
+  },
+
+  // OUR TEAM
+  "flex-layout.row#desktop__our-team": {
+    "children": [
+      "flex-layout.col#desktop__our-team"
+    ]
+  },
+
+  "flex-layout.col#desktop__our-team": {
+    "children": [
+      "rich-text#desktop__our-team--title",
+      "rich-text#desktop__our-team--content",
+      "image#desktop__our-team--image"
+    ]
+  },
+
+  "rich-text#desktop__our-team--title": {
+    "props": {
+      "font": "t-heading-1",
+      "text": "Nuestro Equipo",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "rich-text#desktop__our-team--content": {
+    "props": {
+      "font": "t-small",
+      "text": "Contamos con un equipo de más de 500 empleados que representan 15 nacionalidades."
+    }
+  },
+
+  "image#desktop__our-team--image": {
+    "props": {
+      "src": "assets/images/our-team.jpg"
     }
   }
 
