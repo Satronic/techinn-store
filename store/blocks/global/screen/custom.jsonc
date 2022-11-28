@@ -1,0 +1,239 @@
+{
+  "store.custom#about-us": {
+    "blocks": [
+      "flex-layout.row#desktop__about-us",
+      "flex-layout.row#desktop__our-team",
+      "flex-layout.row#desktop__our-strategy",
+      "flex-layout.row#desktop__international-event",
+      "flex-layout.row#desktop__environmental-commitment"
+    ]
+  },
+
+  // ABOUT US
+  "flex-layout.row#desktop__about-us": {
+    "props": {
+      "blockClass": "desktop__about-us--row"
+    },
+    "children": ["flex-layout.col#desktop__about-us"]
+  },
+
+  "flex-layout.col#desktop__about-us": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "rich-text#desktop__about-us--title",
+      "rich-text#desktop__about-us--content",
+      "image#desktop__about-us--image"
+    ]
+  },
+
+  "rich-text#desktop__about-us--title": {
+    "props": {
+      "font": "t-heading-2",
+      "text": "Quienes Somos"
+    }
+  },
+
+  "rich-text#desktop__about-us--content": {
+    "props": {
+      "font": "t-small",
+      "text": "Tradeinn es un e-commerce especializado en la venta de material deportivo, moda y lifestyle, localizado en Girona (España). Entregamos pedidos a clientes de 190 países. Más de 20 millones de clientes en todo el mundo han confiado en nosotros. Enviamos alrededor de 20.000 pedidos al día.",
+      "blockClass": "desktop__about-us--content"
+    }
+  },
+
+  "image#desktop__about-us--image": {
+    "props": {
+      "src": "assets/images/about-us.gif"
+    }
+  },
+
+  // OUR TEAM
+  "flex-layout.row#desktop__our-team": {
+    "props": {
+      "blockClass": "desktop__about-us--row"
+    },
+    "children": ["flex-layout.col#desktop__our-team"]
+  },
+
+  "flex-layout.col#desktop__our-team": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "rich-text#desktop__our-team--title",
+      "rich-text#desktop__our-team--content",
+      "image#desktop__our-team--image"
+    ]
+  },
+
+  "rich-text#desktop__our-team--title": {
+    "props": {
+      "font": "t-heading-2",
+      "text": "Nuestro Equipo"
+    }
+  },
+
+  "rich-text#desktop__our-team--content": {
+    "props": {
+      "font": "t-small",
+      "text": "Contamos con un equipo de más de 500 empleados que representan 15 nacionalidades.",
+      "blockClass": "desktop__our-team--content"
+    }
+  },
+
+  "image#desktop__our-team--image": {
+    "props": {
+      "src": "assets/images/our-team.jpg"
+    }
+  },
+
+  // OUR STRATEGY
+  "flex-layout.row#desktop__our-strategy": {
+    "props": {
+      "blockClass": "desktop__about-us--row-lr"
+    },
+    "children": [
+      "flex-layout.col#desktop__our-strategy--left",
+      "flex-layout.col#desktop__our-strategy--right"
+    ]
+  },
+
+  "flex-layout.col#desktop__our-strategy--left": {
+    "children": ["image#desktop__our-strategy--image"]
+  },
+
+  "flex-layout.col#desktop__our-strategy--right": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "middle",
+      "blockClass": "desktop__about-us--col-content"
+    },
+    "children": [
+      "rich-text#desktop__our-strategy--title",
+      "rich-text#desktop__our-strategy--content"
+    ]
+  },
+
+  "rich-text#desktop__our-strategy--title": {
+    "props": {
+      "font": "t-heading-4",
+      "text": "Nuestra Estrategia",
+      "textPosition": "LEFT"
+    }
+  },
+
+  "rich-text#desktop__our-strategy--content": {
+    "props": {
+      "font": "t-small",
+      "text": "En nuestras tiendas online especializadas, los clientes pueden encontrar un amplio catálogo de 1,5 millones de productos de más de 5.000 primeras marcas."
+    }
+  },
+
+  "image#desktop__our-strategy--image": {
+    "props": {
+      "src": "assets/images/our-strategy.gif"
+    }
+  },
+
+  // OUR INTERNATIONAL EVENT
+  "flex-layout.row#desktop__international-event": {
+    "props": {
+      "blockClass": "desktop__about-us--row-lr"
+    },
+    "children": [
+      "flex-layout.col#desktop__international-event--left",
+      "flex-layout.col#desktop__international-event--right"
+    ]
+  },
+
+  "flex-layout.col#desktop__international-event--left": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "middle",
+      "blockClass": "desktop__about-us--col-content"
+    },
+    "children": [
+      "rich-text#desktop__international-event--title",
+      "rich-text#desktop__international-event--content"
+    ]
+  },
+
+  "flex-layout.col#desktop__international-event--right": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "middle"
+    },
+    "children": ["image#desktop__international-event--image"]
+  },
+
+  "rich-text#desktop__international-event--title": {
+    "props": {
+      "font": "t-heading-4",
+      "text": "Nuestra Evento Internacional",
+      "textPosition": "LEFT"
+    }
+  },
+
+  "rich-text#desktop__international-event--content": {
+    "props": {
+      "font": "t-small",
+      "text": "Organizamos un evento internacional de triatlón de larga distancia: 3800m de natación, 180km de bicicleta y 42km de carrera a pie. La provincia de Girona es un referente mundial en turismo deportivo por su diversidad de paisajes y carreteras emblemáticas, que son los puntos clave para ser considerada un ´paraíso del deporte´. Nuestro objetivo es crear el ambiente perfecto para los participantes ofreciendo servicios de alta calidad, donde los atletas profesionales y amateurs tendrán unas condiciones inmejorables para lograr su reto. El evento cuenta con el apoyo de marcas líderes del mundo del deporte, como Garmin, Specialized, Zoggs, Adidas y Nutrisport."
+    }
+  },
+
+  "image#desktop__international-event--image": {
+    "props": {
+      "src": "assets/images/international-event.jpg"
+    }
+  },
+
+  // OUR ENVIRONMENTAL COMMITMENT
+  "flex-layout.row#desktop__environmental-commitment": {
+    "props": {
+      "blockClass": "desktop__about-us--row-lr"
+    },
+    "children": [
+      "flex-layout.col#desktop__environmental-commitment--left",
+      "flex-layout.col#desktop__environmental-commitment--right"
+    ]
+  },
+
+  "flex-layout.col#desktop__environmental-commitment--left": {
+    "children": ["image#desktop__environmental-commitment--image"]
+  },
+
+  "flex-layout.col#desktop__environmental-commitment--right": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "middle",
+      "blockClass": "desktop__about-us--col-content"
+    },
+    "children": [
+      "rich-text#desktop__environmental-commitment--title",
+      "rich-text#desktop__environmental-commitment--content"
+    ]
+  },
+
+  "rich-text#desktop__environmental-commitment--title": {
+    "props": {
+      "font": "t-heading-4",
+      "text": "Nuestro compromiso con el medio ambiente",
+      "textPosition": "LEFT"
+    }
+  },
+
+  "rich-text#desktop__environmental-commitment--content": {
+    "props": {
+      "font": "t-small",
+      "text": "Apoyamos los productos que se producen, consumen y venden de forma responsable. Trabajamos con partners logísticos comprometidos con la protección del medio ambiente y priorizamos las acciones que minimizan los posibles impactos medioambientales. SPRING GDS verifica la compensación de 4192 toneladas de emisiones de CO2 generadas desde abril de 2021 por envíos terrestres y aéreos de Tradeinn al invertir en las siguientes iniciativas de sostenibilidad: - Protección de la selva tropical y la biodiversidad en Perú. - Energía renovable a través de molinos de viento en Turquía."
+    }
+  },
+
+  "image#desktop__environmental-commitment--image": {
+    "props": {
+      "src": "assets/images/environmental-commitment.jpg"
+    }
+  }
+}

@@ -14,3 +14,8 @@
   position: absolute;
   transform: translate(-20%, -225%);
 }
+
+.paragraph--desktop__about-us--content,
+.paragraph--desktop__our-team--content{
+  margin: 1rem;
+}
