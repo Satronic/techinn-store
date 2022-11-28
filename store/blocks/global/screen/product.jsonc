@@ -1,7 +1,12 @@
 {
   "store.product": {
     "children": [
-      
+      "flex-layout.row#desktop__product--breadcrumb"
     ]
+  },
+
+  "flex-layout.row#desktop__product--breadcrumb": {
+    "title": "Product Breadcrumb",
+    "children": ["breadcrumb"]
   }
 }
