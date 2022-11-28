@@ -2,8 +2,8 @@
   "store.custom#about-us": {
     "blocks": [
       "flex-layout.row#desktop__about-us",
-      "flex-layout.row#desktop__our-team"
-      // "flex-layout.row#desktop__our-strategy",
+      "flex-layout.row#desktop__our-team",
+      "flex-layout.row#desktop__our-strategy"
       // "flex-layout.row#desktop__international-event",
       // "flex-layout.row#desktop__environmental-commitment"
     ]
@@ -11,9 +11,7 @@
 
   // ABOUT US
   "flex-layout.row#desktop__about-us": {
-    "children": [
-      "flex-layout.col#desktop__about-us"
-    ]
+    "children": ["flex-layout.col#desktop__about-us"]
   },
 
   "flex-layout.col#desktop__about-us": {
@@ -26,7 +24,7 @@
 
   "rich-text#desktop__about-us--title": {
     "props": {
-      "font": "t-heading-1",
+      "font": "t-heading-2",
       "text": "Quienes Somos",
       "textPosition": "CENTER"
     }
@@ -47,9 +45,7 @@
 
   // OUR TEAM
   "flex-layout.row#desktop__our-team": {
-    "children": [
-      "flex-layout.col#desktop__our-team"
-    ]
+    "children": ["flex-layout.col#desktop__our-team"]
   },
 
   "flex-layout.col#desktop__our-team": {
@@ -62,7 +58,7 @@
 
   "rich-text#desktop__our-team--title": {
     "props": {
-      "font": "t-heading-1",
+      "font": "t-heading-2",
       "text": "Nuestro Equipo",
       "textPosition": "CENTER"
     }
@@ -79,6 +75,52 @@
     "props": {
       "src": "assets/images/our-team.jpg"
     }
-  }
+  },
 
+  // OUR STRATEGY
+  "flex-layout.row#desktop__our-strategy": {
+    "children": [
+      "flex-layout.col#desktop__our-strategy--left",
+      "flex-layout.col#desktop__our-strategy--right"
+    ]
+  },
+
+  "flex-layout.col#desktop__our-strategy--left": {
+    "children": [
+      "image#desktop__our-strategy--image"
+    ]
+  },
+
+  "flex-layout.col#desktop__our-strategy--right": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "rich-text#desktop__our-strategy--title",
+      "rich-text#desktop__our-strategy--content"
+    ]
+  },
+
+
+  "rich-text#desktop__our-strategy--title": {
+    "props": {
+      "font": "t-heading-4",
+      "text": "Nuestra Estrategia",
+      "textPosition": "LEFT"
+    }
+  },
+
+  "rich-text#desktop__our-strategy--content": {
+    "props": {
+      "font": "t-small",
+      "text": "En nuestras tiendas online especializadas, los clientes pueden encontrar un amplio catálogo de 1,5 millones de productos de más de 5.000 primeras marcas."
+    }
+  },
+
+  "image#desktop__our-strategy--image": {
+    "props": {
+      "src": "assets/images/our-strategy.gif"
+    }
+  }
 }
