@@ -4,8 +4,8 @@
       "flex-layout.row#desktop__about-us",
       "flex-layout.row#desktop__our-team",
       "flex-layout.row#desktop__our-strategy",
-      "flex-layout.row#desktop__international-event"
-      // "flex-layout.row#desktop__environmental-commitment"
+      "flex-layout.row#desktop__international-event",
+      "flex-layout.row#desktop__environmental-commitment"
     ]
   },
 
@@ -171,6 +171,53 @@
   "image#desktop__international-event--image": {
     "props": {
       "src": "assets/images/international-event.jpg"
+    }
+  },
+
+  // OUR ENVIRONMENTAL COMMITMENT
+  "flex-layout.row#desktop__environmental-commitment": {
+    "children": [
+      "flex-layout.col#desktop__environmental-commitment--left",
+      "flex-layout.col#desktop__environmental-commitment--right"
+    ]
+  },
+
+  "flex-layout.col#desktop__environmental-commitment--left": {
+    "children": [
+      "image#desktop__environmental-commitment--image"
+    ]
+  },
+
+  "flex-layout.col#desktop__environmental-commitment--right": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "rich-text#desktop__environmental-commitment--title",
+      "rich-text#desktop__environmental-commitment--content"
+    ]
+  },
+
+
+  "rich-text#desktop__environmental-commitment--title": {
+    "props": {
+      "font": "t-heading-4",
+      "text": "Nuestro compromiso con el medio ambiente",
+      "textPosition": "LEFT"
+    }
+  },
+
+  "rich-text#desktop__environmental-commitment--content": {
+    "props": {
+      "font": "t-small",
+      "text": "Apoyamos los productos que se producen, consumen y venden de forma responsable. Trabajamos con partners logísticos comprometidos con la protección del medio ambiente y priorizamos las acciones que minimizan los posibles impactos medioambientales. SPRING GDS verifica la compensación de 4192 toneladas de emisiones de CO2 generadas desde abril de 2021 por envíos terrestres y aéreos de Tradeinn al invertir en las siguientes iniciativas de sostenibilidad: - Protección de la selva tropical y la biodiversidad en Perú. - Energía renovable a través de molinos de viento en Turquía."
+    }
+  },
+
+  "image#desktop__environmental-commitment--image": {
+    "props": {
+      "src": "assets/images/environmental-commitment.jpg"
     }
   }
 }
