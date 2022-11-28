@@ -11,10 +11,16 @@
 
   // ABOUT US
   "flex-layout.row#desktop__about-us": {
+    "props": {
+      "blockClass": "desktop__about-us--row"
+    },
     "children": ["flex-layout.col#desktop__about-us"]
   },
 
   "flex-layout.col#desktop__about-us": {
+    "props": {
+      "horizontalAlign": "center"
+    },
     "children": [
       "rich-text#desktop__about-us--title",
       "rich-text#desktop__about-us--content",
@@ -25,15 +31,15 @@
   "rich-text#desktop__about-us--title": {
     "props": {
       "font": "t-heading-2",
-      "text": "Quienes Somos",
-      "textPosition": "CENTER"
+      "text": "Quienes Somos"
     }
   },
 
   "rich-text#desktop__about-us--content": {
     "props": {
       "font": "t-small",
-      "text": "Tradeinn es un e-commerce especializado en la venta de material deportivo, moda y lifestyle, localizado en Girona (España). Entregamos pedidos a clientes de 190 países. Más de 20 millones de clientes en todo el mundo han confiado en nosotros. Enviamos alrededor de 20.000 pedidos al día."
+      "text": "Tradeinn es un e-commerce especializado en la venta de material deportivo, moda y lifestyle, localizado en Girona (España). Entregamos pedidos a clientes de 190 países. Más de 20 millones de clientes en todo el mundo han confiado en nosotros. Enviamos alrededor de 20.000 pedidos al día.",
+      "blockClass": "desktop__about-us--content"
     }
   },
 
@@ -45,10 +51,16 @@
 
   // OUR TEAM
   "flex-layout.row#desktop__our-team": {
+    "props": {
+      "blockClass": "desktop__about-us--row"
+    },
     "children": ["flex-layout.col#desktop__our-team"]
   },
 
   "flex-layout.col#desktop__our-team": {
+    "props": {
+      "horizontalAlign": "center"
+    },
     "children": [
       "rich-text#desktop__our-team--title",
       "rich-text#desktop__our-team--content",
@@ -59,15 +71,15 @@
   "rich-text#desktop__our-team--title": {
     "props": {
       "font": "t-heading-2",
-      "text": "Nuestro Equipo",
-      "textPosition": "CENTER"
+      "text": "Nuestro Equipo"
     }
   },
 
   "rich-text#desktop__our-team--content": {
     "props": {
       "font": "t-small",
-      "text": "Contamos con un equipo de más de 500 empleados que representan 15 nacionalidades."
+      "text": "Contamos con un equipo de más de 500 empleados que representan 15 nacionalidades.",
+      "blockClass": "desktop__our-team--content"
     }
   },
 
@@ -79,6 +91,9 @@
 
   // OUR STRATEGY
   "flex-layout.row#desktop__our-strategy": {
+    "props": {
+      "blockClass": "desktop__about-us--row-lr"
+    },
     "children": [
       "flex-layout.col#desktop__our-strategy--left",
       "flex-layout.col#desktop__our-strategy--right"
@@ -86,22 +101,20 @@
   },
 
   "flex-layout.col#desktop__our-strategy--left": {
-    "children": [
-      "image#desktop__our-strategy--image"
-    ]
+    "children": ["image#desktop__our-strategy--image"]
   },
 
   "flex-layout.col#desktop__our-strategy--right": {
     "props": {
       "horizontalAlign": "left",
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "blockClass": "desktop__about-us--col-content"
     },
     "children": [
       "rich-text#desktop__our-strategy--title",
       "rich-text#desktop__our-strategy--content"
     ]
   },
-
 
   "rich-text#desktop__our-strategy--title": {
     "props": {
@@ -126,6 +139,9 @@
 
   // OUR INTERNATIONAL EVENT
   "flex-layout.row#desktop__international-event": {
+    "props": {
+      "blockClass": "desktop__about-us--row-lr"
+    },
     "children": [
       "flex-layout.col#desktop__international-event--left",
       "flex-layout.col#desktop__international-event--right"
@@ -135,7 +151,8 @@
   "flex-layout.col#desktop__international-event--left": {
     "props": {
       "horizontalAlign": "left",
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "blockClass": "desktop__about-us--col-content"
     },
     "children": [
       "rich-text#desktop__international-event--title",
@@ -148,9 +165,7 @@
       "horizontalAlign": "left",
       "verticalAlign": "middle"
     },
-    "children": [
-      "image#desktop__international-event--image"
-    ]
+    "children": ["image#desktop__international-event--image"]
   },
 
   "rich-text#desktop__international-event--title": {
@@ -176,6 +191,9 @@
 
   // OUR ENVIRONMENTAL COMMITMENT
   "flex-layout.row#desktop__environmental-commitment": {
+    "props": {
+      "blockClass": "desktop__about-us--row-lr"
+    },
     "children": [
       "flex-layout.col#desktop__environmental-commitment--left",
       "flex-layout.col#desktop__environmental-commitment--right"
@@ -183,22 +201,20 @@
   },
 
   "flex-layout.col#desktop__environmental-commitment--left": {
-    "children": [
-      "image#desktop__environmental-commitment--image"
-    ]
+    "children": ["image#desktop__environmental-commitment--image"]
   },
 
   "flex-layout.col#desktop__environmental-commitment--right": {
     "props": {
       "horizontalAlign": "left",
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "blockClass": "desktop__about-us--col-content"
     },
     "children": [
       "rich-text#desktop__environmental-commitment--title",
       "rich-text#desktop__environmental-commitment--content"
     ]
   },
-
 
   "rich-text#desktop__environmental-commitment--title": {
     "props": {

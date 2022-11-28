@@ -1,0 +1,18 @@
+.flexRow--desktop__about-us--row {
+  margin: 2rem;
+}
+
+.flexRow--desktop__about-us--row-lr {
+  margin: 0 2rem;
+}
+
+.flexCol--desktop__about-us--col-content {
+  padding: 2rem;
+  width: 50%;
+}
+
+.flexColChild--desktop__about-us--content {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
