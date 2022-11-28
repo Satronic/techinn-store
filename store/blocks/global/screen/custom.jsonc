@@ -3,8 +3,8 @@
     "blocks": [
       "flex-layout.row#desktop__about-us",
       "flex-layout.row#desktop__our-team",
-      "flex-layout.row#desktop__our-strategy"
-      // "flex-layout.row#desktop__international-event",
+      "flex-layout.row#desktop__our-strategy",
+      "flex-layout.row#desktop__international-event"
       // "flex-layout.row#desktop__environmental-commitment"
     ]
   },
@@ -121,6 +121,56 @@
   "image#desktop__our-strategy--image": {
     "props": {
       "src": "assets/images/our-strategy.gif"
+    }
+  },
+
+  // OUR INTERNATIONAL EVENT
+  "flex-layout.row#desktop__international-event": {
+    "children": [
+      "flex-layout.col#desktop__international-event--left",
+      "flex-layout.col#desktop__international-event--right"
+    ]
+  },
+
+  "flex-layout.col#desktop__international-event--left": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "rich-text#desktop__international-event--title",
+      "rich-text#desktop__international-event--content"
+    ]
+  },
+
+  "flex-layout.col#desktop__international-event--right": {
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "image#desktop__international-event--image"
+    ]
+  },
+
+  "rich-text#desktop__international-event--title": {
+    "props": {
+      "font": "t-heading-4",
+      "text": "Nuestra Evento Internacional",
+      "textPosition": "LEFT"
+    }
+  },
+
+  "rich-text#desktop__international-event--content": {
+    "props": {
+      "font": "t-small",
+      "text": "Organizamos un evento internacional de triatlón de larga distancia: 3800m de natación, 180km de bicicleta y 42km de carrera a pie. La provincia de Girona es un referente mundial en turismo deportivo por su diversidad de paisajes y carreteras emblemáticas, que son los puntos clave para ser considerada un ´paraíso del deporte´. Nuestro objetivo es crear el ambiente perfecto para los participantes ofreciendo servicios de alta calidad, donde los atletas profesionales y amateurs tendrán unas condiciones inmejorables para lograr su reto. El evento cuenta con el apoyo de marcas líderes del mundo del deporte, como Garmin, Specialized, Zoggs, Adidas y Nutrisport."
+    }
+  },
+
+  "image#desktop__international-event--image": {
+    "props": {
+      "src": "assets/images/international-event.jpg"
     }
   }
 }
