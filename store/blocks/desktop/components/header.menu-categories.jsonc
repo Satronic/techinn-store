@@ -39,20 +39,34 @@
   // Modal Layout Menu
   "modal-layout#desktop__header--menu-categories": {
     "props": {
-      "blockClass": "desktop__header--menu-categories"
+      // "blockClass": "desktop__header--menu-categories1"
+      "blockClass": "desktop__header--menu-categories2"
     },
     "children": ["flex-layout.row#desktop__header--menu-categories"]
   },
 
+  
+
   "flex-layout.row#desktop__header--menu-categories": {
     "children": [
-      "flex-layout.col#desktop__header--row-4__menu-categories--col-1",
-      "flex-layout.col#desktop__header--row-4__menu-categories--col-2",
-      "flex-layout.col#desktop__header--row-4__menu-categories--col-3",
-      "flex-layout.col#desktop__header--row-4__menu-categories--col-4",
-      "flex-layout.col#desktop__header--row-4__menu-categories--col-5",
-      "flex-layout.col#desktop__header--row-4__menu-categories--col-6"
+      // "flex-layout.col#desktop__header--row-4__menu-categories--col-1",
+      // "flex-layout.col#desktop__header--row-4__menu-categories--col-2",
+      // "flex-layout.col#desktop__header--row-4__menu-categories--col-3",
+      // "flex-layout.col#desktop__header--row-4__menu-categories--col-4",
+      // "flex-layout.col#desktop__header--row-4__menu-categories--col-5",
+      // "flex-layout.col#desktop__header--row-4__menu-categories--col-6"
+      "category-menu"
     ]
+  },
+
+  "category-menu": {
+    "props": {
+      "showAllDepartments": true,
+      "showSubcategories": true,
+      "menuDisposition": "left",
+      "departments": [],
+      "sortSubcategories": "name"
+    }
   },
 
   // Col 1

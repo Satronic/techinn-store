@@ -1,0 +1,57 @@
+{
+  "search-result-layout#category": {
+    "blocks": [
+      "search-result-layout.desktop#category",
+      "search-result-layout.mobile#category"
+    ]
+  },
+
+  "search-result-layout.desktop#category": {
+    "children": [
+      "flex-layout.row#category__breadcrumb",
+      "flex-layout.row#category__content"
+    ]
+  },
+
+  "flex-layout.row#category__content": {
+    "children": [
+      "flex-layout.col#category__filters",
+      "flex-layout.col#category__results"
+    ]
+  },
+
+  // Sidebar Filters
+  "flex-layout.col#category__filters": {
+    "props": {
+      "width": "15%",
+      "blockClass": "desktop__filters"
+    },
+    "children": ["filter-navigator.v3#desktop__search-result--filter-navigator"]
+  },
+
+  "flex-layout.col#category__results": {
+    "props": {
+      "width": "85%",
+      "blockClass": "desktop__results"
+    },
+    "children": ["flex-layout.row#category__results"]
+  },
+
+  "search-result-layout.mobile#category": {
+    "children": ["flex-layout.row#category__breadcrumb"]
+  },
+
+  // Breadcrumb
+  "flex-layout.row#category__breadcrumb": {
+    "children": ["breadcrumb.search"]
+  },
+
+  // Results
+  "flex-layout.row#category__results": {
+    "title": "Category Results",
+    "children": [
+      "search-content"
+      // "gallery"
+    ]
+  }
+}

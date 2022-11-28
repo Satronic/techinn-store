@@ -22,15 +22,25 @@
     }
   },
 
+  "product-summary.shelf#product-list__product-card": {
+    "children": [
+    "product-summary-image",
+    "product-summary-description"
+    ]
+  },
+
   "product-summary.shelf": {
     "children": [
-      "product-summary-add-to-list-button",
-      "product-summary-name",
-      "product-rating-inline",
-      "product-summary-space",
-      "product-summary-price",
-      "product-identifier.summary",
-      "add-to-cart-button"
+    "product-summary-image",
+    "product-summary-description"
     ]
+  },
+
+  "product-summary-image": {
+    "props": {
+      "showBadge": true,
+      "height": 220,
+      "width": 180
+    }
   }
 }
