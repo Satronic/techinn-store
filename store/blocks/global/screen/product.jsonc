@@ -5,7 +5,9 @@
       "flex-layout.row#desktop__product--main",
       "flex-layout.row#desktop__product--details",
       "tab-layout#desktop__product--customers-reviews",
-      "flex-layout.row#desktop__product--guarantee"
+      "flex-layout.row#desktop__product--guarantee",
+      "list-context.product-list#desktop__product--sugested"
+      // "shelf.relatedProducts"
     ]
   },
 
@@ -46,6 +48,7 @@
       "width": "40%"
     },
     "children": [
+      "product-brand",
       "product-name",
       "product-rating-summary",
       "product-list-price",
@@ -56,7 +59,7 @@
       "add-to-cart-button",
       "shipping-simulator",
       "share"
-      // "add-to-list-btn"
+      // "add-to-list-button"
     ]
   },
 
@@ -84,7 +87,7 @@
     "props": {
       "width": "40%"
     },
-    "children": ["sku-selector"]
+    "children": ["product-specifications"]
   },
 
   // PRODUCT CUSTOMER REVIEWS SECTION
@@ -254,5 +257,55 @@
       "text": "Precio minimo garantizado",
       "textAlignment": "CENTER"
     }
+  },
+
+  // RELATED PRODUCTS SECTION
+  "list-context.product-list#desktop__product--sugested": {
+    "title": "Sugested Products",
+    "blocks": ["product-summary.shelf"],
+    "children": [
+      "rich-text#product__sugested--title",
+      "slider-layout#product__sugested--slider"
+    ]
+  },
+
+  "rich-text#product__sugested--title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-3",
+      "text": "Productos relacionados"
+    }
+  },
+
+  "slider-layout#product__sugested--slider": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "phone": 1,
+        "tablet": 1
+      },
+      "infinite": false,
+
+      "arrowSize": {
+        "desktop": 36,
+        "phone": 30,
+        "tablet": 24
+      }
+    }
   }
+
+  // "list-context.product-list": {
+  //   "blocks": ["shelf.relatedProducts"]
+  // },
+
+  // "shelf.relatedProducts": {
+  //   "props": {
+  //     "recommendation": "view",
+  //     "productList": {
+  //       "titleText": "Who saw also saw",
+  //       "itemsPerPage": 3
+  //     }
+  //   }
+  // }
 }
