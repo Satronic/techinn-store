@@ -1,12 +1,29 @@
 {
   "store.product": {
     "children": [
-      "flex-layout.row#desktop__product--breadcrumb"
+      "flex-layout.row#desktop__product--breadcrumb",
+      "flex-layout.row#desktop__product--main"
     ]
   },
 
+  // PRODUCT BREADCRUMB SECTION
   "flex-layout.row#desktop__product--breadcrumb": {
     "title": "Product Breadcrumb",
     "children": ["breadcrumb"]
+  },
+
+  // PRODUCT MAIN SECTION
+  "flex-layout.row#desktop__product--main": {
+    "title": "Product Main",
+    "children": ["flex-layout.col#product__main--image-gallery"]
+  },
+
+  // --> Image Gallery
+  "flex-layout.col#product__main--image-gallery": {
+    "title": "Image Gallery",
+    "props": {
+      "width": "60%"
+    },
+    "children": ["product-images"]
   }
 }
