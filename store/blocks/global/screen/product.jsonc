@@ -3,7 +3,8 @@
     "children": [
       "flex-layout.row#desktop__product--breadcrumb",
       "flex-layout.row#desktop__product--main",
-      "flex-layout.row#desktop__product--details"
+      "flex-layout.row#desktop__product--details",
+      "tab-layout#desktop__product--customers-reviews"
     ]
   },
 
@@ -86,6 +87,67 @@
     },
     "children": [
       "sku-selector"
+    ]
+  },
+
+
+  // PRODUCT CUSTOMER REVIEWS SECTION
+  "tab-layout#desktop__product--customers-reviews": {
+    "title": "Reviews and Questions",
+    "children": [
+      "tab-list#product__customers-reviews",
+      "tab-content#product__customers-reviews"
+    ]
+  },
+
+  "tab-list#product__customers-reviews": {
+    "children": [
+      "tab-list.item#reviews",
+      "tab-list.item#questions"
+    ]
+  },
+
+  "tab-content#product__customers-reviews": {
+    "children": [
+      "tab-content.item#reviews",
+      "tab-content.item#questions"
+    ]
+  },
+
+  // ----> Reviews Tabs
+  "tab-list.item#reviews": {
+    "props": {
+      "tabId": "reviews",
+      "label": "Opiniones de clientes sobre este producto",
+      "defaultActiveTab": true
+    }
+  },
+
+  // ----> Reviews Content
+  "tab-content.item#reviews": {
+    "props": {
+      "tabId": "reviews"
+    },
+    "children": [
+      "product-reviews"
+    ]
+  },
+
+  // ----> Questions Tabs
+  "tab-list.item#questions": {
+    "props": {
+      "tabId": "questions",
+      "label": "Preguntas sobre este producto"
+    }
+  },
+
+  // ----> Questions Content
+  "tab-content.item#questions": {
+    "props": {
+      "tabId": "questions"
+    },
+    "children": [
+      "product-questions-and-answers"
     ]
   }
 }
