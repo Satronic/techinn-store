@@ -4,7 +4,8 @@
       "flex-layout.row#desktop__product--breadcrumb",
       "flex-layout.row#desktop__product--main",
       "flex-layout.row#desktop__product--details",
-      "tab-layout#desktop__product--customers-reviews"
+      "tab-layout#desktop__product--customers-reviews",
+      "flex-layout.row#desktop__product--guarantee"
     ]
   },
 
@@ -74,9 +75,7 @@
     "props": {
       "width": "60%"
     },
-    "children": [
-      "product-description"
-    ]
+    "children": ["product-description"]
   },
 
   // --> Features
@@ -85,11 +84,8 @@
     "props": {
       "width": "40%"
     },
-    "children": [
-      "sku-selector"
-    ]
+    "children": ["sku-selector"]
   },
-
 
   // PRODUCT CUSTOMER REVIEWS SECTION
   "tab-layout#desktop__product--customers-reviews": {
@@ -101,17 +97,11 @@
   },
 
   "tab-list#product__customers-reviews": {
-    "children": [
-      "tab-list.item#reviews",
-      "tab-list.item#questions"
-    ]
+    "children": ["tab-list.item#reviews", "tab-list.item#questions"]
   },
 
   "tab-content#product__customers-reviews": {
-    "children": [
-      "tab-content.item#reviews",
-      "tab-content.item#questions"
-    ]
+    "children": ["tab-content.item#reviews", "tab-content.item#questions"]
   },
 
   // ----> Reviews Tabs
@@ -128,9 +118,7 @@
     "props": {
       "tabId": "reviews"
     },
-    "children": [
-      "product-reviews"
-    ]
+    "children": ["product-reviews"]
   },
 
   // ----> Questions Tabs
@@ -146,8 +134,125 @@
     "props": {
       "tabId": "questions"
     },
+    "children": ["product-questions-and-answers"]
+  },
+
+  // PRODUCT GUARANTEE SECTION
+  "flex-layout.row#desktop__product--guarantee": {
+    "title": "Product Guarantee",
+    "props": {
+      "preventHorizontalStretch": false,
+      "horizontalAlign": "around"
+    },
     "children": [
-      "product-questions-and-answers"
+      "flex-layout.col#product__guarantee--return-30d",
+      "flex-layout.col#product__guarantee--secure-payment",
+      "flex-layout.col#product__guarantee--satisfied-refunded",
+      "flex-layout.col#product__guarantee--best-price"
     ]
+  },
+
+  // Col 1
+  "flex-layout.col#product__guarantee--return-30d": {
+    "props": {
+      "horizontalAlign": "center",
+      "width": "10%"
+    },
+    "children": [
+      "image#guarantee__return-30d--image",
+      "rich-text#guarantee__return-30d--text"
+    ]
+  },
+
+  "image#guarantee__return-30d--image": {
+    "props": {
+      "src": "assets/images/product/devolucion30d.svg"
+    }
+  },
+
+  "rich-text#guarantee__return-30d--text": {
+    "props": {
+      "font": "t-small",
+      "text": "Devolución en 30 dias",
+      "textAlignment": "CENTER"
+    }
+  },
+
+  // Col 2
+  "flex-layout.col#product__guarantee--secure-payment": {
+    "props": {
+      "horizontalAlign": "center",
+      "width": "10%"
+    },
+    "children": [
+      "image#guarantee__secure-payment--image",
+      "rich-text#guarantee__secure-payment--text"
+    ]
+  },
+
+  "image#guarantee__secure-payment--image": {
+    "props": {
+      "src": "assets/images/product/pagoseguro.svg"
+    }
+  },
+
+  "rich-text#guarantee__secure-payment--text": {
+    "props": {
+      "font": "t-small",
+      "text": "Pago seguro",
+      "textAlignment": "CENTER"
+    }
+  },
+
+  // Col 3
+  "flex-layout.col#product__guarantee--satisfied-refunded": {
+    "props": {
+      "horizontalAlign": "center",
+      "width": "10%"
+    },
+    "children": [
+      "image#guarantee__satisfied-refunded--image",
+      "rich-text#guarantee__satisfied-refunded--text"
+    ]
+  },
+
+  "image#guarantee__satisfied-refunded--image": {
+    "props": {
+      "src": "assets/images/product/satisfecho.svg"
+    }
+  },
+
+  "rich-text#guarantee__satisfied-refunded--text": {
+    "props": {
+      "font": "t-small",
+      "text": "Satisfecho o reembolsado",
+      "textAlignment": "CENTER"
+    }
+  },
+
+  // Col 4
+  "flex-layout.col#product__guarantee--best-price": {
+    "props": {
+      "horizontalAlign": "center",
+      "width": "10%"
+    },
+    "children": [
+      "image#guarantee__best-price--image",
+      "rich-text#guarantee__best-price--text"
+    ]
+  },
+
+  "image#guarantee__best-price--image": {
+    "props": {
+      "src": "assets/images/product/mejorprecio.svg"
+    }
+  },
+
+  "rich-text#guarantee__best-price--text": {
+    "props": {
+      "font": "t-small",
+      "text": "Precio minimo garantizado",
+      "textAlignment": "CENTER"
+    }
   }
 }
