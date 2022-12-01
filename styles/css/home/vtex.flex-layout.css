@@ -25,3 +25,19 @@
   background-color: #efefef;
   padding: 1rem;
 }
+
+/* Product */
+.flexRow--desktop__product--row {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+}
+
+.flexColChild--product__main--image-gallery {
+  margin-right: 1rem;
+}
+
+.flexCol--product__main--summary {
+  margin-left: 1rem;
+}
