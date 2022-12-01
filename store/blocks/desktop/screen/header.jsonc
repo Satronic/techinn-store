@@ -5,28 +5,15 @@
   "header.full": {
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
- 
-  "header-layout.mobile": {
-    "children": ["sticky-layout#mobile"]
-  },
-  "sticky-layout#mobile": {
-    "children": ["flex-layout.row#mobile"]
-  },
-  "flex-layout.row#mobile": {
+
+  "header-layout.desktop": {
     "children": [
-      "drawer#desktop__header--menu-categories",
-      "logo",
-      "login",
-      "minicart.v2"
-    ],
-    "props": {
-      "blockClass": "main-header-mobile",
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
-    }
-  },
-  "drawer": {
-    "children": []
+      "flex-layout.row#desktop__header--row-1",
+      "flex-layout.row#desktop__header--row-2",
+      "flex-layout.row#desktop__header--row-3",
+      "flex-layout.row#desktop__header--row-4"
+      // "flex-layout.row#4-desktop",
+      // "sticky-layout#4-desktop"
+    ]
   }
 }

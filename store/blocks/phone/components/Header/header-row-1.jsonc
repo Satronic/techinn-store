@@ -1,0 +1,26 @@
+{
+  // Row 1
+  "header-row#mobile__header--row-1": {
+    "children": [
+      "logo",
+      "header-spacer",
+      "image#mobile__header--location",
+      "image#mobile__header--login",
+      "minicart.v2"
+    ]
+  },
+
+  "image#mobile__header--login": {
+    "props": {
+      "src": "assets/images/micuenta.svg",
+      "height": "32px"
+    }
+  },
+
+  "image#mobile__header--location": {
+    "props": {
+      "src": "assets/images/bandera.png",
+      "height": "24px"
+    }
+  }
+}

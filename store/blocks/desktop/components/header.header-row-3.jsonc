@@ -30,7 +30,10 @@
       "title": "Logo",
       "href": "/",
       "url": "assets/images/techinn-logo.svg",
-      "width": "164"
+      "width": 164,
+      "height": 42,
+      "mobileWidth": 117,
+      "mobileHeight": 30
     }
   },
 
