@@ -23,17 +23,17 @@
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["logo"]
+    "children": ["logo#desktop__header--logo"]
   },
-  "logo": {
+
+  "logo#desktop__header--logo": {
     "props": {
       "title": "Logo",
       "href": "/",
       "url": "assets/images/techinn-logo.svg",
       "width": 164,
       "height": 42,
-      "mobileWidth": 117,
-      "mobileHeight": 30
+      "blockClass": "desktop__header--logo"
     }
   },
 

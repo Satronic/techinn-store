@@ -2,12 +2,25 @@
   // Row 1
   "header-row#mobile__header--row-1": {
     "children": [
-      "logo",
+      "logo#mobile__header--logo",
       "header-spacer",
       "image#mobile__header--location",
       "image#mobile__header--login",
       "minicart.v2"
     ]
+  },
+
+  // Logo
+  "logo#mobile__header--logo": {
+    "title": "Logo",
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/images/techinn-logo.svg",
+      "width": 117,
+      "height": 30,
+      "blockClass": "mobile__header--logo"
+    }
   },
 
   "image#mobile__header--login": {
