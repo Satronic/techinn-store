@@ -135,31 +135,31 @@
 
   "image#acme-brand": {
     "props": {
-      "src": "assets/images/acme-brand.jpg"
+      "src": "/arquivos/acme-brand.jpg"
     }
   },
 
   "image#adler-brand": {
     "props": {
-      "src": "assets/images/adler-brand.jpg"
+      "src": "/arquivos/adler-brand.jpg"
     }
   },
 
   "image#aiwa-brand": {
     "props": {
-      "src": "assets/images/aiwa-brand.jpg"
+      "src": "/arquivos/aiwa-brand.jpg"
     }
   },
 
   "image#asus-brand": {
     "props": {
-      "src": "assets/images/asus-brand.jpg"
+      "src": "/arquivos/asus-brand.jpg"
     }
   },
 
   "image#acer-brand": {
     "props": {
-      "src": "assets/images/acer-brand.jpg"
+      "src": "/arquivos/acer-brand.jpg"
     }
   }
 

@@ -1,0 +1,84 @@
+{
+  // Row 1
+  "header-row#desktop__header--row-1": {
+    "title": "Header Section 1",
+    "props": {
+      "blockClass": "desktop__header--row-1"
+    },
+    "children": [
+      "rich-text#header-1__select-location",
+      "image#icon-arrow",
+      "rich-text#header-1__select-language",
+      "image#icon-arrow",
+      "header-spacer",
+      "image#support-center",
+      "rich-text#header-1__support-center",
+      "image#returns",
+      "rich-text#header-1__returns"
+    ]
+  },
+
+  // Select location
+  "rich-text#header-1__select-location": {
+    "title": "Select country of location",
+    "props": {
+      "text": "Enviar a: ",
+      "textAlign": "CENTER",
+      "font": "t-mini",
+      "blockClass": "select-location"
+    }
+  },
+
+  // Select language
+  "rich-text#header-1__select-language": {
+    "title": "Select site language",
+    "props": {
+      "text": "Idioma: ",
+      "textAlign": "center",
+      "font": "t-mini",
+      "blockClass": "select-language"
+    }
+  },
+
+  // Support Center
+  "rich-text#header-1__support-center": {
+    "title": "Support Center",
+    "props": {
+      "text": "Centro de Soporte",
+      "textAlign": "center",
+      "font": "t-mini",
+      "blockClass": "support-center"
+    }
+  },
+
+  "image#support-center": {
+    "title": "Support Center Icon",
+    "props": {
+      "src": "assets/images/centrosoporte.svg",
+      "maxWidth": "24px",
+      "maxHeight": "24px",
+      "blockClass": "down-arrow"
+    }
+  },
+  
+  // Returns
+  "rich-text#header-1__returns": {
+    "title": "Returns",
+    "props": {
+      "text": "Devoluciones",
+      "textAlign": "center",
+      "font": "t-mini",
+      "blockClass": ""
+    }
+  },
+
+  "image#returns": {
+    "title": "Returns Icon",
+    "props": {
+      "src": "assets/images/devoluciones.svg",
+      "maxWidth": "24px",
+      "maxHeight": "24px",
+      "blockClass": "down-arrow"
+    }
+  }
+}

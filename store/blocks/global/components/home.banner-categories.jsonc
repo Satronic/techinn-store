@@ -24,7 +24,7 @@
   },
   "image#cat-computers__image": {
     "props": {
-      "src": "assets/images/computers.jpg",
+      "src": "/arquivos/computers.jpg",
       "maxWidth": "100%"
     }
   },
@@ -48,7 +48,7 @@
   },
   "image#cat-phones__image": {
     "props": {
-      "src": "assets/images/phones.jpg"
+      "src": "/arquivos/phones.jpg"
     }
   },
   "rich-text#cat-phones__title": {
@@ -88,7 +88,7 @@
   },
   "image#cat-devices__image": {
     "props": {
-      "src": "assets/images/devices.jpg"
+      "src": "/arquivos/devices.jpg"
     }
   },
 
@@ -111,7 +111,7 @@
   },
   "image#cat-consoles__image": {
     "props": {
-      "src": "assets/images/consoles.jpg"
+      "src": "/arquivos/consoles.jpg"
     }
   },
   "rich-text#cat-consoles__title": {
@@ -134,7 +134,7 @@
   },
   "image#cat-bigApliances__image": {
     "props": {
-      "src": "assets/images/bigApliances.jpg"
+      "src": "/arquivos/bigApliances.jpg"
     }
   },
   "rich-text#cat-bigApliances__title": {

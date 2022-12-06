@@ -1,0 +1,23 @@
+{
+  // Row 2
+  "header-row#mobile__header--row-2": {
+    "props": {
+      "sticky": true,
+      "blockClass": "mobile__header--row-2"
+    },
+    "children": [
+      "drawer#mobile__header--menu",
+      "search-bar"
+    ]
+  },
+
+  "drawer#mobile__header--menu": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "category-menu",
+      "sticky-layout#4-desktop"
+    ]
+  }
+}
