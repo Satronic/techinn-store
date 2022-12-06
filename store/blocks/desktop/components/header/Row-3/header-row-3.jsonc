@@ -1,6 +1,7 @@
 {
   // Section 3
   "flex-layout.row#desktop__header--row-3": {
+    "title": "Header Section 3",
     "props": {
       "horizontalAlign": "between",
       "verticalAlign": "center",
@@ -11,7 +12,7 @@
       "blockClass": "desktop__header--row-3"
     },
     "children": [
-      "flex-layout.col#logo-desktop",
+      "flex-layout.col#header__row-3--logo-desktop",
       "flex-layout.col#header__row-3--search-bar",
       "flex-layout.col#header__row-3--login",
       "minicart.v2"
@@ -19,14 +20,17 @@
   },
 
   // Logo
-  "flex-layout.col#logo-desktop": {
+  "flex-layout.col#header__row-3--logo-desktop": {
+    "title": "Logo",
     "props": {
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "width": "18%"
     },
-    "children": ["logo#desktop__header--logo"]
+    "children": ["logo#desktop__header--logo", "rich-text#desktop__header--slogan"]
   },
 
   "logo#desktop__header--logo": {
+    "title": "Logo Techinn Main",
     "props": {
       "title": "Logo",
       "href": "/",
@@ -37,16 +41,27 @@
     }
   },
 
+  "rich-text#desktop__header--slogan": {
+    "props": {
+      "font": "t-small",
+      "text": "Tienda de Tecnologia by **TradeInn**",
+      "textAlignment": "CENTER",
+      "blockClass": "desktop__header--slogan"
+    }
+  },
+
   // Search-bar
   "flex-layout.col#header__row-3--search-bar": {
+    "title": "Search Bar",
     "props": {
       "verticalAlign": "middle",
-      "width": "70%"
+      "width": "65%"
     },
     "children": ["search-bar"]
   },
 
   "search-bar": {
+    "title": "Search Bar",
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
       "placeholder": "Buscar productos",
@@ -65,6 +80,7 @@
 
   // Login
   "flex-layout.col#header__row-3--login": {
+    "title": "Login",
     "props": {
       "verticalAlign": "middle",
       "width": "10%",
@@ -75,10 +91,16 @@
   },
 
   "rich-text#login__text": {
+    "title": "Login Title",
     "props": {
       "font": "t-mini",
       "text": "Identificate",
       "blockClass": "login__trigger"
     }
+  },
+
+  // Minicart
+  "minicart.v2": {
+    "title": "Minicart"
   }
 }

@@ -25,17 +25,17 @@
   },
   "image#home__slider-top--image-1": {
     "props": {
-      "src": "assets/images/GTR.jpg"
+      "src": "/arquivos/GTR.jpg"
     }
   },
   "image#home__slider-top--image-2": {
     "props": {
-      "src": "assets/images/PDP.jpg"
+      "src": "/arquivos/PDP.jpg"
     }
   },
   "image#home__slider-top--image-3": {
     "props": {
-      "src": "assets/images/LODR.jpg"
+      "src": "/arquivos/LODR.jpg"
     }
   }
 }

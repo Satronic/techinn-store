@@ -14,6 +14,7 @@
   },
 
   "rich-text#login__trigger": {
+    "title": "Login Mi acount",
     "props": {
       "font": "t-small",
       "text": "Mi cuenta",
@@ -22,8 +23,9 @@
   },
 
   "image#login__trigger": {
+    "title": "Arrow Down Icon",
     "props": {
-      "src": "assets/images/down-arrow.png",
+      "src": "/arquivos/down-arrow.png",
       "maxWidth": "12px",
       "maxHeight": "12px",
       "blockClass": "down-arrow"
@@ -58,6 +60,7 @@
 
   // Tab Login
   "tab-list.item#login__tab--item-login": {
+    "title": "Tab Login",
     "props": {
       "tabId": "item-login",
       "label": " Iniciar sesión ",
@@ -67,6 +70,7 @@
   },
 
   "tab-list.item#login__tab--item-create-acount": {
+    "title": "Tab Create Acount",
     "props": {
       "tabId": "item-create-acount",
       "label": " Crear cuenta "
@@ -109,7 +113,7 @@
 
   "image#create-acount": {
     "props": {
-      "src": "assets/images/create-acount.jpg"
+      "src": "/arquivos/create-acount.jpg"
     }
   }
 }

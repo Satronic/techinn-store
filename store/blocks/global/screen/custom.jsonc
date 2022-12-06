@@ -45,7 +45,7 @@
 
   "image#desktop__about-us--image": {
     "props": {
-      "src": "assets/images/about-us.gif"
+      "src": "/arquivos/about-us.gif"
     }
   },
 
@@ -85,7 +85,7 @@
 
   "image#desktop__our-team--image": {
     "props": {
-      "src": "assets/images/our-team.jpg"
+      "src": "/arquivos/our-team.jpg"
     }
   },
 
@@ -133,7 +133,7 @@
 
   "image#desktop__our-strategy--image": {
     "props": {
-      "src": "assets/images/our-strategy.gif"
+      "src": "/arquivos/our-strategy.gif"
     }
   },
 
@@ -185,7 +185,7 @@
 
   "image#desktop__international-event--image": {
     "props": {
-      "src": "assets/images/international-event.jpg"
+      "src": "/arquivos/international-event.jpg"
     }
   },
 
@@ -233,7 +233,7 @@
 
   "image#desktop__environmental-commitment--image": {
     "props": {
-      "src": "assets/images/environmental-commitment.jpg"
+      "src": "/arquivos/environmental-commitment.jpg"
     }
   }
 }

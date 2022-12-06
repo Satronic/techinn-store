@@ -32,7 +32,7 @@
 
   "image#mobile__header--location": {
     "props": {
-      "src": "assets/images/bandera.png",
+      "src": "/arquivos/bandera.png",
       "height": "24px"
     }
   }

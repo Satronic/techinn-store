@@ -24,3 +24,15 @@
   color: #fff;
   cursor: pointer;
 }
+
+.paragraph--desktop__header--slogan {
+  padding: 0;
+  margin-top: -0.5rem;
+  margin-left: 1rem;
+}
+
+.paragraph--select-location,
+.paragraph--select-language,
+.paragraph--support-center {
+  width: 8rem;
+}

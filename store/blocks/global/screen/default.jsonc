@@ -42,5 +42,15 @@
       "height": 220,
       "width": 180
     }
+  },
+
+  "image#icon-arrow": {
+    "title": "Down Arrow Icon",
+    "props": {
+      "src": "/arquivos/down-arrow.png",
+      "maxWidth": "12px",
+      "maxHeight": "12px",
+      "blockClass": "down-arrow"
+    }
   }
 }

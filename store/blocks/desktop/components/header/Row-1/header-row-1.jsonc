@@ -1,105 +1,84 @@
 {
-  // Section 1
-  "flex-layout.row#desktop__header--row-1": {
+  // Row 1
+  "header-row#desktop__header--row-1": {
+    "title": "Header Section 1",
     "props": {
-      "horizontalAlign": "between",
-      "verticalAlign": "center",
-      "preventHorizontalStretch": false,
-      "preventVerticalStretch": true,
-      "fullWidth": true,
-      "colSizing": "auto",
       "blockClass": "desktop__header--row-1"
     },
     "children": [
-      "flex-layout.col#header__row-1--col-1",
-      "flex-layout.col#header__row-1--col-2",
-      "flex-layout.col#header__row-1--col-3",
-      "flex-layout.col#header__row-1--col-4",
-      "flex-layout.col#header__row-1--col-5"
+      "rich-text#header-1__select-location",
+      "image#icon-arrow",
+      "rich-text#header-1__select-language",
+      "image#icon-arrow",
+      "header-spacer",
+      "image#support-center",
+      "rich-text#header-1__support-center",
+      "image#returns",
+      "rich-text#header-1__returns"
     ]
   },
 
-  // Col 1
-  "flex-layout.col#header__row-1--col-1": {
-    "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "middle",
-      "width": "10%"
-    },
-    "children": ["rich-text#1"]
-  },
-  "rich-text#1": {
+  // Select location
+  "rich-text#header-1__select-location": {
+    "title": "Select country of location",
     "props": {
       "text": "Enviar a: ",
       "textAlign": "CENTER",
       "font": "t-mini",
-      "blockClass": ""
+      "blockClass": "select-location"
     }
   },
 
-  // Col 2
-  "flex-layout.col#header__row-1--col-2": {
-    "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "middle",
-      "width": "10%"
-    },
-    "children": ["rich-text#2"]
-  },
-  "rich-text#2": {
+  // Select language
+  "rich-text#header-1__select-language": {
+    "title": "Select site language",
     "props": {
       "text": "Idioma: ",
       "textAlign": "center",
       "font": "t-mini",
-      "blockClass": ""
+      "blockClass": "select-language"
     }
   },
 
-  // Col 3
-  "flex-layout.col#header__row-1--col-3": {
-    "props": {
-      "verticalAlign": "middle",
-      "width": "60%"
-    },
-    "children": ["rich-text#3"]
-  },
-  "rich-text#3": {
-    "props": {
-      "text": ""
-    }
-  },
-
-  // Col 4
-  "flex-layout.col#header__row-1--col-4": {
-    "props": {
-      "verticalAlign": "middle",
-      "width": "10%"
-    },
-    "children": ["rich-text#4"]
-  },
-  "rich-text#4": {
+  // Support Center
+  "rich-text#header-1__support-center": {
+    "title": "Support Center",
     "props": {
       "text": "Centro de Soporte",
       "textAlign": "center",
       "font": "t-mini",
-      "blockClass": ""
+      "blockClass": "support-center"
     }
   },
 
-  // Col 5
-  "flex-layout.col#header__row-1--col-5": {
+  "image#support-center": {
+    "title": "Support Center Icon",
     "props": {
-      "verticalAlign": "middle",
-      "width": "10%"
-    },
-    "children": ["rich-text#5"]
+      "src": "assets/images/centrosoporte.svg",
+      "maxWidth": "24px",
+      "maxHeight": "24px",
+      "blockClass": "down-arrow"
+    }
   },
-  "rich-text#5": {
+  
+  // Returns
+  "rich-text#header-1__returns": {
+    "title": "Returns",
     "props": {
       "text": "Devoluciones",
       "textAlign": "center",
       "font": "t-mini",
       "blockClass": ""
+    }
+  },
+
+  "image#returns": {
+    "title": "Returns Icon",
+    "props": {
+      "src": "assets/images/devoluciones.svg",
+      "maxWidth": "24px",
+      "maxHeight": "24px",
+      "blockClass": "down-arrow"
     }
   }
 }
