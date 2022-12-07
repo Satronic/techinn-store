@@ -73,7 +73,7 @@
   },
 
   "disclosure-trigger#footer__buy-with-confidence--trigger": {
-    "children": ["rich-text#about-techinn"]
+    "children": ["rich-text#buy-with-confidence"]
   },
   "disclosure-content#footer__buy-with-confidence--content": {
     "children": [
@@ -100,7 +100,7 @@
   },
 
   "disclosure-trigger#footer__customer-support--trigger": {
-    "children": ["rich-text#about-techinn", "disclosure-state-indicator"]
+    "children": ["rich-text#customer-support", "disclosure-state-indicator"]
   },
   "disclosure-content#footer__customer-support--content": {
     "children": [
