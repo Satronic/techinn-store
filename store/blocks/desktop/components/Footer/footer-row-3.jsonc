@@ -112,6 +112,9 @@
   },
 
   "flex-layout.row#social-network": {
+    "props": {
+      "preserveLayoutOnMobile": true
+    },
     "children": [
         "image#facebook-logo",
         "image#instagram-logo",

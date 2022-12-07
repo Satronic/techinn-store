@@ -1,0 +1,39 @@
+{
+  "flex-layout.row#mobile__footer--row-3": {
+    "children": [
+      "flex-layout.col#footer__row-3--col-1",
+      "flex-layout.col#footer__row-3--col-2",
+      "flex-layout.col#footer__row-3--col-3"
+    ]
+  },
+
+  // Col 1
+  "flex-layout.col#footer__row-3--col-1": {
+    "props": {
+      "width": "33%"
+    },
+    "children": [
+      "flex-layout.col#footer__row-2--sustainable-delivery"
+    ]
+  },
+
+  // Col 2
+  "flex-layout.col#footer__row-3--col-2": {
+    "props": {
+      "width": "34%"
+    },
+    "children": [
+      "flex-layout.col#footer__row-2--others-stores"
+    ]
+  },
+
+  // Col 3
+  "flex-layout.col#footer__row-3--col-3": {
+    "props": {
+      "width": "33%"
+    },
+    "children": [
+      "flex-layout.col#footer__row-3--our-international-event"
+    ]
+  }
+}

@@ -34,9 +34,13 @@
     }
   },
 
+  // Form
   "flex-layout.col#newsletter__form": {
     "props": {
-      "width": "48%"
+      "width": "48%",
+      "paddingLeft": "5",
+      "paddingRight": "5"
+
     },
     "children": ["newsletter-form"]
   },

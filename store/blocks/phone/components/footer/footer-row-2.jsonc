@@ -1,0 +1,127 @@
+{
+  "flex-layout.row#mobile__footer--row-2": {
+    "children": [
+      "flex-layout.col#footer__row-2--col-1",
+      "flex-layout.col#footer__row-2--col-2",
+      "flex-layout.col#footer__row-2--col-3"
+    ]
+  },
+
+  // Col 1
+  "flex-layout.col#footer__row-2--col-1": {
+    "props": {
+      "width": "33%"
+    },
+    "children": [
+      "disclosure-layout#footer__about-techinn"
+    ]
+  },
+
+  // Col 2
+  "flex-layout.col#footer__row-2--col-2": {
+    "props": {
+      "width": "34%"
+    },
+    "children": [
+      "disclosure-layout#footer__row-2--buy-with-confidence"
+    ]
+  },
+
+  // Col 3
+  "flex-layout.col#footer__row-2--col-3": {
+    "props": {
+      "width": "33%"
+    },
+    "children": [
+      "disclosure-layout#footer__row-2--customer-support"
+    ]
+  },
+
+  // About Us -----------------------------------------
+  "disclosure-layout#footer__about-techinn": {
+    "children": [
+      "disclosure-trigger#footer__about-techinn--trigger", 
+      "disclosure-content#footer__about-techinn--content"
+    ]
+  },
+
+  "disclosure-trigger#footer__about-techinn--trigger": {
+    "children": ["rich-text#about-techinn"]
+  },
+  "disclosure-content#footer__about-techinn--content": {
+    "children": [
+      "flex-layout.col#about-techinn__content"
+    ]
+  },
+
+  "flex-layout.col#about-techinn__content" : {
+    "children": [
+      "link#about-us",
+      "link#our-team",
+      "link#our-physical-store",
+      "link#term&conditions",
+      "link#afiliate-program"
+    ]
+  },
+
+  // Buy with confidence -----------------------------------------
+  "disclosure-layout#footer__row-2--buy-with-confidence": {
+    "children": [
+      "disclosure-trigger#footer__buy-with-confidence--trigger", 
+      "disclosure-content#footer__buy-with-confidence--content"
+    ]
+  },
+
+  "disclosure-trigger#footer__buy-with-confidence--trigger": {
+    "children": ["rich-text#buy-with-confidence"]
+  },
+  "disclosure-content#footer__buy-with-confidence--content": {
+    "children": [
+      "flex-layout.col#buy-with-confidence__content"
+    ]
+  },
+
+  "flex-layout.col#buy-with-confidence__content" : {
+    "children": [
+      "link#how-to-place-an-order",
+      "link#shipping-delivery",
+      "link#payment-methods",
+      "link#safe-shopping-guarantee",
+      "link#satisfied-or-refunded"
+    ]
+  },
+
+  // Customer Support -----------------------------------------
+  "disclosure-layout#footer__row-2--customer-support": {
+    "children": [
+      "disclosure-trigger#footer__customer-support--trigger", 
+      "disclosure-content#footer__customer-support--content"
+    ]
+  },
+
+  "disclosure-trigger#footer__customer-support--trigger": {
+    "children": ["rich-text#customer-support", "disclosure-state-indicator"]
+  },
+  "disclosure-content#footer__customer-support--content": {
+    "children": [
+      "flex-layout.col#customer-support__content"
+    ]
+  },
+
+  "flex-layout.col#customer-support__content" : {
+    "children": [
+      "link#order-tracking",
+      "link#contact-us",
+      "link#frequently-asked-questions",
+      "link#easy-return",
+      "link#customer-testimonials"
+    ]
+  },
+
+  "disclosure-state-indicator": {
+    "props": {
+      "Show": "image#icon-arrow",
+      "Hide": "image#icon-arrow"
+    }
+  }
+}

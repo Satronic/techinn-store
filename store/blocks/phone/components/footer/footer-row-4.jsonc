@@ -1,0 +1,39 @@
+{
+  "flex-layout.row#mobile__footer--row-4": {
+    "children": [
+      "flex-layout.col#footer__row-4--col-1",
+      "flex-layout.col#footer__row-4--col-2",
+      "flex-layout.col#footer__row-4--col-3"
+    ]
+  },
+
+  // Col 1
+  "flex-layout.col#footer__row-4--col-1": {
+    "props": {
+      "width": "33%"
+    },
+    "children": [
+      "flex-layout.col#footer__row-3--our-triathlon-club"
+    ]
+  },
+
+  // Col 2
+  "flex-layout.col#footer__row-4--col-2": {
+    "props": {
+      "width": "34%"
+    },
+    "children": [
+      "flex-layout.col#footer__row-3--download-our-app"
+    ]
+  },
+
+  // Col 3
+  "flex-layout.col#footer__row-4--col-3": {
+    "props": {
+      "width": "33%"
+    },
+    "children": [
+      "flex-layout.col#footer__row-3--follow-us-on"
+    ]
+  }
+}
