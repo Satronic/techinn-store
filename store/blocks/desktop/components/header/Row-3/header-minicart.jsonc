@@ -1,0 +1,179 @@
+{
+  // Minicart
+  "minicart.v2": {
+    "props": {
+      // "MinicartIcon": "icon-cart#minicart-icon"
+    },
+    "children": ["minicart-base-content"]
+  },
+  // "icon-cart#minicart-icon": {
+  //   "props": {
+  //     "size": 24
+  //   }
+  // },
+  "minicart-base-content": {
+    "blocks": ["minicart-empty-state"],
+    "children": ["minicart-product-list", "flex-layout.row#minicart-footer"]
+  },
+  "flex-layout.row#minicart-footer": {
+    "props": {
+      "blockClass": "minicart-footer"
+    },
+    "children": ["flex-layout.col#minicart-footer"]
+  },
+  "flex-layout.col#minicart-footer": {
+    "children": ["minicart-summary", "minicart-checkout-button"]
+  },
+
+  "minicart-product-list": {
+    "blocks": ["product-list#minicart"]
+  },
+  "product-list#minicart": {
+    "blocks": ["product-list-content-mobile"]
+  },
+  
+  //*******************************************************
+  "product-list-content-mobile": {
+    "children": ["flex-layout.row#list-row.mobile"]
+  },
+  "flex-layout.row#list-row.mobile": {
+    "children": [
+      "flex-layout.col#image.mobile",
+      // "flex-layout.col#main-container.mobile",
+      "flex-layout.col#main"
+    ],
+    "props": {
+      "fullWidth": true,
+      "paddingBottom": "6",
+      "paddingTop": "5",
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": "true"
+    }
+  },
+  "flex-layout.col#image.mobile": {
+    "children": ["product-list-image"],
+    "props": {
+      "marginRight": "5"
+    }
+  },
+  "flex-layout.col#main": {
+    "children": [
+      // "flex-layout.row#top.mobile",
+      // // "flex-layout.row#quantity-selector.mobile",
+      // "flex-layout.row#unit-price.mobile",
+      // "flex-layout.row#price.mobile"
+      // // "flex-layout.row#message.mobile"
+      // "remove-button",
+      "vtex.product-list:product-brand",
+      "vtex.product-list:product-name",
+      "product-variations",
+      "product-quantity-label",
+      "price"
+    ],
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.row#top.mobile": {
+    "children": [
+      "flex-layout.col#product-description",
+      "flex-layout.col#remove-button.mobile"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": "true"
+    }
+  },
+  "flex-layout.row#quantity-selector.mobile": {
+    "children": ["quantity-selector"],
+    "props": {
+      "marginTop": "5",
+      "preventHorizontalStretch": "true"
+    }
+  },
+  "flex-layout.row#unit-price.mobile": {
+    "children": ["unit-price"],
+    "props": {
+      "marginTop": "3"
+    }
+  },
+  "flex-layout.row#price.mobile": {
+    "children": ["price#mobile"],
+    "props": {
+      "marginTop": "5",
+      "preventHorizontalStretch": "true"
+    }
+  },
+  "price#mobile": {
+    "props": {
+      "textAlign": "left"
+    }
+  },
+  "flex-layout.col#remove-button.mobile": {
+    "children": ["remove-button"],
+    "props": {
+      "marginLeft": "3"
+    }
+  },
+  "flex-layout.row#message.mobile": {
+    "children": ["message#mobile"],
+    "props": {
+      "marginTop": "3"
+    }
+  },
+  "message#mobile": {
+    "props": {
+      "layout": "rows"
+    }
+  },
+  //******************************************************
+  "minicart-summary": {
+    "blocks": ["checkout-summary.compact#minicart"]
+  },
+  "minicart-checkout-button": {
+    "props": {
+      "finishShoppingButtonLink": "/checkout/#/orderform"
+  }
+},
+
+  "checkout-summary.compact#minicart": {
+    "children": ["summary-totalizers#minicart"],
+    "props": {
+      "totalizersToShow": ["Items", "Discounts"]
+    }
+  },
+  "summary-totalizers#minicart": {
+    "props": {
+      "showTotal": true,
+      "showDeliveryTotal": true
+    }
+  },
+  "minicart-empty-state": {
+    "children": ["flex-layout.row#empty-state"]
+  },
+  "flex-layout.row#empty-state": {
+    "children": ["flex-layout.col#empty-state"]
+  },
+  "flex-layout.col#empty-state": {
+    "children": [
+      // "icon-cart#minicart-empty-state",
+      "rich-text#minicart-default-empty-state"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "rowGap": 5
+    }
+  },
+  // "icon-cart#minicart-empty-state": {
+  //   "props": {
+  //     "size": 64,
+  //     "blockClass": "minicart-empty-state"
+  //   }
+  // },
+  "rich-text#minicart-default-empty-state": {
+    "props": {
+      "text": "Your cart is empty."
+    }
+  }
+}

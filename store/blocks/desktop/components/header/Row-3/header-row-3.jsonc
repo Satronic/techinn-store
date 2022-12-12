@@ -97,10 +97,5 @@
       "text": "Identificate",
       "blockClass": "login__trigger"
     }
-  },
-
-  // Minicart
-  "minicart.v2": {
-    "title": "Minicart"
   }
 }
