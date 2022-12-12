@@ -10,7 +10,13 @@
     "children": [
       "flex-layout.row#category__breadcrumb",
       "flex-layout.row#category__content"
-    ]
+    ],
+    "props": {
+      "preventRouteChange": true,
+      "mobileLayout": {
+        "mode1": "small"
+      }
+    }
   },
 
   "flex-layout.row#category__content": {
@@ -50,8 +56,16 @@
   "flex-layout.row#category__results": {
     "title": "Category Results",
     "children": [
-      "search-content"
+      // "search-content",
+      "rich-text#123456"
       // "gallery"
     ]
+  },
+
+  "rich-text#123456": {
+    "props": {
+      "text": "Hola"
+    }
   }
+
 }

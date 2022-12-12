@@ -24,18 +24,12 @@
   border: 1px solid #ccc;
   border-radius: 0.5rem;
 }
-/* 
-.thumbImg {
-  width: 6rem;
-  height: 6rem;
-}
-.carouselGaleryThumbs,
-.figure,
-.productImagesThumb {
-  width: 6rem;
-  padding: 0;
-} */
 
 .searchBarContainer {
   padding: 0
+}
+
+.sellingPriceValue {
+  font-size: 1.5rem;
+  color: #ff652e;
 }

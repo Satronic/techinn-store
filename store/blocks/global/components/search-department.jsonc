@@ -1,13 +1,25 @@
 {
   "search-result-layout#department": {
+    "title": "Departments Result",
     "blocks": [
       "search-result-layout.desktop#department",
       "search-result-layout.mobile#department",
       "search-not-found-layout"
-    ]
+    ],
+    "props": {
+      "preventRouteChange": true,
+      "defaultGalleryLayout": "grid",
+      "showFacetQuantity": true,
+      "thresholdForFacetSearch": 3,
+      "mobileLayout": {
+        "mode1": "small"
+      }
+    }
   },
 
+  // Desktop
   "search-result-layout.desktop#department": {
+    "title": "Departments Result Desktop",
     "children": [
       "flex-layout.row#department__breadcrumb",
       "flex-layout.row#department__content"
@@ -23,6 +35,7 @@
 
   // Sidebar Filters
   "flex-layout.col#department__filters": {
+    "title": "Filters",
     "props": {
       "width": "15%",
       "blockClass": "desktop__filters"
@@ -31,28 +44,93 @@
   },
 
   "flex-layout.col#department__results": {
+    "title": "Results",
     "props": {
       "width": "85%",
       "blockClass": "desktop__results"
     },
-    "children": ["flex-layout.row#department__results"]
-  },
-
-  "search-result-layout.mobile#department": {
-    "children": ["flex-layout.row#department__breadcrumb"]
+    "children": ["search-content#department__results"]
   },
 
   // Breadcrumb
   "flex-layout.row#department__breadcrumb": {
-    "children": ["breadcrumb.search"]
+    "children": ["breadcrumb.search", "order-by.v2"]
+  },
+
+  "breadcrumb.search": {
+    "title": "Breadcrumb",
+    "props": {
+      "showOnMobile": true
+    }
+  },
+
+  // Orders
+
+  "order-by.v2": {
+    "props": {
+      "hiddenOptions": [
+        "OrderByNameASC",
+        "OrderByNameDESC",
+        "OrderByBestDiscountDESC",
+        "OrderByTopSaleDESC"
+      ]
+    }
   },
 
   // Results
-  "flex-layout.row#department__results": {
-    "title": "Department Results",
+  // "flex-layout.row#department__results": {
+  //   "title": "Department Results",
+  //   "children": ["search-content#department__results"]
+  // },
+
+  "search-content#department__results": {
+    "blocks": ["gallery#global", "not-found"]
+  },
+
+  "gallery#global": {
+    "props": {
+      "layouts": [
+        {
+          "name": "grid",
+          "component": "GridSummary",
+          "itemsPerRow": {
+            "desktop": 4,
+            "tablet": 4,
+            "phone": 2
+          }
+        },
+        {
+          "name": "list",
+          "component": "ListSummary",
+          "itemsPerRow": 1
+        }
+      ],
+      "ListSummary": "product-summary.shelf#product-list__product-card",
+      "GridSummary": "product-summary.shelf#product-list__product-card"
+    }
+  },
+
+  // Mobile
+  "search-result-layout.mobile#department": {
+    "title": "Departments Result Mobile",
     "children": [
-      "search-content"
-      // "gallery"
+      "flex-layout.row#mobile__breadcrumb",
+      "flex-layout.row#mobile__filters-and-orders",
+      "search-content#department__results"
     ]
+  },
+
+  "flex-layout.row#mobile__breadcrumb": {
+    "title": "Mobile Breadcrumb",
+    "children": ["breadcrumb.search"]
+  },
+
+  "flex-layout.row#mobile__filters-and-orders": {
+    "title": "Mobile Filter and Orders",
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "mobile__filters-and-orders"
+    },
+    "children": ["filter-navigator.v3", "order-by.v2"]
   }
 }

@@ -23,13 +23,14 @@
     "blocks": ["search-result-layout#brand"],
     "props": {
       "context": {
-        "skusFilter": "ALL_AVAILABLE",
+        "skusFilter": "FIRST_AVAILABLE",
         "simulationBehavior": "default"
       }
     }
   },
 
   "filter-navigator.v3#desktop__search-result--filter-navigator": {
+    "title": "Filters",
     "props": {
       "facetOrdering": [
         {
