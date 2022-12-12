@@ -1,4 +1,14 @@
 {
+  "store.search": {
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+
   "store.search#department": {
     "blocks": ["search-result-layout#department"],
     "props": {
@@ -10,7 +20,17 @@
   },
 
   "store.search#category": {
-    "blocks": ["search-result-layout#category"],
+    "blocks": ["search-result-layout#department"],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+
+  "store.search#subcategory": {
+    "blocks": ["search-result-layout#department"],
     "props": {
       "context": {
         "skusFilter": "FIRST_AVAILABLE",
@@ -20,7 +40,7 @@
   },
 
   "store.search#brand": {
-    "blocks": ["search-result-layout#brand"],
+    "blocks": ["search-result-layout#department"],
     "props": {
       "context": {
         "skusFilter": "FIRST_AVAILABLE",
@@ -40,6 +60,24 @@
         }
       ],
       "blockClass": "desktop__search-result--filter-navigator"
+    }
+  },
+
+  "search-result-layout": {
+    "title": "Departments Result",
+    "blocks": [
+      "search-result-layout.desktop#department",
+      "search-result-layout.mobile#department",
+      "search-not-found-layout"
+    ],
+    "props": {
+      "preventRouteChange": true,
+      "defaultGalleryLayout": "grid",
+      "showFacetQuantity": true,
+      "thresholdForFacetSearch": 3,
+      "mobileLayout": {
+        "mode1": "small"
+      }
     }
   }
 }

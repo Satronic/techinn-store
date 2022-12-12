@@ -10,7 +10,7 @@
       "preventRouteChange": true,
       "defaultGalleryLayout": "grid",
       "showFacetQuantity": true,
-      "thresholdForFacetSearch": 3,
+      // "thresholdForFacetSearch": 3,
       "mobileLayout": {
         "mode1": "small"
       }
