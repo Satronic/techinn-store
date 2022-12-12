@@ -25,7 +25,9 @@
   "product-summary.shelf#product-list__product-card": {
     "children": [
     "product-summary-image",
-    "product-summary-description"
+    "product-separator",
+    "product-summary-name",
+    "product-price"
     ]
   },
 

@@ -34,7 +34,7 @@
 
   "link#about-us": {
     "props": {
-      "href": "/quienes-somos/st",
+      "href": "/quienes-somos",
       "label": "Quienes somos",
       "blockClass": "footer__row-2--link"
     }

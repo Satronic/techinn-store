@@ -1,0 +1,15 @@
+.container {
+  padding: 0;
+  margin-bottom: 0.5rem;
+}
+
+.caretIcon {
+  width: 10px;
+  height: 10px;
+}
+
+.link {
+  color: #000;
+  font-size: 0.875rem;
+  padding-right: 0;
+}

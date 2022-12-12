@@ -2,56 +2,86 @@
   "search-result-layout#category": {
     "blocks": [
       "search-result-layout.desktop#category",
-      "search-result-layout.mobile#category"
+      "search-result-layout.mobile#category",
+      "search-not-found-layout"
     ]
+  },
+
+  "search-not-found-layout": {
+    "children": [
+      "rich-text#not-found"
+    ]
+  },
+
+  "rich-text#not-found": {
+    "props": {
+      "text": "Página no encontrada"
+    }
   },
 
   "search-result-layout.desktop#category": {
     "children": [
-      "flex-layout.row#category__breadcrumb",
-      "flex-layout.row#category__content"
-    ]
+      "flex-layout.row#category__breadcrumb"
+      // "flex-layout.row#category__content"
+    ],
+    "props": {
+      "preventRouteChange": true,
+      "defaultGalleryLayout": "grid",
+      "showFacetQuantity": true,
+      "thresholdForFacetSearch": 3,
+      "mobileLayout": {
+        "mode1": "small"
+      }
+    }
   },
 
   "flex-layout.row#category__content": {
     "children": [
-      "flex-layout.col#category__filters",
-      "flex-layout.col#category__results"
+      "flex-layout.col#category__filters"
+      // "flex-layout.col#category__results"
     ]
   },
 
   // Sidebar Filters
   "flex-layout.col#category__filters": {
-    "props": {
-      "width": "15%",
-      "blockClass": "desktop__filters"
-    },
-    "children": ["filter-navigator.v3#desktop__search-result--filter-navigator"]
+    // "props": {
+    //   "width": "15%",
+    //   "blockClass": "desktop__filters"
+    // },
+    "children": ["filter-navigator.v3"]
   },
 
-  "flex-layout.col#category__results": {
-    "props": {
-      "width": "85%",
-      "blockClass": "desktop__results"
-    },
-    "children": ["flex-layout.row#category__results"]
-  },
+  // "flex-layout.col#category__results": {
+  //   "props": {
+  //     "width": "85%",
+  //     "blockClass": "desktop__results"
+  //   },
+  //   "children": ["flex-layout.row#category__results"]
+  // },
 
   "search-result-layout.mobile#category": {
     "children": ["flex-layout.row#category__breadcrumb"]
   },
 
-  // Breadcrumb
+  // // Breadcrumb
   "flex-layout.row#category__breadcrumb": {
     "children": ["breadcrumb.search"]
-  },
-
-  // Results
-  "flex-layout.row#category__results": {
-    "title": "Category Results",
-    "children": [
-      "search-content"
-      // "gallery"
-    ]
   }
+
+  // // Results
+  // "flex-layout.row#category__results": {
+  //   "title": "Category Results",
+  //   "children": [
+  //     // "search-content",
+  //     "rich-text#123456"
+  //     // "gallery"
+  //   ]
+  // },
+
+  // "rich-text#123456": {
+  //   "props": {
+  //     "text": "Hola"
+  //   }
+  // }
+
 }

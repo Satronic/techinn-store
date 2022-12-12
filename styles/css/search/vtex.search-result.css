@@ -1,18 +1,86 @@
+.container--layout {
+  padding: 0.5rem;
+}
+
 .searchResultContainer {
   padding: 0;
 }
 
-.container--layout {
-  padding: 1rem;
+/* Phone View */
+@media screen and (max-width: 623px) {
+  .filters--layout {
+    background-color: #f6f6f6;
+    border: 1px solid #aaa;
+    border-radius: 0.3rem;
+    font-size: 75%;
+    margin-right: 1rem;
+  }
+
+  .orderBy--layout {
+    background-color: #f6f6f6;
+    border: 1px solid #aaa;
+    border-radius: 0.3rem;
+    padding: 0;
+    margin-left: 1rem;
+  }
+
+  .sidebar {
+    height: 400px;
+    width: 320px;
+    margin-top: 9rem;
+    font-size: small;
+  }
 }
 
-.filters--layout {
-  padding: 1rem;
-  font-size: 75%;
+/* Tablet View */
+@media (min-width: 623px) and (max-width: 1007px) {
+  .filters--layout {
+    /* padding: 1rem; */
+    background-color: #f6f6f6;
+    border: 1px solid #aaa;
+    border-radius: 0.3rem;
+    font-size: 75%;
+    /* width: 10rem; */
+    margin-right: 5rem;
+  }
+
+  .orderBy--layout {
+    /* margin-right: 0; */
+    background-color: #f6f6f6;
+    border: 1px solid #aaa;
+    border-radius: 0.3rem;
+    padding: 0;
+    /* width: 10rem; */
+    margin-left: 5rem;
+  }
+
+  .sidebar {
+    height: 400px;
+    width: 350px;
+    margin-top: 9rem;
+    font-size: small;
+  }
+}
+
+/* Desktop View */
+@media only screen and (min-width: 1008px) {
+  .orderBy--layout {
+    /* margin-right: 0; */
+    background-color: #f6f6f6;
+    border: 1px solid #aaa;
+    border-radius: 0.3rem;
+    padding: 0;
+    /* width: 5rem; */
+    margin-left: 20rem;
+  }
 }
 
 .filter__container--selectedFilters {
   display: none;
+}
+
+.filterButtonsBox {
+  width: 300px;
 }
 
 .filterMessage,
@@ -23,4 +91,44 @@
 
 .filterMessage {
   text-transform: uppercase;
+}
+
+.filterPopupButton {
+  border-radius: 0.5rem;
+  height: 2.5rem;
+  padding: 0.8rem;
+}
+
+.filterPopupTitle {
+  margin: 0.8rem;
+}
+
+.orderByButton {
+  background-color: transparent;
+  margin: 0;
+  border: 1px solid #f6f6f6;
+  height: 2rem;
+}
+
+.orderByText {
+  text-transform: capitalize;
+  color: #000;
+}
+
+.orderByOptionsContainer {
+  margin-top: 40px;
+}
+
+.gallery {
+  padding: 0;
+  margin: 0.5rem;
+}
+
+.galleryItem {
+  padding: 0 0.5rem;
+}
+
+.galleryItem:hover {
+  border: 1px solid #ff652e;
+  border-radius: 0.5rem;
 }
