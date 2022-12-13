@@ -9,3 +9,24 @@
   padding: 0;
   margin: 0 1rem 0 0;
 }
+
+.minicartTitle {
+  display: none;
+}
+
+.minicartCheckoutButton {
+  font-size: 0.875rem;
+  padding: 0;
+  margin: 0 0.5rem 0 0;
+}
+
+.minicartCheckoutButton :global(.vtex-button__label) {
+  font-size: 0.875rem;
+  /* content: "Ver cesta"; */
+  /* visibility: hidden; */
+  /* float: left; */
+}
+
+.minicartDrawerContent {
+  width: 500px;
+}

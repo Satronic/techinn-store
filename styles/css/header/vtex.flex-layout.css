@@ -50,3 +50,13 @@
 .flexRowContent--desktop__header--menu-brands {
   margin: 1rem;
 }
+
+.flexRowContent--minicart__header {
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
+
+.flexRowContent--minicart__footer {
+  border-top: 2px solid #ccc;
+  margin-top: 1rem;
+}

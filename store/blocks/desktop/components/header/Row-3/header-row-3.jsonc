@@ -15,7 +15,7 @@
       "flex-layout.col#header__row-3--logo-desktop",
       "flex-layout.col#header__row-3--search-bar",
       "flex-layout.col#header__row-3--login",
-      "minicart.v2"
+      "minicart.v2#global"
     ]
   },
 
