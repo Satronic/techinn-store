@@ -53,8 +53,8 @@
       "blockClass": "product__main--summary"
     },
     "children": [
-      "product-brand",
-      "product-name",
+      "vtex.store-components:product-brand",
+      "vtex.store-components:product-name",
       "product-rating-summary",
       "product-list-price",
       "product-price",

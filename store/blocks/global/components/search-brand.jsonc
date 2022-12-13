@@ -50,8 +50,8 @@
   "flex-layout.row#brand__results": {
     "title": "Department Results",
     "children": [
-      "search-content",
-      "product-brand"
+      "search-content"
+      // "product-brand"
       // "gallery"
     ]
   }

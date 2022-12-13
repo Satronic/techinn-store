@@ -1,0 +1,26 @@
+.summarySmallDisclaimer {
+  display: none;
+}
+
+.summaryItemLabel,
+.summaryItemPrice {
+  color: #ff652e;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.summaryItemLabel::after {
+  content: " del producto";
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.summaryItemLabel {
+  margin-right: 1rem;
+  margin-left: -1.5rem;
+}
+
+.summaryItemPrice {
+  margin-left: 1rem;
+  margin-right: -1.5rem;
+}
