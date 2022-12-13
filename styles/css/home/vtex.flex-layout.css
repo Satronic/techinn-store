@@ -41,3 +41,9 @@
 .flexCol--product__main--summary {
   margin-left: 1rem;
 }
+
+/* Banner Brands */
+
+.flexRow--home__banner-brands {
+  padding: 1rem;
+}

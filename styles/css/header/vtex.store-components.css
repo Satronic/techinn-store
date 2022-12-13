@@ -26,10 +26,20 @@
 }
 
 .searchBarContainer {
-  padding: 0
+  padding: 0;
 }
 
 .sellingPriceValue {
   font-size: 1.5rem;
   color: #ff652e;
+}
+
+/* Brands */
+
+.imageElement--home__banner--brand {
+  filter: grayscale(1);
+}
+
+.imageElement--home__banner--brand:hover {
+  filter: grayscale(0);
 }
