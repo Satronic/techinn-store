@@ -1,16 +1,55 @@
-.paragraph--cat-computers__title,
-.paragraph--cat-phones__title {
+.paragraph--banner-categories__computers--title,
+.paragraph--banner-categories__phones--title {
   position: absolute;
   transform: translate(-10%, -400%);
 }
 
-.paragraph--cat-devices__title,
-.paragraph--cat-consoles__title {
+/* ------------------------------------------ */
+
+.paragraph--container-overlay--title {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 95%;
+  font-weight: bold;
+  transform: translate(-50%, -150%);
+  animation-name: title-overlay;
+  animation-duration: 0.5s;
+}
+
+@keyframes title-overlay {
+  0% {transform: translate(-50%, -500%);}
+  100% {transform: translate(-50%, -150%);}
+}
+
+/* ----------------------------------------- */
+
+.paragraph--container-overlay--content {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 95%;
+  transform: translate(-50%, -20%);
+  animation-name: content-overlay;
+  animation-duration: 0.5s;
+}
+
+@keyframes content-overlay {
+  0% {transform: translate(-50%, 150%);}
+  100% {transform: translate(-50%, -20%);}
+}
+
+/* ------------------------------------------ */
+
+.paragraph--banner-categories__devices--title,
+.paragraph--banner-categories__consoles--title {
   position: absolute;
   transform: translate(20%, -400%);
 }
 
-.paragraph--cat-bigApliances__title {
+.paragraph--banner-categories__bigApliances--title {
   position: absolute;
   transform: translate(-20%, -225%);
 }

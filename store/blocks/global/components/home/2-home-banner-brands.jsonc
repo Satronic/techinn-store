@@ -18,7 +18,8 @@
       "image#home__banner--asus-brand"
     ],
     "props": {
-      "blockClass": "home__banner-brands"
+      "blockClass": "home__banner-brands",
+      "preserveLayoutOnMobile": true
     }
   },
 

@@ -1,149 +1,372 @@
 {
   // Section 1
   "flex-layout.row#home__banner-categories--section-1": {
+    "title": "Home Banner Categories 1",
     "props": {
-      "horizontalAlign": "between",
-      "verticalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "blockClass": "home__banner-categories"
     },
     "children": [
-      "flex-layout.col#banner-categories__cat-computers",
-      "flex-layout.col#banner-categories__cat-phones"
+      "flex-layout.col#banner-categories__computers",
+      "flex-layout.col#banner-categories__phones"
     ]
   },
 
-  "flex-layout.col#banner-categories__cat-computers": {
+  // Computers Category
+  "flex-layout.col#banner-categories__computers": {
+    "title": "Computers Category",
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "middle",
-      "blockClass": "banner-categories__cat-computers"
+      "blockClass": "banner-categories__computers"
     },
-    "children": ["image#cat-computers__image", "rich-text#cat-computers__title"]
+    "children": [
+      "image#banner-categories__computers--image",
+      "rich-text#banner-categories__computers--title",
+      "flex-layout.row#banner-categories__computers--container-overlay"
+    ]
   },
-  "image#cat-computers__image": {
+
+  "image#banner-categories__computers--image": {
+    "title": "Category Computer Image",
     "props": {
       "src": "/arquivos/computers.jpg",
-      "maxWidth": "100%"
+      "blockClass": "banner-categories__computers--image"
     }
   },
 
-  "rich-text#cat-computers__title": {
+  "rich-text#banner-categories__computers--title": {
+    "title": "Category Computer Title",
     "props": {
       "text": "Computadores",
       "font": "t-heading-3",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "blockClass": "cat-computers__title"
+      "blockClass": "banner-categories__computers--title"
     }
   },
 
-  "flex-layout.col#banner-categories__cat-phones": {
+  // Overlay
+  "flex-layout.row#banner-categories__computers--container-overlay": {
+    "title": "Computers Container Overlay",
     "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "middle"
+      "blockClass": "banner-categories__container-overlay"
     },
-    "children": ["image#cat-phones__image", "rich-text#cat-phones__title"]
+    "children": [
+      "rich-text#computers__container-overlay--title",
+      "rich-text#computers__container-overlay--content"
+    ]
   },
-  "image#cat-phones__image": {
+
+  "rich-text#computers__container-overlay--title": {
+    "title": "Category Computer Title",
     "props": {
-      "src": "/arquivos/phones.jpg"
+      "text": "COMPUTADORES",
+      "font": "t-heading-5",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "container-overlay--title"
     }
   },
-  "rich-text#cat-phones__title": {
+
+  "rich-text#computers__container-overlay--content": {
+    "title": "Category Computer Content",
+    "props": {
+      "text": "Encuentra una amplia variedad de equipos para informática y electrónica. \n Descubre las mejores ofertas en TechInn. \n Envio rápido y pago seguro.",
+      "font": "t-small",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "container-overlay--content"
+    }
+  },
+
+  // Phones Category
+  "flex-layout.col#banner-categories__phones": {
+    "title": "Phones Category",
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "blockClass": "banner-categories__phones"
+    },
+    "children": [
+      "image#banner-categories__phones--image",
+      "rich-text#banner-categories__phones--title",
+      "flex-layout.row#banner-categories__phones--container-overlay"
+    ]
+  },
+
+  "image#banner-categories__phones--image": {
+    "title": "Category Phones Image",
+    "props": {
+      "src": "/arquivos/phones.jpg",
+      "blockClass": "banner-categories__phones--image"
+    }
+  },
+
+  "rich-text#banner-categories__phones--title": {
+    "title": "Category Phones Title",
     "props": {
       "text": "Telefonia",
       "font": "t-heading-3",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "blockClass": "cat-computers__title"
+      "blockClass": "banner-categories__phones--title"
     }
   },
 
-
-  // Section 2
-  "flex-layout.row#home__banner-categories--section-2": {
+  // Overlay
+  "flex-layout.row#banner-categories__phones--container-overlay": {
+    "title": "Phones Container Overlay",
     "props": {
-      "horizontalAlign": "between",
-      "verticalAlign": "center",
-      "preventHorizontalStretch": false,
-      "preventVerticalStretch": true,
-      "fullWidth": true
+      "blockClass": "banner-categories__container-overlay"
     },
     "children": [
-      "flex-layout.col#banner-categories__cat-devices",
-      "flex-layout.col#banner-categories__cat-consoles",
-      "flex-layout.col#banner-categories__cat-bigApliances"
+      "rich-text#phones__container-overlay--title",
+      "rich-text#phones__container-overlay--content"
     ]
   },
 
-  "flex-layout.col#banner-categories__cat-devices": {
+  "rich-text#phones__container-overlay--title": {
+    "title": "Category Phones Title",
+    "props": {
+      "text": "TELEFONIA",
+      "font": "t-heading-5",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "container-overlay--title"
+    }
+  },
+
+  "rich-text#phones__container-overlay--content": {
+    "title": "Category Phones Content",
+    "props": {
+      "text": "Encuentra una amplia de productos de telefonia para informática y electrónica. \n Descubre las mejores ofertas en TechInn. \n Envio rápido y pago seguro.",
+      "font": "t-small",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "container-overlay--content"
+    }
+  },
+
+  // SECTION 2 ------------------------------------------------------------
+  "flex-layout.row#home__banner-categories--section-2": {
+    "title": "Home Banner Categories 2",
+    "props": {
+      "horizontalAlign": "between",
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "blockClass": "home__banner-categories"
+    },
+
+    "children": [
+      "flex-layout.col#banner-categories__devices",
+      "flex-layout.col#banner-categories__consoles",
+      "flex-layout.col#banner-categories__bigApliances"
+    ]
+  },
+
+  // Devices ***********************************************
+  "flex-layout.col#banner-categories__devices": {
+    "title": "Devices Category",
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "middle",
-      "blockClass": "banner-categories__cat-devices"
+      "blockClass": "banner-categories__devices"
     },
-    "children": ["image#cat-devices__image", "rich-text#cat-devices__title"]
+    "children": [
+      "image#banner-categories__devices--image",
+      "rich-text#banner-categories__devices--title",
+      "flex-layout.row#banner-categories__devices--container-overlay"
+    ]
   },
-  "image#cat-devices__image": {
+
+  "image#banner-categories__devices--image": {
+    "title": "Category Devices Image",
     "props": {
-      "src": "/arquivos/devices.jpg"
+      "src": "/arquivos/devices.jpg",
+      "blockClass": "banner-categories__devices--image"
     }
   },
 
-  "rich-text#cat-devices__title": {
+  "rich-text#banner-categories__devices--title": {
+    "title": "Category Devices Title",
     "props": {
-      "text": "Perifericos",
+      "text": "Periféricos",
       "font": "t-heading-3",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "blockClass": "cat-devices__title"
+      "blockClass": "banner-categories__devices--title"
     }
   },
 
-  "flex-layout.col#banner-categories__cat-consoles": {
+  // Overlay
+  "flex-layout.row#banner-categories__devices--container-overlay": {
+    "title": "Devices Container Overlay",
     "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "middle"
+      "blockClass": "banner-categories__container-overlay"
     },
-    "children": ["image#cat-consoles__image", "rich-text#cat-consoles__title"]
+    "children": [
+      "rich-text#devices__container-overlay--title",
+      "rich-text#devices__container-overlay--content"
+    ]
   },
-  "image#cat-consoles__image": {
+
+  "rich-text#devices__container-overlay--title": {
+    "title": "Category Devices Title",
     "props": {
-      "src": "/arquivos/consoles.jpg"
+      "text": "PERIFÉRICOS",
+      "font": "t-heading-5",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "container-overlay--title"
     }
   },
-  "rich-text#cat-consoles__title": {
+
+  "rich-text#devices__container-overlay--content": {
+    "title": "Category Devices Content",
+    "props": {
+      "text": "Encuentra una amplia variedad de periféricos para informática y electrónica. \n Descubre las mejores ofertas en TechInn. \n Envio rápido y pago seguro.",
+      "font": "t-small",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "container-overlay--content"
+    }
+  },
+
+  // Consoles ***********************************************
+  "flex-layout.col#banner-categories__consoles": {
+    "title": "Consoles Category",
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "blockClass": "banner-categories__consoles"
+    },
+    "children": [
+      "image#banner-categories__consoles--image",
+      "rich-text#banner-categories__consoles--title",
+      "flex-layout.row#banner-categories__consoles--container-overlay"
+    ]
+  },
+
+  "image#banner-categories__consoles--image": {
+    "title": "Category Consoles Image",
+    "props": {
+      "src": "/arquivos/consoles.jpg",
+      "blockClass": "banner-categories__consoles--image"
+    }
+  },
+
+  "rich-text#banner-categories__consoles--title": {
+    "title": "Category Consoles Title",
     "props": {
       "text": "Consolas",
       "font": "t-heading-3",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "blockClass": "cat-consoles__title"
+      "blockClass": "banner-categories__consoles--title"
     }
   },
 
-  
-  "flex-layout.col#banner-categories__cat-bigApliances": {
+  // Overlay
+  "flex-layout.row#banner-categories__consoles--container-overlay": {
+    "title": "Consoles Container Overlay",
     "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "middle"
+      "blockClass": "banner-categories__container-overlay"
     },
-    "children": ["image#cat-bigApliances__image", "rich-text#cat-bigApliances__title"]
+    "children": [
+      "rich-text#consoles__container-overlay--title",
+      "rich-text#consoles__container-overlay--content"
+    ]
   },
-  "image#cat-bigApliances__image": {
+
+  "rich-text#consoles__container-overlay--title": {
+    "title": "Category Consoles Title",
     "props": {
-      "src": "/arquivos/bigApliances.jpg"
+      "text": "CONSOLAS",
+      "font": "t-heading-5",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "container-overlay--title"
     }
   },
-  "rich-text#cat-bigApliances__title": {
+
+  "rich-text#consoles__container-overlay--content": {
+    "title": "Category Consoles Content",
+    "props": {
+      "text": "Encuentra una amplia variedad de consolas para informática y electrónica. \n Descubre las mejores ofertas en TechInn. \n Envio rápido y pago seguro.",
+      "font": "t-small",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "container-overlay--content"
+    }
+  },
+
+  // Big  apliances
+  "flex-layout.col#banner-categories__bigApliances": {
+    "title": "Big Apliances Category",
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "blockClass": "banner-categories__bigApliances"
+    },
+    "children": [
+      "image#banner-categories__bigApliances--image",
+      "rich-text#banner-categories__bigApliances--title",
+      "flex-layout.row#banner-categories__bigApliances--container-overlay"
+    ]
+  },
+
+  "image#banner-categories__bigApliances--image": {
+    "title": "Category Big Apliances Image",
+    "props": {
+      "src": "/arquivos/bigApliances.jpg",
+      "blockClass": "banner-categories__bigApliances--image"
+    }
+  },
+
+  "rich-text#banner-categories__bigApliances--title": {
+    "title": "Category Big Apliances Title",
     "props": {
       "text": "Grandes Electrodomesticos",
       "font": "t-heading-3",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "blockClass": "cat-bigApliances__title"
+      "blockClass": "banner-categories__bigApliances--title"
+    }
+  },
+
+  // Overlay
+  "flex-layout.row#banner-categories__bigApliances--container-overlay": {
+    "title": "Big Apliances Container Overlay",
+    "props": {
+      "blockClass": "banner-categories__container-overlay"
+    },
+    "children": [
+      "rich-text#bigApliances__container-overlay--title",
+      "rich-text#bigApliances__container-overlay--content"
+    ]
+  },
+
+  "rich-text#bigApliances__container-overlay--title": {
+    "title": "Category Big Apliances Title",
+    "props": {
+      "text": "GRANDES ELECTRODOMESTICOS",
+      "font": "t-heading-5",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "container-overlay--title"
+    }
+  },
+
+  "rich-text#bigApliances__container-overlay--content": {
+    "title": "Category Big Apliances Content",
+    "props": {
+      "text": "Encuentra una amplia variedad de electrodomesticos para informática y electrónica. \n Descubre las mejores ofertas en TechInn. \n Envio rápido y pago seguro.",
+      "font": "t-small",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "container-overlay--content"
     }
   }
 }
