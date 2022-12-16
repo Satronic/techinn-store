@@ -2,7 +2,9 @@
   "store.home": { 
     "blocks": [
       "slider-layout#home__slider--top",
-      "flex-layout.row#home__banner-brands",
+      "responsive-layout.desktop#desktop__home--banner-brands",
+      "responsive-layout.tablet#tablet__home--banner-brands",
+      "responsive-layout.phone#desktop__home--banner-brands",
       "flex-layout.row#home__banner-categories--section-1",
       "flex-layout.row#home__banner-categories--section-2.desktop",
       "flex-layout.row#home__banner-categories--section-2.phone",

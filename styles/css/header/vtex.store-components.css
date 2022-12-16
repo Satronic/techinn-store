@@ -37,6 +37,8 @@
 /* Brands */
 .imageElement--home__banner--brand {
   filter: grayscale(1);
+  margin: 1vw;
+  cursor: pointer;
 }
 
 .imageElement--home__banner--brand:hover {
