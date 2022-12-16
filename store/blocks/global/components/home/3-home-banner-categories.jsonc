@@ -33,6 +33,9 @@
     "title": "Category Computer Image",
     "props": {
       "src": "/arquivos/computers.jpg",
+      "link": {
+        "url": "/electrodomesticos"
+      },
       "blockClass": "banner-categories__computers--image"
     }
   },
@@ -41,6 +44,9 @@
     "title": "Category Computer Image",
     "props": {
       "src": "assets/images/computers-mobile.jpg",
+      "link": {
+        "url": "/electrodomesticos"
+      },
       "blockClass": "banner-categories__computers--image-mobile"
     }
   },
@@ -104,6 +110,9 @@
     "title": "Category Phones Image",
     "props": {
       "src": "/arquivos/phones.jpg",
+      "link": {
+        "url": "/techo"
+      },
       "blockClass": "banner-categories__phones--image"
     }
   },
@@ -112,6 +121,9 @@
     "title": "Category Phones Image",
     "props": {
       "src": "assets/images/phones-mobile.jpg",
+      "link": {
+        "url": "/techo"
+      },
       "blockClass": "banner-categories__phones--image-mobile"
     }
   },
@@ -207,6 +219,9 @@
     "title": "Category Devices Image",
     "props": {
       "src": "/arquivos/devices.jpg",
+      "link": {
+        "url": "/mujer"
+      },
       "blockClass": "banner-categories__devices--image"
     }
   },
@@ -269,6 +284,9 @@
     "title": "Category Consoles Image",
     "props": {
       "src": "/arquivos/consoles.jpg",
+      "link": {
+        "url": "/queso"
+      },
       "blockClass": "banner-categories__consoles--image"
     }
   },
@@ -331,6 +349,9 @@
     "title": "Category Big Apliances Image",
     "props": {
       "src": "/arquivos/bigApliances.jpg",
+      "link": {
+        "url": "/electrodomesticos"
+      },
       "blockClass": "banner-categories__bigApliances--image"
     }
   },
