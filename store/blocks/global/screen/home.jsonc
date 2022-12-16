@@ -4,7 +4,8 @@
       "slider-layout#home__slider--top",
       "flex-layout.row#home__banner-brands",
       "flex-layout.row#home__banner-categories--section-1",
-      "flex-layout.row#home__banner-categories--section-2",
+      "flex-layout.row#home__banner-categories--section-2.desktop",
+      "flex-layout.row#home__banner-categories--section-2.phone",
       "list-context.product-list#home__product-list--sugested",
       "list-context.product-list#home__product-list--top-sell",
       "flex-layout.row#home__about-us"

@@ -23,6 +23,7 @@
     },
     "children": [
       "image#banner-categories__computers--image",
+      "image#banner-categories__computers--image-mobile",
       "rich-text#banner-categories__computers--title",
       "flex-layout.row#banner-categories__computers--container-overlay"
     ]
@@ -36,11 +37,19 @@
     }
   },
 
+  "image#banner-categories__computers--image-mobile": {
+    "title": "Category Computer Image",
+    "props": {
+      "src": "assets/images/computers-mobile.jpg",
+      "blockClass": "banner-categories__computers--image-mobile"
+    }
+  },
+
   "rich-text#banner-categories__computers--title": {
     "title": "Category Computer Title",
     "props": {
       "text": "Computadores",
-      "font": "t-heading-3",
+      "font": "t-heading-5",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "banner-categories__computers--title"
@@ -85,6 +94,7 @@
     },
     "children": [
       "image#banner-categories__phones--image",
+      "image#banner-categories__phones--image-mobile",
       "rich-text#banner-categories__phones--title",
       "flex-layout.row#banner-categories__phones--container-overlay"
     ]
@@ -98,11 +108,19 @@
     }
   },
 
+  "image#banner-categories__phones--image-mobile": {
+    "title": "Category Phones Image",
+    "props": {
+      "src": "assets/images/phones-mobile.jpg",
+      "blockClass": "banner-categories__phones--image-mobile"
+    }
+  },
+
   "rich-text#banner-categories__phones--title": {
     "title": "Category Phones Title",
     "props": {
       "text": "Telefonia",
-      "font": "t-heading-3",
+      "font": "t-heading-5",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "banner-categories__phones--title"
@@ -138,19 +156,35 @@
   },
 
   // SECTION 2 ------------------------------------------------------------
-  "flex-layout.row#home__banner-categories--section-2": {
-    "title": "Home Banner Categories 2",
+
+  "flex-layout.row#home__banner-categories--section-2.desktop": {
+    "title": "Home Banner Categories Desktop",
     "props": {
       "horizontalAlign": "between",
       "preserveLayoutOnMobile": true,
       "fullWidth": true,
-      "blockClass": "home__banner-categories"
+      "blockClass": "home__banner-categories--desktop"
     },
 
     "children": [
       "flex-layout.col#banner-categories__devices",
       "flex-layout.col#banner-categories__consoles",
       "flex-layout.col#banner-categories__bigApliances"
+    ]
+  },
+
+  "flex-layout.row#home__banner-categories--section-2.phone": {
+    "title": "Home Banner Categories Phone",
+    "props": {
+      "horizontalAlign": "between",
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "blockClass": "home__banner-categories--phone"
+    },
+
+    "children": [
+      "flex-layout.col#banner-categories__devices",
+      "flex-layout.col#banner-categories__consoles"
     ]
   },
 
@@ -181,7 +215,7 @@
     "title": "Category Devices Title",
     "props": {
       "text": "Periféricos",
-      "font": "t-heading-3",
+      "font": "t-heading-5",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "banner-categories__devices--title"
@@ -243,7 +277,7 @@
     "title": "Category Consoles Title",
     "props": {
       "text": "Consolas",
-      "font": "t-heading-3",
+      "font": "t-heading-5",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "banner-categories__consoles--title"
@@ -305,7 +339,7 @@
     "title": "Category Big Apliances Title",
     "props": {
       "text": "Grandes Electrodomesticos",
-      "font": "t-heading-3",
+      "font": "t-heading-5",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "banner-categories__bigApliances--title"

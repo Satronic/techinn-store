@@ -72,3 +72,28 @@
   width: 100%;
   /* height: 100%; */
 }
+
+.imageElement--banner-categories__computers--image-mobile {
+  display: none;
+}
+
+.imageElement--banner-categories__phones--image-mobile {
+  display: none;
+}
+
+/* Phone View */
+@media screen and (max-width: 623px) {
+  .imageElement--banner-categories__computers--image {
+    display: none;
+  }
+  .imageElement--banner-categories__computers--image-mobile {
+    display: block;
+  }
+
+  .imageElement--banner-categories__phones--image {
+    display: none;
+  }
+  .imageElement--banner-categories__phones--image-mobile {
+    display: block;
+  }
+}

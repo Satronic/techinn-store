@@ -1,21 +1,68 @@
 .paragraph--banner-categories__computers--title,
 .paragraph--banner-categories__phones--title {
   position: absolute;
-  transform: translate(-10%, -400%);
+  top: 40%;
+  left: 50%;
+  font-size: calc(0.8em + 0.5vw);
+  font-weight: bold;
 }
-
 .paragraph--banner-categories__devices--title,
 .paragraph--banner-categories__consoles--title {
   position: absolute;
-  transform: translate(20%, -400%);
+  /* transform: translate(20%, -450%); */
+  top: 40%;
+  left: 50%;
+  font-size: calc(0.8em + 0.5vw);
+  font-weight: bold;
 }
 
 .paragraph--banner-categories__bigApliances--title {
   position: absolute;
-  transform: translate(-20%, -225%);
+  /* transform: translate(-20%, -260%); */
+  top: 30%;
+  left: 35%;
+  font-size: calc(0.8em + 0.5vw);
+  font-weight: bold;
+}
+
+/* Tablet View */
+@media (min-width: 623px) and (max-width: 1007px) {
+  .paragraph--banner-categories__computers--title,
+  .paragraph--banner-categories__phones--title {
+    font-size: calc(0.7em + 0.5vw);
+  }
+  .paragraph--banner-categories__devices--title,
+  .paragraph--banner-categories__consoles--title {
+    font-size: calc(0.7em + 0.5vw);
+  }
+
+  .paragraph--banner-categories__bigApliances--title {
+    font-size: calc(0.7em + 0.5vw);
+  }
+}
+
+/* Phone View */
+@media screen and (max-width: 623px) {
+  .paragraph--banner-categories__computers--title,
+  .paragraph--banner-categories__phones--title {
+    top: 40%;
+    left: 45%;
+    font-size: calc(0.6em + 0.5vw);
+  }
+
+  .paragraph--banner-categories__devices--title,
+  .paragraph--banner-categories__consoles--title {
+    top: 40%;
+    left: 50%;
+    font-size: calc(0.6em + 0.5vw);
+  }
+
+  .paragraph--banner-categories__bigApliances--title {
+    display: none;
+  }
 }
 
 .paragraph--desktop__about-us--content,
-.paragraph--desktop__our-team--content{
+.paragraph--desktop__our-team--content {
   margin: 1rem;
 }

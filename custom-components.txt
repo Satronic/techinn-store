@@ -1,0 +1,2 @@
+"itgloberspartnercl.whatsapp-button": "0.x"
+
