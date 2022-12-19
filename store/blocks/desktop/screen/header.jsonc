@@ -7,6 +7,7 @@
   },
 
   "header-layout.desktop": {
+    "title": "Desktop Header",
     "children": [
       // "flex-layout.row#desktop__header--row-1",
       "header-row#desktop__header--row-1",

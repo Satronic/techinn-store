@@ -1,0 +1,34 @@
+{
+  "product-summary.shelf#global__default-product-summary": {
+    "title": "Product Summary",
+    "props": {
+      "blockClass": "global__default-product-summary"
+    },
+    "children": [
+      "product-summary-image#global__default-product-summary--image",
+      "product-summary-name#global__default-product-summary--name",
+      "product-summary-price#global__default-product-summary--price"
+    ]
+  },
+
+  "product-summary-image#global__default-product-summary--image": {
+    "title": "Product Summary Image",
+    "props": {
+      "blockClass": "global__default-product-summary--image"
+    }
+  },
+
+  "product-summary-name#global__default-product-summary--name": {
+    "title": "Product Summary Name",
+    "props": {
+      "blockClass": "global__default-product-summary--name"
+    }
+  },
+
+  "product-summary-price#global__default-product-summary--price": {
+    "title": "Product Summary Price",
+    "props": {
+      "blockClass": "global__default-product-summary--price"
+    }
+  }
+}

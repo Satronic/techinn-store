@@ -18,6 +18,9 @@
     "children": [
       "category-menu",
       "sticky-layout#4-desktop"
+      
     ]
+    // "children": ["mega-menu#mobile"],
+    // "blocks": ["drawer-header#my-drawer"]
   }
 }

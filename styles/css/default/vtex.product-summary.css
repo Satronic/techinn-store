@@ -1,0 +1,59 @@
+.container--global__default-product-summary {
+  padding: 0;
+  width: 253px;
+  height: 330px;
+}
+
+.container--global__default-product-summary:hover {
+  border: 1px solid #ccc;
+  border-radius: 2%;
+}
+
+.element--global__default-product-summary {
+  padding: 0;
+  /* height: auto; */
+}
+
+.image--global__default-product-summary--image {
+  width: 234px;
+  height: 234px;
+  padding-bottom: 5%;
+  border-bottom: 2px solid #ccc;
+}
+
+.nameContainer--global__default-product-summary--name {
+  padding: 0;
+  margin: 0 3%;
+  height: 11%;
+}
+
+.productNameContainer--global__default-product-summary--name {
+  padding: 0;
+}
+
+.productBrand--global__default-product-summary--name {
+  font-size: calc(1em);
+}
+
+.priceContainer--global__default-product-summary--price {
+  padding: 0;
+  margin: 0 3%;
+}
+
+.sellingPriceLabel--global__default-product-summary--price {
+  display: none;
+}
+
+.currencyContainer--global__default-product-summary--price {
+  font-size: calc(0.5em + 0.5vw);
+  font-weight: bold;
+  color: #ff652e;
+}
+
+.price_installmentContainer--global__default-product-summary--price {
+  display: none;
+}
+
+.price_listPriceContainer--global__default-product-summary--price {
+  display: none;
+}

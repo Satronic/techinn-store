@@ -1,0 +1,43 @@
+{
+  "list-context.product-list#global__default-sugested-product": {
+    "title": "Sugested Products",
+    "blocks": ["product-summary.shelf#global__default-product-summary"],
+    "children": [
+      "rich-text#global__default-sugested-product--title",
+      "slider-layout#global__default-sugested-product--slider"
+    ]
+  },
+
+  "rich-text#global__default-sugested-product--title": {
+    "title": "Sugested Products Title",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-5",
+      "text": "NUESTRA SELECCIÓN PARA TI",
+      "blockClass": "global__default-sugested-product--title"
+    }
+  },
+
+  "slider-layout#global__default-sugested-product--slider": {
+    "title": "Sugested Products Slider",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "phone": 2,
+        "tablet": 3
+      },
+      "infinite": false,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      
+
+      "arrowSize": {
+        "desktop": 36,
+        "phone": 30,
+        "tablet": 24
+      },
+      "blockClass": "global__default-sugested-product--slider"
+    }
+  }
+}

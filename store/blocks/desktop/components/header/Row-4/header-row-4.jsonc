@@ -30,8 +30,9 @@
       "verticalAlign": "middle",
       "width": "10%"
     },
-    // "children": ["flex-layout.col#trigger-mega-menu"]
-    "children": ["modal-trigger#desktop__header--menu-categories"]
+    "children": ["flex-layout.col#trigger-mega-menu"]
+    // "children": ["flex-layout.row#1-mobile"]
+    // "children": ["modal-trigger#desktop__header--menu-categories"]
   },
 
   // Col 2
