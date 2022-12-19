@@ -71,7 +71,7 @@
   },
 
   "autocomplete-result-list.v2": {
-    "blocks": ["product-summary.shelf#product-list__product-card"],
+    "blocks": ["product-summary.shelf#global__default-product-summary"],
     // "blocks": ["product-summary"],
     "props": {
       "autocompleteWidth": 68

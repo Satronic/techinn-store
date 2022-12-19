@@ -1,13 +1,87 @@
-.flexColChild--banner-categories__cat-computers,
-.flexColChild--banner-categories__cat-phones,
-.flexColChild--banner-categories__cat-devices,
-.flexColChild--banner-categories__cat-consoles,
-.flexColChild--banner-categories__cat-bigApliances {
+
+.flexRow--home__banner-categories {
+  margin: 0 0 1% 0;
+}
+
+.flexRow--home__banner-categories--desktop {
+  margin: 0 0 1% 0;
+}
+
+.flexCol--banner-categories__computers {
   position: relative;
+  margin-right: 1%;
+}
+
+.flexCol--banner-categories__phones {
+  position: relative;
+  margin-left: 1%;
+}
+
+.flexCol--banner-categories__devices {
+  position: relative;
+  margin-right: 1%;
+}
+
+.flexCol--banner-categories__consoles {
+  position: relative;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.flexCol--banner-categories__bigApliances {
+  position: relative;
+  margin-left: 0.5%;
+}
+
+.flexColChild--banner-categories__computers,
+.flexColChild--banner-categories__phones,
+.flexColChild--banner-categories__devices,
+.flexColChild--banner-categories__consoles,
+.flexColChild--banner-categories__bigApliances {
   display: inline-block;
   text-align: center;
-  margin: 0;
-  padding: 0;
+  width: 100%;
+  height: auto;
+}
+
+.flexRow--banner-categories__container-overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+}
+
+.flexCol--banner-categories__computers:hover .flexRow--banner-categories__container-overlay {
+  display: block;
+  opacity: 1;
+}
+
+.flexCol--banner-categories__phones:hover .flexRow--banner-categories__container-overlay  {
+  display: block;
+  opacity: 1;
+}
+
+.flexCol--banner-categories__devices:hover .flexRow--banner-categories__container-overlay  {
+  display: block;
+  opacity: 1;
+}
+
+.flexCol--banner-categories__consoles:hover .flexRow--banner-categories__container-overlay  {
+  display: block;
+  opacity: 1;
+}
+
+.flexCol--banner-categories__bigApliances:hover .flexRow--banner-categories__container-overlay  {
+  display: block;
+  opacity: 1;
 }
 
 .flexRow--home__about-us {
@@ -41,3 +115,43 @@
 .flexCol--product__main--summary {
   margin-left: 1rem;
 }
+
+/* Banner Brands */
+
+.flexRow--home__banner-brands {
+  padding: 1rem;
+}
+
+/* Desktop View */
+@media only screen and (min-width: 1008px) {
+  .flexRow--home__banner-categories--phone {
+    display:none !important;
+  }
+}
+
+/* Tablet View */
+@media (min-width: 623px) and (max-width: 1007px) {
+  .flexRow--home__banner-categories--phone {
+    display:none !important;
+  }
+
+  .flexRow--banner-categories__container-overlay  {
+    display:none !important;
+  }
+}
+
+/* Phone View */
+@media screen and (max-width: 623px) {
+  .flexRow--home__banner-categories--desktop {
+    display:none !important;
+  }
+
+  .flexRow--banner-categories__container-overlay  {
+    display:none !important;
+  }
+
+  .flexCol--banner-categories__consoles {
+    margin-right: 0;
+  }
+}
+

@@ -1,0 +1,16 @@
+{
+  // "list-context.product-list#global__home--most-selled-products": {
+  //   "title": "Most Selled Products",
+  //   "blocks": ["product-summary.shelf#global__default-product-summary"],
+  //   "children": ["rich-text#product-list__title--top-sell", "slider-layout#product-list__slider--top-sell"]
+  // },
+
+  // "rich-text#product-list__title--top-sell": {
+  //   "props": {
+  //       "textAlignment": "CENTER",
+  //       "textPosition": "CENTER",
+  //       "font": "t-heading-3",
+  //       "text": "Productos mas vendidos"
+  //   }
+  // }
+}

@@ -22,29 +22,20 @@
     }
   },
 
-  "product-summary.shelf#product-list__product-card": {
-    "children": [
-    "product-summary-image",
-    "product-separator",
-    "product-summary-name",
-    "product-price"
-    ]
-  },
+  // "product-summary.shelf": {
+  //   "children": [
+  //   "product-summary-image",
+  //   "product-summary-description"
+  //   ]
+  // },
 
-  "product-summary.shelf": {
-    "children": [
-    "product-summary-image",
-    "product-summary-description"
-    ]
-  },
-
-  "product-summary-image": {
-    "props": {
-      "showBadge": true,
-      "height": 220,
-      "width": 180
-    }
-  },
+  // "product-summary-image": {
+  //   "props": {
+  //     "showBadge": true,
+  //     "height": 220,
+  //     "width": 180
+  //   }
+  // },
 
   "image#icon-arrow": {
     "title": "Down Arrow Icon",

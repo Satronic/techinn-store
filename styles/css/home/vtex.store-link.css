@@ -1,0 +1,49 @@
+/* Desktop View */
+@media only screen and (min-width: 1008px) {
+  .link--container-overlay--title {
+    color: #fff;
+    position: absolute;
+    text-decoration: none;
+    /* font-size: 1.3rem; */
+    font-size: 100%;
+    padding: 6.5rem 0 1rem 0;
+    top: 25%;
+    left: 50%;
+    width: 95%;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+    animation-name: title-overlay;
+    animation-duration: 0.5s;
+  }
+  
+  @keyframes title-overlay {
+    0% {
+      transform: translate(-50%, -140%);
+    }
+    100% {
+      transform: translate(-50%, -50%);
+    }
+  }
+  
+  .link--container-overlay--content {
+    color: #fff;
+    position: absolute;
+    text-decoration: none;
+    /* font-size: 0.875rem;*/
+    font-size: 85%;
+    line-height: 1.25rem;
+    padding: 0.5rem 2rem 6.5rem 2rem;
+    /* padding: 0.5% 1% 10% 1%; */
+    top: 58%;
+    left: 50%;
+    width: 95%;
+    transform: translate(-50%, -20%);
+    animation-name: content-overlay;
+    animation-duration: 0.5s;
+  }
+  
+  @keyframes content-overlay {
+    0% {transform: translate(-50%, 150%);}
+    100% {transform: translate(-50%, -20%);}
+  }
+}

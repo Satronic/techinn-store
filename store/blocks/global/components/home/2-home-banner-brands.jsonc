@@ -1,0 +1,96 @@
+{
+  "responsive-layout.desktop#desktop__home--banner-brands": {
+    "props": {
+      "blockClass": "desktop__home--banner-brands"
+    },
+    "children": [
+      "image#home__banner--acme-brand",
+      "image#home__banner--adler-brand",
+      "image#home__banner--aiwa-brand",
+      "image#home__banner--asus-brand",
+      "image#home__banner--acer-brand",
+      "image#home__banner--acme-brand",
+      "image#home__banner--adler-brand",
+      "image#home__banner--aiwa-brand",
+      "image#home__banner--asus-brand",
+      "image#home__banner--acer-brand",
+      "image#home__banner--acme-brand",
+      "image#home__banner--adler-brand",
+      "image#home__banner--aiwa-brand",
+      "image#home__banner--asus-brand",
+      "image#home__banner--acme-brand"
+    ]
+  },
+
+  "responsive-layout.tablet#tablet__home--banner-brands": {
+    "children": [
+      "image#home__banner--acme-brand",
+      "image#home__banner--adler-brand",
+      "image#home__banner--aiwa-brand",
+      "image#home__banner--asus-brand",
+      "image#home__banner--acer-brand",
+      "image#home__banner--acme-brand",
+      "image#home__banner--adler-brand",
+      "image#home__banner--aiwa-brand",
+      "image#home__banner--asus-brand",
+      "image#home__banner--acer-brand"
+    ]
+  },
+
+  "responsive-layout.phone#desktop__home--banner-brands": {
+    "children": [
+      "image#home__banner--acme-brand",
+      "image#home__banner--adler-brand",
+      "image#home__banner--aiwa-brand",
+      "image#home__banner--asus-brand",
+      "image#home__banner--acer-brand",
+      "image#home__banner--acme-brand"
+    ]
+  },
+
+  "image#home__banner--acme-brand": {
+    "props": {
+      "src": "/arquivos/acme-brand.jpg",
+      "link": {
+        "url": "/unacem"
+      },
+      "maxHeight": 24,
+      "blockClass": ["home__banner--brand"]
+    }
+  },
+
+  "image#home__banner--adler-brand": {
+    "props": {
+      "src": "/arquivos/adler-brand.jpg",
+      "maxHeight": 24,
+      "link": {
+        "url": "/adidas"
+      },
+      "blockClass": ["home__banner--brand"]
+    }
+  },
+
+  "image#home__banner--aiwa-brand": {
+    "props": {
+      "src": "/arquivos/aiwa-brand.jpg",
+      "maxHeight": 24,
+      "blockClass": ["home__banner--brand"]
+    }
+  },
+
+  "image#home__banner--asus-brand": {
+    "props": {
+      "src": "/arquivos/asus-brand.jpg",
+      "maxHeight": 24,
+      "blockClass": ["home__banner--brand"]
+    }
+  },
+
+  "image#home__banner--acer-brand": {
+    "props": {
+      "src": "/arquivos/acer-brand.jpg",
+      "maxHeight": 24,
+      "blockClass": ["home__banner--brand"]
+    }
+  }
+}
