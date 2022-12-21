@@ -19,6 +19,20 @@
   margin: 0;
 }
 
+/* Phone View */
+@media screen and (max-width: 623px) {
+  .paragraph--login__trigger {
+    display: none;
+  }
+}
+
+/* Tablet View */
+@media (min-width: 623px) and (max-width: 1007px) {
+  .paragraph--login__trigger {
+    width: 80px;
+  }
+}
+
 .paragraph--desktop__header--menu-categories,
 .paragraph--desktop__header--menu-brands {
   color: #fff;

@@ -28,7 +28,7 @@
       "src": "/arquivos/down-arrow.png",
       "maxWidth": "12px",
       "maxHeight": "12px",
-      "blockClass": "down-arrow"
+      "blockClass": "login__down-arrow"
     }
   },
 

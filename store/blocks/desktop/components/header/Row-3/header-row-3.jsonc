@@ -34,7 +34,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/images/techinn-logo.svg",
+      "url": "assets/images/global__header--logo-techinn.svg",
       "width": 164,
       "height": 42,
       "blockClass": "desktop__header--logo"
