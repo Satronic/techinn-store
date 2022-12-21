@@ -29,7 +29,7 @@
 
   "image#desktop__header--menu-categories": {
     "props": {
-      "src": "assets/images/down-arrow.png",
+      "src": "assets/images/down-arrow-white.svg",
       "maxWidth": "12px",
       "maxHeight": "12px",
       "blockClass": "down-arrow"

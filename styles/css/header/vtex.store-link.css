@@ -22,3 +22,11 @@
   /* padding: 0.5rem; */
   margin-left: 0.5rem;
 }
+
+.link--menu-categories--department {
+  /* background-color: #efefef; */
+  text-decoration: none;
+  color: #333;
+  font-size: 0.85rem;
+  padding: 0.4rem;
+}

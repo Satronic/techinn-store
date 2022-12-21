@@ -99,3 +99,7 @@
     display: block;
   }
 }
+
+.imageElement--down-arrow {
+  margin-right: 10%;
+}

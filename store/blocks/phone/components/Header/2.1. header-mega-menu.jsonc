@@ -1,0 +1,49 @@
+{
+  "mega-menu#mobile": {
+    "title": "Mobile Mega Menu",
+    "props": {
+      "defaultDepartmentActive": "...",
+      "orientation": "vertical",
+      "openOnly": "vertical"
+    }
+  },
+
+  "drawer-header#my-drawer": {
+    "title": "Mobile Menu Header",
+    "children": ["flex-layout.row#drawer-header"]
+  },
+
+  "flex-layout.row#drawer-header": {
+    "title": "Mobile Menu Header",
+    "children": [
+      "flex-layout.col#mega-menu-go-back-btn",
+      // "flex-layout.col#spacer",
+      "flex-layout.col#drawer-close-button"
+    ],
+    "props": {
+      "blockClass": "drawer-header",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.col#drawer-close-button": {
+    "title": "Mobile Menu Close Button",
+    "children": ["drawer-close-button"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "right"
+    }
+  },
+  "flex-layout.col#mega-menu-go-back-btn": {
+    "title": "Mobile Menu Go Back Button",
+    "children": ["mega-menu-go-back-btn"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "left",
+      "paddingLeft": 4
+    }
+  }
+}

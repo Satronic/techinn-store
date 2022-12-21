@@ -1,6 +1,7 @@
 {
   // Row 1
   "header-row#mobile__header--row-1": {
+    "title": "Mobile Header 1",
     "children": [
       "logo#mobile__header--logo",
       "header-spacer",
@@ -24,6 +25,7 @@
   },
 
   "image#mobile__header--login": {
+    "title": "Login",
     "props": {
       "src": "assets/images/micuenta.svg",
       "height": "32px"
@@ -31,6 +33,7 @@
   },
 
   "image#mobile__header--location": {
+    "title": "Location",
     "props": {
       "src": "/arquivos/bandera.png",
       "height": "24px"

@@ -1,0 +1,99 @@
+{
+  "modal-trigger#desktop__header--menu-categories": {
+    "title": "Desktop Menu Categories",
+    "children": [
+      "flex-layout.row#header__menu-categories--trigger",
+      "modal-layout#header__menu-categories--container"
+    ]
+  },
+
+  "flex-layout.row#header__menu-categories--trigger": {
+    "title": "Menu Categories Trigger",
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": false,
+      "blockClass": "menu-categories"
+    },
+    "children": [
+      "rich-text#menu-categories__trigger--text",
+      "image#menu-categories__trigger--arrow-image"
+    ]
+  },
+
+  "rich-text#menu-categories__trigger--text": {
+    "title": "Menu Categories Trigger Text",
+    "props": {
+      "text": "Todas las CATEGORIAS",
+      "textAlign": "CENTER",
+      "font": "t-mini",
+      "blockClass": "desktop__header--menu-categories"
+    }
+  },
+
+  "image#menu-categories__trigger--arrow-image": {
+    "title": "Menu Categories Trigger Arrow",
+    "props": {
+      "src": "assets/images/down-arrow-white.svg",
+      "maxWidth": "12px",
+      "maxHeight": "12px",
+      "blockClass": "down-arrow"
+    }
+  },
+
+  // Modal Layout Menu
+  "modal-layout#header__menu-categories--container": {
+    "title": "Menu Categories Modal Container",
+    "props": {
+      "blockClass": "desktop__header--menu-categories2"
+    },
+    "children": ["flex-layout.row#header__menu-categories--container"]
+  },
+
+  "flex-layout.row#header__menu-categories--container": {
+    "title": "Menu Categories Container",
+    "children": [
+      "flex-layout.col#menu-categories__container--col-1",
+      "flex-layout.col#menu-categories__container--col-2",
+      "flex-layout.col#menu-categories__container--col-1",
+      "flex-layout.col#menu-categories__container--col-2",
+      "flex-layout.col#menu-categories__container--col-1",
+      "flex-layout.col#menu-categories__container--col-2"
+    ]
+  },
+
+  // Col 1
+  "flex-layout.col#menu-categories__container--col-1": {
+    "title": "Menu Categories Column 1",
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "menu-item"
+    },
+    "children": [
+      "flex-layout.col#menu-categories__car-department",
+      "flex-layout.col#menu-categories__car-department--categories",
+      "flex-layout.col#menu-categories__wire-department",
+      "flex-layout.col#menu-categories__wire-department--categories",
+      "flex-layout.col#menu-categories__home-apliances-department",
+      "flex-layout.col#menu-categories__home-apliances-department--categories",
+      "flex-layout.col#menu-categories__women-department",
+      "flex-layout.col#menu-categories__women-department--categories"
+    ]
+  },
+
+  // Col 2
+  "flex-layout.col#menu-categories__container--col-2": {
+    "title": "Menu Categories Column 2",
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "menu-item"
+    },
+    "children": [
+      "flex-layout.col#menu-categories__components-department",
+      "flex-layout.col#menu-categories__components-department--categories",
+      "flex-layout.col#menu-categories__wire-department",
+      "flex-layout.col#menu-categories__wire-department--categories",
+      "flex-layout.col#menu-categories__home-apliances-department",
+      "flex-layout.col#menu-categories__home-apliances-department--categories"
+    ]
+  }
+}

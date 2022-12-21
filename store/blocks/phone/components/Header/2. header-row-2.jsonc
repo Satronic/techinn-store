@@ -1,6 +1,7 @@
 {
   // Row 2
   "header-row#mobile__header--row-2": {
+    "title": "Mobile Header 2",
     "props": {
       "sticky": true,
       "blockClass": "mobile__header--row-2"
@@ -12,15 +13,11 @@
   },
 
   "drawer#mobile__header--menu": {
+    "title": "Mobile Menu",
     "props": {
       "orientation": "vertical"
     },
-    "children": [
-      "category-menu",
-      "sticky-layout#4-desktop"
-      
-    ]
-    // "children": ["mega-menu#mobile"],
-    // "blocks": ["drawer-header#my-drawer"]
+    "blocks": ["drawer-header#my-drawer"],
+    "children": ["mega-menu#mobile"]
   }
 }

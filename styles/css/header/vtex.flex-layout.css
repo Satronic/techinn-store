@@ -32,8 +32,9 @@
   background-color: #000000;
 }
 
+
 .flexCol--menu-item {
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 .flexColChild--menu-item {
@@ -43,8 +44,15 @@
   font-weight: bold;
 }
 
+.flexColChild--department {
+  background-color: #efefef;
+  padding: 1% 0;
+}
+
 .flexColChild--subcategory {
   background-color: #fff;
+  padding: 0;
+  margin: 0;
 }
 
 .flexRowContent--desktop__header--menu-brands {
