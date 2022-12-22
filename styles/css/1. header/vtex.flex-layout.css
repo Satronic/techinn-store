@@ -28,9 +28,14 @@
   cursor: pointer;
 }
 
+.flexColChild--desktop__header-3--logo {
+  margin-left: 0;
+}
+
 /* Row 4 */
 .flexRowContent--desktop__header--row-4 {
   background-color: #000000;
+  padding: 0.2rem 1rem;
 }
 
 
@@ -57,7 +62,7 @@
 }
 
 .flexRowContent--desktop__header--menu-brands {
-  margin: 1rem;
+  /* margin: 1rem; */
 }
 
 .flexRowContent--minicart__header {

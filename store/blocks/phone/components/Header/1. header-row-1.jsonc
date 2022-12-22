@@ -42,7 +42,7 @@
       "marginLeft": 6,
       "blockClass": "header__row-3--login"
     },
-    "children": ["image#mobile__header--login", "modal-trigger#login"]
+    "children": ["image#mobile__header--login", "modal-trigger#header-3__login--trigger"]
   },
 
   "image#mobile__header--login": {

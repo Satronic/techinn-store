@@ -141,6 +141,11 @@
   margin: 0 2%;
 }
 
+.imageElement--menu__trigger--arrow-image {
+  margin: 1rem 1rem 1rem 0;
+  cursor: pointer;
+}
+
 /* Phone View */
 @media screen and (max-width: 623px) {
   .imageElement--login__down-arrow {

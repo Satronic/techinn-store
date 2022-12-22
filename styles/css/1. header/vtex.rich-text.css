@@ -41,8 +41,10 @@
 
 .paragraph--desktop__header--menu-categories,
 .paragraph--desktop__header--menu-brands {
+  margin: 0;
   color: #fff;
   cursor: pointer;
+  width: 6rem;
 }
 
 .paragraph--desktop__header--slogan {

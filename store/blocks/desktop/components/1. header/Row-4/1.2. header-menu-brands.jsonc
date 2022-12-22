@@ -14,7 +14,7 @@
     },
     "children": [
       "rich-text#desktop__header--menu-brands",
-      "image#desktop__header--menu-categories"
+      "image#menu__trigger--arrow-image"
     ]
   },
 
@@ -27,12 +27,12 @@
     }
   },
 
-  "image#desktop__header--menu-categories": {
+  "image#menu__trigger--arrow-image": {
     "props": {
-      "src": "assets/images/down-arrow-white.svg",
+      "src": "assets/images/global__header--down-arrow-white.svg",
       "maxWidth": "12px",
       "maxHeight": "12px",
-      "blockClass": "down-arrow"
+      "blockClass": "menu__trigger--arrow-image"
     }
   },
 

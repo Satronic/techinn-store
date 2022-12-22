@@ -61,7 +61,7 @@
   align-items: flex-start;
 }
 
-.paper--desktop__header--menu-categories1,
+
 .paper--desktop__header--menu-brands {
   background-color: #ffffff;
   border-radius: 0;
@@ -71,7 +71,7 @@
   height: 30rem;
 }
 
-.paper--desktop__header--menu-categories2 {
+.paper--desktop__header--menu-categories {
   background-color: #ffffff;
   border-radius: 0;
   padding: 0;

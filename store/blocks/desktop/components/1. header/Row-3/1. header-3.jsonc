@@ -24,7 +24,8 @@
     "title": "Logo",
     "props": {
       "verticalAlign": "middle",
-      "width": "18%"
+      "width": "18%",
+      "blockClass": "desktop__header-3--logo"
     },
     "children": ["logo#desktop__header--logo", "rich-text#desktop__header--slogan"]
   },
@@ -93,7 +94,7 @@
     "children": ["rich-text#header-3__login--text", "modal-trigger#header-3__login--trigger"]
   },
 
-  "rich-text#login__text": {
+  "rich-text#header-3__login--text": {
     "title": "Login Title",
     "props": {
       "font": "t-mini",

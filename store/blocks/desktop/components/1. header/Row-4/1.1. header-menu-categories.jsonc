@@ -16,7 +16,7 @@
     },
     "children": [
       "rich-text#menu-categories__trigger--text",
-      "image#menu-categories__trigger--arrow-image"
+      "image#menu__trigger--arrow-image"
     ]
   },
 
@@ -30,13 +30,13 @@
     }
   },
 
-  "image#menu-categories__trigger--arrow-image": {
+  "image#menu__trigger--arrow-image": {
     "title": "Menu Categories Trigger Arrow",
     "props": {
-      "src": "assets/images/down-arrow-white.svg",
+      "src": "assets/images/global__header--down-arrow-white.svg",
       "maxWidth": "12px",
       "maxHeight": "12px",
-      "blockClass": "down-arrow"
+      "blockClass": "menu__trigger--arrow-image"
     }
   },
 
@@ -44,7 +44,7 @@
   "modal-layout#header__menu-categories--container": {
     "title": "Menu Categories Modal Container",
     "props": {
-      "blockClass": "desktop__header--menu-categories2"
+      "blockClass": "desktop__header--menu-categories"
     },
     "children": ["flex-layout.row#header__menu-categories--container"]
   },
