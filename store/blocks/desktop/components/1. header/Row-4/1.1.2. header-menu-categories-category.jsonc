@@ -1,0 +1,220 @@
+{
+  "flex-layout.col#menu-categories__car-department--categories": {
+    "title": "Car Categories",
+    "props": {
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "link#alcoholimetros-category",
+      "link#altavoces", 
+      "link#antenas",
+      "link#baterias",
+      "link#camaras-sensores"
+    ]
+  },
+
+  "link#alcoholimetros-category": {
+    "title" : "Alcoholimetros Category",
+    "props": {
+      "href": "/alcoholimetros/11486/f",
+      "label": "Alcoholimetros",
+      "blockClass": "link-subcategory"
+    }
+  },
+
+  "link#altavoces": {
+    "title" : "Altavoces Category",
+    "props": {
+      "href": "/ordenadores/11486/f",
+      "label": "Altavoces",
+      "blockClass": "link-subcategory"
+    }
+  },
+
+  "link#antenas": {
+    "title" : "Antenas Category",
+    "props": {
+      "href": "/ordenadores/11486/f",
+      "label": "Antenas",
+      "blockClass": "link-subcategory"
+    }
+  },
+
+  "link#baterias": {
+    "title" : "Baterias Category",
+    "props": {
+      "href": "/ordenadores/11486/f",
+      "label": "Baterias",
+      "blockClass": "link-subcategory"
+    }
+  },
+  
+  "link#camaras-sensores": {
+    "title" : "Camaras y Sensores Category",
+    "props": {
+      "href": "/ordenadores/11486/f",
+      "label": "Camaras y Sensores",
+      "blockClass": "link-subcategory"
+    }
+  },
+
+  //
+  "flex-layout.col#menu-categories__wire-department--categories": {
+    "title": "Wire Categories",
+    "props": {
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "link#adaptadores-category",
+      "link#antenas-category", 
+      "link#audio-video-category",
+      "link#cables-alimentacion-category",
+      "link#cables-usb-category"
+    ]
+  },
+
+  "link#adaptadores-category": {
+    "title": "Adaptadores Category",
+    "props": {
+      "href": "/electrodomesticos/hierro",
+      "label": "Adaptadores",
+      "blockClass": "link-subcategory"
+    }
+  },
+  "link#antenas-category": {
+    "title": "Antenas Category",
+    "props": {
+      "href": "/electrodomesticos/ladrillos",
+      "label": "Antenas",
+      "blockClass": "link-subcategory"
+    }
+  },
+  "link#audio-video-category": {
+    "title": "Audio y Video Category",
+    "props": {
+      "href": "/electrodomesticos/varilla",
+      "label": "Audio y Video",
+      "blockClass": "link-subcategory"
+    }
+  },
+  "link#cables-alimentacion-category": {
+    "title": "Cables de Alimentacion Category",
+    "props": {
+      "href": "/electrodomesticos/ladrillos",
+      "label": "Cables de Alimentacion",
+      "blockClass": "link-subcategory"
+    }
+  },
+  "link#cables-usb-category": {
+    "title": "Cables USB Category",
+    "props": {
+      "href": "/electrodomesticos/varilla",
+      "label": "Cables USB",
+      "blockClass": "link-subcategory"
+    }
+  },
+
+  // Home Apliances
+  "flex-layout.col#menu-categories__home-apliances-department--categories": {
+    "title": "Home Apliances Categories",
+    "props": {
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "link#hierro-category",
+      "link#ladrillos-category", 
+      "link#varilla-category"
+    ]
+  },
+
+  "link#hierro-category": {
+    "title": "Hierro Category",
+    "props": {
+      "href": "/electrodomesticos/hierro",
+      "label": "Hierro",
+      "blockClass": "link-subcategory"
+    }
+  },
+  "link#ladrillos-category": {
+    "title": "Ladrillos Category",
+    "props": {
+      "href": "/electrodomesticos/ladrillos",
+      "label": "Ladrillos",
+      "blockClass": "link-subcategory"
+    }
+  },
+  "link#varilla-category": {
+    "title": "Varillas Category",
+    "props": {
+      "href": "/electrodomesticos/varilla",
+      "label": "Varilla",
+      "blockClass": "link-subcategory"
+    }
+  },
+
+  "flex-layout.col#menu-categories__women-department--categories": {
+    "title": "Women Categories",
+    "props": {
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "link#zapatos-category"
+    ]
+  },
+
+  "link#zapatos-category": {
+    "title": "Zapatos Category",
+    "props": {
+      "href": "/mujer/zapatos",
+      "label": "Zapatos",
+      "blockClass": "link-subcategory"
+    }
+  },
+
+  // Components
+  "flex-layout.col#menu-categories__components-department--categories": {
+    "title": "Components Categories",
+    "props": {
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "link#bateries-category",
+      "link#cables-internos-pc-category", 
+      "link#torres-category",
+      "link#discos-duros-hdd-category"
+    ]
+  },
+
+  "link#bateries-category": {
+    "title": "Bateries Category",
+    "props": {
+      "href": "/electrodomesticos/hierro",
+      "label": "Baterias",
+      "blockClass": "link-subcategory"
+    }
+  },
+  "link#cables-internos-pc-category": {
+    "title": "Cables Internos Category",
+    "props": {
+      "href": "/electrodomesticos/ladrillos",
+      "label": "Cables Internos PC",
+      "blockClass": "link-subcategory"
+    }
+  },
+  "link#torres-category": {
+    "title": "Torres Category",
+    "props": {
+      "href": "/electrodomesticos/varilla",
+      "label": "Torres",
+      "blockClass": "link-subcategory"
+    }
+  },
+  "link#discos-duros-hdd-category": {
+    "title": "HDD Category",
+    "props": {
+      "href": "#",
+      "label": "Discos Duros HDD",
+      "blockClass": "link-subcategory"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "flex-layout.col#menu-categories__car-department": {
+    "title": "Menu Categories Car Department",
+    "props": {
+      "blockClass": "department"
+    },
+    "children": ["link#menu-categories__car-department"]
+  },
+
+  "link#menu-categories__car-department": {
+    "title": "Menu Categories Car Department",
+    "props": {
+      "href": "/ordenadores/11486/f",
+      "label": "Automovil",
+      "blockClass": "menu-categories--department"
+    }
+  },
+
+  "flex-layout.col#menu-categories__wire-department": {
+    "title": "Menu Categories Wire Department",
+    "props": {
+      "blockClass": "department"
+    },
+    "children": ["link#menu-categories__wire-department"]
+  },
+
+  "link#menu-categories__wire-department": {
+    "title": "Menu Categories Wire Department",
+    "props": {
+      "href": "/ordenadores/11486/f",
+      "label": "Cables",
+      "blockClass": "menu-categories--department"
+    }
+  },
+
+  "flex-layout.col#menu-categories__home-apliances-department": {
+    "title": "Menu Categories Home Apliances Department",
+    "props": {
+      "blockClass": "department"
+    },
+    "children": ["link#menu-categories__home-apliances-department"]
+  },
+
+  "link#menu-categories__home-apliances-department": {
+    "title": "Menu Categories Wire Department",
+    "props": {
+      "href": "/ordenadores/11486/f",
+      "label": "Electrodomesticos",
+      "blockClass": "menu-categories--department"
+    }
+  },
+
+  "flex-layout.col#menu-categories__components-department": {
+    "title": "Menu Categories Components Department",
+    "props": {
+      "blockClass": "department"
+    },
+    "children": ["link#menu-categories__components-department"]
+  },
+
+  "link#menu-categories__components-department": {
+    "title": "Menu Categories Components Department",
+    "props": {
+      "href": "/ordenadores/11486/f",
+      "label": "Componentes",
+      "blockClass": "menu-categories--department"
+    }
+  },
+
+  "flex-layout.col#menu-categories__women-department": {
+    "title": "Menu Categories Women Department",
+    "props": {
+      "blockClass": "department"
+    },
+    "children": ["link#menu-categories__women-department"]
+  },
+
+  "link#menu-categories__women-department": {
+    "title": "Menu Categories Women Department",
+    "props": {
+      "href": "/mujer",
+      "label": "Mujer",
+      "blockClass": "menu-categories--department"
+    }
+  }
+}

@@ -321,9 +321,9 @@
         "letterSpacing": "0"
       },
       "mini": {
-        "fontFamily": "Verdana, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "Helvetica, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "normal",
-        "fontSize": "0.75rem",
+        "fontSize": "0.8rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },

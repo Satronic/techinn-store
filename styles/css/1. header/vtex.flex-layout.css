@@ -15,6 +15,7 @@
 
 .flexRowContent--desktop__header--row-2 {
   background-color: #ffffff;
+  padding-top: 0.5rem;
 }
 
 /* Row 3 */
@@ -27,13 +28,19 @@
   cursor: pointer;
 }
 
+.flexColChild--desktop__header-3--logo {
+  margin-left: 0;
+}
+
 /* Row 4 */
 .flexRowContent--desktop__header--row-4 {
   background-color: #000000;
+  padding: 0.2rem 1rem;
 }
 
+
 .flexCol--menu-item {
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 .flexColChild--menu-item {
@@ -43,12 +50,19 @@
   font-weight: bold;
 }
 
+.flexColChild--department {
+  background-color: #efefef;
+  padding: 1% 0;
+}
+
 .flexColChild--subcategory {
   background-color: #fff;
+  padding: 0;
+  margin: 0;
 }
 
 .flexRowContent--desktop__header--menu-brands {
-  margin: 1rem;
+  /* margin: 1rem; */
 }
 
 .flexRowContent--minicart__header {

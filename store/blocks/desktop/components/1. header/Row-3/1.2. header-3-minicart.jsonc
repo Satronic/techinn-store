@@ -1,9 +1,11 @@
 {
   // Minicart
-  "minicart.v2#global": {
+  "minicart.v2#desktop__header-3--minicart": {
+    "title": "Desktop Minicart",
     "props": {
       "variation": "popupWithLink",
-      "openOnHover": true
+      "openOnHover": true,
+      "blockClass": "desktop__header-3--minicart"
       // "MinicartIcon": "icon-cart#minicart-icon"
     },
     "children": ["minicart-base-content#minicart__container"]
@@ -14,6 +16,7 @@
   //   }
   // },
   "minicart-base-content#minicart__container": {
+    "title": "Minicart Container",
     "blocks": ["minicart-empty-state"],
     "children": [
       "flex-layout.row#minicart__header",
@@ -27,6 +30,7 @@
 
   // Minicart Header *******************************
   "flex-layout.row#minicart__header": {
+    "title": "Minicart Header",
     "props": {
       "verticalAlign": "center",
       "blockClass": "minicart__header"
@@ -38,23 +42,25 @@
   },
 
   "minicart-checkout-button": {
+    "title": "Minicart Checkout Button",
     "props": {
       "value": "Ver cesta",
       "finishShoppingButtonLink": "/checkout/#/cart"
     }
   },
 
-  "link#minicart__header--goToCart": {
-    "props": {
-      "href": "/checkout/",
-      "label": "Ver cesta",
-      "target": "_self",
-      "displayMode": "button"
-      // "blockClass": "minicart__header--goToCart"
-    }
-  },
+  // "link#minicart__header--goToCart": {
+  //   "props": {
+  //     "href": "/checkout/",
+  //     "label": "Ver cesta",
+  //     "target": "_self",
+  //     "displayMode": "button"
+  //     // "blockClass": "minicart__header--goToCart"
+  //   }
+  // },
 
   "link#minicart__header--keepBuying": {
+    "title": "Minicart KeepBuying Button",
     "props": {
       "href": "/",
       "label": "Seguir comprando",
@@ -68,16 +74,20 @@
 
   // Minicart Product List ********************************
   "minicart-product-list": {
+    "title": "Minicart Product List",
     "blocks": ["product-list#minicart"]
   },
   "product-list#minicart": {
+    "title": "Minicart Product List",
     "blocks": ["product-list-content-mobile"]
   },
 
   "product-list-content-mobile": {
+    "title": "Minicart Product List Mobile",
     "children": ["flex-layout.row#list-row.mobile", "product-separator"]
   },
   "flex-layout.row#list-row.mobile": {
+    "title": "Product Container",
     "children": [
       "flex-layout.col#image.mobile",
       "flex-layout.col#main"
@@ -92,6 +102,7 @@
   },
 
   "flex-layout.col#image.mobile": {
+    "title": "Product Image",
     "children": ["product-list-image"],
     "props": {
       "marginRight": "5"
@@ -99,6 +110,7 @@
   },
 
   "flex-layout.col#main": {
+    "title": "Product Summary",
     "children": [
       "vtex.product-list:product-brand",
       "vtex.product-list:product-name",
@@ -113,6 +125,7 @@
 
   // Minicart Footer *************************************
   "flex-layout.row#minicart__footer": {
+    "title": "Minicart Footer",
     "props": {
       "blockClass": "minicart__footer"
     },
@@ -120,10 +133,12 @@
   },
 
   "minicart-summary": {
+    "title": "Minicart Summary",
     "blocks": ["checkout-summary.compact#minicart"]
   },
 
   "checkout-summary.compact#minicart": {
+    "title": "Minicart Summary",
     "children": ["summary-totalizers#minicart"],
     "props": {
       // "totalizersToShow": ["Items"]
@@ -131,6 +146,7 @@
     }
   },
   "summary-totalizers#minicart": {
+    "title": "Minicart Summary Totalizers",
     "props": {
       "showTotal": false,
       "showDeliveryTotal": false
@@ -139,12 +155,15 @@
 
   //*********************************************
   "minicart-empty-state": {
+    "title": "Minicart Empty",
     "children": ["flex-layout.row#empty-state"]
   },
   "flex-layout.row#empty-state": {
+    "title": "Minicart Empty",
     "children": ["flex-layout.col#empty-state"]
   },
   "flex-layout.col#empty-state": {
+    "title": "Minicart Empty",
     "children": [
       // "icon-cart#minicart-empty-state",
       "rich-text#minicart-default-empty-state"
@@ -157,6 +176,7 @@
   },
 
   "rich-text#minicart-default-empty-state": {
+    "title": "Minicart Empty Text",
     "props": {
       "text": "Your cart is empty."
     }

@@ -19,6 +19,7 @@
 
   // Section 2 - Children 1
   "flex-layout.col#header__row-2--logo-1": {
+    "title": "Header 2 - Logo 1",
     "props": {
       "verticalAlign": "middle"
     },
@@ -29,13 +30,14 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/images/techinn-logo-mini.svg",
+      "url": "assets/images/global__header--logo-techinn-mini.svg",
       "width": "66"
     }
   },
 
   // Section 2 - Children 2
   "flex-layout.col#header__row-2--logo-2": {
+    "title": "Header 2 - Logo 2",
     "props": {
       "verticalAlign": "middle"
     },
@@ -45,14 +47,15 @@
     "title": "Logo BricoInn",
     "props": {
       "title": "Logo",
-      "href": "/",
-      "url": "assets/images/bricoinn-logo-mini.svg",
+      "href": "https://www.tradeinn.com/bricoinn/es",
+      "url": "assets/images/global__header--logo-bricoinn-mini.svg",
       "width": "70"
     }
   },
 
   // Section 2 - Children 3
   "flex-layout.col#header__row-2--logo-3": {
+    "title": "Header 2 - Logo 3",
     "props": {
       "verticalAlign": "middle"
     },
@@ -62,8 +65,8 @@
     "title": "Logo OutletInn",
     "props": {
       "title": "Logo",
-      "href": "/",
-      "url": "assets/images/outletinn-logo-mini.svg",
+      "href": "https://www.tradeinn.com/outletinn/es",
+      "url": "assets/images/global__header--logo-outletinn-mini.svg",
       "width": "70"
     }
   }

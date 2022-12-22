@@ -1,0 +1,66 @@
+{
+  // Row 1
+  "header-row#mobile__header--row-1": {
+    "title": "Mobile Header 1",
+    "children": [
+      "logo#mobile__header--logo",
+      "header-spacer",
+      "image#mobile__header--location",
+      "flex-layout.row#mobile__header--login",
+      "minicart.v2#mobile__header--minicart"
+    ]
+  },
+
+  // Logo
+  "logo#mobile__header--logo": {
+    "title": "Logo",
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/images/global__header--logo-techinn.svg",
+      "width": 117,
+      "height": 30,
+      "blockClass": "mobile__header--logo"
+    }
+  },
+
+  "image#mobile__header--location": {
+    "title": "Location",
+    "props": {
+      "src": "/arquivos/bandera.png",
+      "height": "24px",
+      "blockClass": "mobile__header--location"
+    }
+  },
+
+  // Login
+  "flex-layout.row#mobile__header--login": {
+    "title": "Login",
+    "props": {
+      "verticalAlign": "middle",
+      "width": "10%",
+      "marginLeft": 6,
+      "blockClass": "header__row-3--login"
+    },
+    "children": ["image#mobile__header--login", "modal-trigger#header-3__login--trigger"]
+  },
+
+  "image#mobile__header--login": {
+    "title": "Login",
+    "props": {
+      "src": "assets/images/micuenta.svg",
+      "height": "32px",
+      "blockClass": "mobile__header--login"
+    }
+  },
+
+  "minicart.v2#mobile__header--minicart": {
+    "title": "Mobile Minicart",
+    "props": {
+      "variation": "link"
+      // "openOnHover": true
+      // "MinicartIcon": "icon-cart#minicart-icon"
+    },
+    "children": []
+  }
+}

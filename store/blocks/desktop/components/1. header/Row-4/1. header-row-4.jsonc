@@ -1,0 +1,158 @@
+{
+  // Section 4
+  "flex-layout.row#desktop__header--row-4": {
+    "title": "Header Section 4",
+    "props": {
+      "horizontalAlign": "beetween",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": false,
+      "preventVerticalStretch": false,
+      "fullWidth": true,
+      "blockClass": "desktop__header--row-4"
+    },
+    "children": [
+      "flex-layout.col#desktop__header-4--menu-categories",
+      "flex-layout.col#desktop__header-4--menu-brands",
+      "flex-layout.col#desktop__header-4--computers-department",
+      "flex-layout.col#desktop__header-4--women-department",
+      "flex-layout.col#desktop__header-4--gaming-department",
+      "flex-layout.col#desktop__header-4--smarthome-department",
+      "flex-layout.col#desktop__header-4--devices-department",
+      "flex-layout.col#desktop__header-4--hotDeals-department"
+    ]
+  },
+
+  // Col 1
+  "flex-layout.col#desktop__header-4--menu-categories": {
+    "title": "Categories Menu",
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "middle",
+      "width": "10%"
+    },
+    "children": ["modal-trigger#desktop__header--menu-categories"]
+  },
+
+  // Col 2
+  "flex-layout.col#desktop__header-4--menu-brands": {
+    "title": "Brands Menu",
+    "props": {
+      "horizontalAlign": "left",
+      "verticalAlign": "middle",
+      "width": "10%"
+    },
+    "children": ["modal-trigger#desktop__header--menu-brands"]
+  },
+  
+  // Col 3
+  "flex-layout.col#desktop__header-4--computers-department": {
+    "title": "Computers Department",
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+      //"width": "12%"
+    },
+    "children": ["link#desktop__header-4--computers-department"]
+  },
+
+  "link#desktop__header-4--computers-department": {
+    "title": "Computer Department",
+    "props": {
+      "href": "/electrodomesticos",
+      "label": "Electrodomesticos",
+      "blockClass": "desktop__header-4--department"
+    }
+  },
+
+  // Col 4
+  "flex-layout.col#desktop__header-4--women-department": {
+    "title": "Women Department",
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+      // "width": "11.5%"
+    },
+    "children": ["link#desktop__header-4--women-department"]
+  },
+  "link#desktop__header-4--women-department": {
+    "title": "Women Department",
+    "props": {
+      "href": "/mujer",
+      "label": "Mujer",
+      "blockClass": "desktop__header-4--department"
+    }
+  },
+
+  // Col 5
+  "flex-layout.col#desktop__header-4--gaming-department": {
+    "title": "Gaming Department",
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    },
+    "children": ["link#desktop__header-4--gaming-department"]
+  },
+  "link#desktop__header-4--gaming-department": {
+    "title": "Computer Category",
+    "props": {
+      "href": "/mujer",
+      "label": "Gaming",
+      "blockClass": "desktop__header-4--department"
+    }
+  },
+
+
+  // Col 6
+  "flex-layout.col#desktop__header-4--smarthome-department": {
+    "title": "SmartHome Department",
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    },
+    "children": ["link#desktop__header-4--smarthome-department"]
+  },
+  "link#desktop__header-4--smarthome-department": {
+    "title": "Smarthome Category",
+    "props": {
+      "href": "/queso",
+      "label": "Smarthome",
+      "blockClass": "desktop__header-4--department"
+    }
+  },
+
+  // Col 7
+  "flex-layout.col#desktop__header-4--devices-department": {
+    "title": "Devices Category",
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    },
+    "children": ["link#desktop__header-4--devices-department"]
+  },
+  "link#desktop__header-4--devices-department": {
+    "title": "Smarthome Category",
+    "props": {
+      "href": "/queso",
+      "label": "Perifericos",
+      "blockClass": "desktop__header-4--department"
+    }
+  },
+
+  // Col 8
+  "flex-layout.col#desktop__header-4--hotDeals-department": {
+    "title": "Hot Deals Category",
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    },
+    "children": ["link#desktop__header-4--hotDeals-department"]
+  },
+  "link#desktop__header-4--hotDeals-department": {
+    "title": "Hot Deals Department",
+    "props": {
+      "href": "/queso",
+      "label": "¡Ultimas Unidades!",
+      "blockClass": "desktop__header-4--department"
+    }
+  }
+}
