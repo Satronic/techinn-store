@@ -10,8 +10,8 @@
 
 .logoImage,
 .lazyLoad {
-  margin: 0.2rem 1rem;
-  padding: 0.2rem;
+  margin: 0 1rem;
+  padding: 0.1rem;
 }
 
 .logoImage--mobile__header--logo {
@@ -31,6 +31,27 @@
 
 .searchBarContainer {
   padding: 0;
+  margin: 0;
+}
+
+.autoCompleteOuterContainer--desktop__header-3--search-bar
+  :global(.vtex-input-prefix__group) {
+  padding: 0;
+  height: 45px;
+}
+.autoCompleteOuterContainer--desktop__header-3--search-bar
+  :global(.vtex-styleguide-9-x-input) {
+  background-color: #e5e5e5;
+}
+
+.autoCompleteOuterContainer--desktop__header-3--search-bar
+  :global(.vtex-input__suffix) {
+  background-color: #e5e5e5;
+}
+
+.searchIcon--desktop__header-3--search-bar {
+  width: 24px;
+  height: 24px;
 }
 
 .sellingPriceValue {

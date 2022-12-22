@@ -1,6 +1,6 @@
 {
   // Section 3
-  "flex-layout.row#desktop__header--row-3": {
+  "flex-layout.row#desktop__header-3": {
     "title": "Header Section 3",
     "props": {
       "horizontalAlign": "between",
@@ -12,15 +12,15 @@
       "blockClass": "desktop__header--row-3"
     },
     "children": [
-      "flex-layout.col#header__row-3--logo-desktop",
-      "flex-layout.col#header__row-3--search-bar",
-      "flex-layout.col#header__row-3--login",
-      "minicart.v2#global"
+      "flex-layout.col#desktop__header-3--logo",
+      "flex-layout.col#desktop__header-3--search-bar",
+      "flex-layout.col#desktop__header-3--login",
+      "minicart.v2#desktop__header-3--minicart"
     ]
   },
 
   // Logo
-  "flex-layout.col#header__row-3--logo-desktop": {
+  "flex-layout.col#desktop__header-3--logo": {
     "title": "Logo",
     "props": {
       "verticalAlign": "middle",
@@ -30,7 +30,7 @@
   },
 
   "logo#desktop__header--logo": {
-    "title": "Logo Techinn Main",
+    "title": "Logo Techinn",
     "props": {
       "title": "Logo",
       "href": "/",
@@ -42,6 +42,7 @@
   },
 
   "rich-text#desktop__header--slogan": {
+    "title": "Slogan",
     "props": {
       "font": "t-small",
       "text": "Tienda de Tecnologia by **TradeInn**",
@@ -51,35 +52,37 @@
   },
 
   // Search-bar
-  "flex-layout.col#header__row-3--search-bar": {
+  "flex-layout.col#desktop__header-3--search-bar": {
     "title": "Search Bar",
     "props": {
       "verticalAlign": "middle",
-      "width": "65%"
+      "width": "68%"
     },
-    "children": ["search-bar"]
+    "children": ["search-bar#desktop__header-3--search-bar"]
   },
 
-  "search-bar": {
+  "search-bar#desktop__header-3--search-bar": {
     "title": "Search Bar",
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
       "placeholder": "Buscar productos",
       "maxWidth": "100%",
-      "openAutocompleteOnFocus": true
+      "openAutocompleteOnFocus": true,
+      "blockClass": "desktop__header-3--search-bar"
     }
   },
 
   "autocomplete-result-list.v2": {
+    "title": "Autocomplete result list",
     "blocks": ["product-summary.shelf#global__default-product-summary"],
     // "blocks": ["product-summary"],
     "props": {
-      "autocompleteWidth": 68
+      "autocompleteWidth": 67
     }
   },
 
   // Login
-  "flex-layout.col#header__row-3--login": {
+  "flex-layout.col#desktop__header-3--login": {
     "title": "Login",
     "props": {
       "verticalAlign": "middle",
@@ -87,7 +90,7 @@
       "marginLeft": 6,
       "blockClass": "header__row-3--login"
     },
-    "children": ["rich-text#login__text", "modal-trigger#login"]
+    "children": ["rich-text#header-3__login--text", "modal-trigger#header-3__login--trigger"]
   },
 
   "rich-text#login__text": {

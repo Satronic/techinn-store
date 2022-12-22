@@ -1,19 +1,20 @@
 {
-  "modal-trigger#login": {
+  "modal-trigger#header-3__login--trigger": {
     "children": ["flex-layout.row#login__trigger", "modal-layout#login__layout"]
   },
 
   "flex-layout.row#login__trigger": {
+    "title": "Login Trigger",
     "props": {
       "preventHorizontalStretch": true,
       "preventVerticalStretch": false,
       "verticalAlign": "bottom",
       "blockClass": "login__trigger"
     },
-    "children": ["rich-text#login__trigger", "image#login__trigger"]
+    "children": ["rich-text#login__trigger--text", "image#login__trigger--image"]
   },
 
-  "rich-text#login__trigger": {
+  "rich-text#login__trigger--text": {
     "title": "Login Mi acount",
     "props": {
       "font": "t-small",
@@ -22,7 +23,7 @@
     }
   },
 
-  "image#login__trigger": {
+  "image#login__trigger--image": {
     "title": "Arrow Down Icon",
     "props": {
       "src": "/arquivos/down-arrow.png",
@@ -33,6 +34,7 @@
   },
 
   "modal-layout#login__layout": {
+    "title": "Login Layout",
     "props": {
       "blockClass": "login__layout"
     },
@@ -40,18 +42,21 @@
   },
 
   "modal-header#login__layout": {
+    "title": "Login Header",
     "props": {
       "showCloseButton": true
     }
   },
 
   "tab-layout#login__tab": {
+    "title": "Login Tab",
     "children": ["tab-list#login__tab", "tab-content#login__tab"],
     "props": {
       "defaultActiveTabId": "item-login"
     }
   },
   "tab-list#login__tab": {
+    "title": "Login Tab List",
     "children": [
       "tab-list.item#login__tab--item-login",
       "tab-list.item#login__tab--item-create-acount"
@@ -79,6 +84,7 @@
 
   // Tabs
   "tab-content#login__tab": {
+    "title": "Tab Content",
     "children": [
       "tab-content.item#login__tab--content-login",
       "tab-content.item#login__tab--content-create-acount"
@@ -88,6 +94,7 @@
 
   // Tab Login
   "tab-content.item#login__tab--content-login": {
+    "title": "Tab Content Login",
     "props": {
       "tabId": "item-login"
     },
@@ -95,6 +102,7 @@
   },
 
   "login-content": {
+    "title": "Tab Content Login",
     "props": {
       "isInitialScreenOptionOnly": true,
       "defaultOption": 1,
@@ -105,6 +113,7 @@
 
   // Create acount
   "tab-content.item#login__tab--content-create-acount": {
+    "title": "Tab Content Create Acount",
     "props": {
       "tabId": "item-create-acount"
     },
@@ -112,6 +121,7 @@
   },
 
   "image#create-acount": {
+    "title": "Create Acount Image",
     "props": {
       "src": "/arquivos/create-acount.jpg"
     }
