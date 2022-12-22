@@ -5,7 +5,8 @@
       "flex-layout.row#mobile__footer--row-2",
       "flex-layout.row#mobile__footer--row-3",
       "flex-layout.row#mobile__footer--row-4",
-      "flex-layout.row#footer__row-6"
+      "flex-layout.row#footer__row-6",
+      "whatsapp-button"
     ]
   },
 
