@@ -1,84 +1,97 @@
 {
   // Row 1
-  "header-row#desktop__header--row-1": {
+  "header-row#desktop__header-1": {
     "title": "Header Section 1",
     "props": {
       "blockClass": "desktop__header--row-1"
     },
     "children": [
-      "rich-text#header-1__select-location",
-      "image#icon-arrow",
-      "rich-text#header-1__select-language",
-      "image#icon-arrow",
+      "rich-text#desktop__header-1--select-location",
+      "image#desktop__header-1--icon-arrow",
+      "rich-text#desktop__header-1--select-language",
+      "image#desktop__header-1--icon-arrow",
       "header-spacer",
-      "image#support-center",
-      "rich-text#header-1__support-center",
-      "image#returns",
-      "rich-text#header-1__returns"
+      "image#desktop__header-1--support-center",
+      "link#desktop__header-1--support-center",
+      "image#desktop__header-1--returns",
+      "link#desktop__header-1--returns"
     ]
   },
 
+  "image#desktop__header-1--icon-arrow": {
+    "title": "Down Arrow",
+    "props": {
+      "src": "assets/images/global__header--down-arrow-black.svg",
+      "maxWidth": "12px",
+      "maxHeight": "12px",
+      "blockClass": "desktop__header-1--icon-arrow"
+    }
+  },
+
   // Select location
-  "rich-text#header-1__select-location": {
+  "rich-text#desktop__header-1--select-location": {
     "title": "Select country of location",
     "props": {
       "text": "Enviar a: ",
       "textAlign": "CENTER",
       "font": "t-mini",
-      "blockClass": "select-location"
+      "blockClass": "desktop__header-1--select-location"
     }
   },
 
   // Select language
-  "rich-text#header-1__select-language": {
+  "rich-text#desktop__header-1--select-language": {
     "title": "Select site language",
     "props": {
       "text": "Idioma: ",
-      "textAlign": "center",
+      "textAlign": "CENTER",
       "font": "t-mini",
-      "blockClass": "select-language"
+      "blockClass": "desktop__header-1--select-language"
     }
   },
 
-  // Support Center
-  "rich-text#header-1__support-center": {
-    "title": "Support Center",
+  "link#desktop__header-1--support-center": {
+    "title": "Support Center Link",
     "props": {
-      "text": "Centro de Soporte",
-      "textAlign": "center",
-      "font": "t-mini",
-      "blockClass": "support-center"
+      "href": "https://www.tradeinn.com/techinn/es/centro_soporte/st",
+      "label": "Centro de Soporte",
+      "blockClass": "desktop__header-1--support-center"
     }
   },
 
-  "image#support-center": {
+  "image#desktop__header-1--support-center": {
     "title": "Support Center Icon",
     "props": {
-      "src": "assets/images/centrosoporte.svg",
+      "src": "assets/images/desktop__header--support-center.svg",
+      "link": {
+        "url": "https://www.tradeinn.com/techinn/es/centro_soporte/st"
+      },
       "maxWidth": "24px",
       "maxHeight": "24px",
-      "blockClass": "down-arrow"
-    }
-  },
-  
-  // Returns
-  "rich-text#header-1__returns": {
-    "title": "Returns",
-    "props": {
-      "text": "Devoluciones",
-      "textAlign": "center",
-      "font": "t-mini",
-      "blockClass": ""
+      "blockClass": "desktop__header-1--support-center"
     }
   },
 
-  "image#returns": {
+  // Returns
+  "link#desktop__header-1--returns": {
+    "title": "Returns Link",
+    "props": {
+      "href": "https://www.tradeinn.com/techinn/es/devoluciones/st",
+      "label": "Devoluciones",
+      "blockClass": "desktop__header-1--returns"
+    }
+  },
+
+  "image#desktop__header-1--returns": {
     "title": "Returns Icon",
     "props": {
-      "src": "assets/images/devoluciones.svg",
+      "src": "assets/images/desktop__header--returns.svg",
+      "link": {
+        "url": "https://www.tradeinn.com/techinn/es/devoluciones/st"
+      },
       "maxWidth": "24px",
       "maxHeight": "24px",
-      "blockClass": "down-arrow"
+      "blockClass": "desktop__header-1--returns"
     }
   }
 }

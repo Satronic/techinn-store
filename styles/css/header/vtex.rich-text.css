@@ -3,6 +3,12 @@
   padding: 0.1rem;
 }
 
+.paragraph--desktop__header-1--select-location,
+.paragraph--desktop__header-1--select-language {
+  width: 8rem;
+}
+
+
 .paragraph--row-4__menu-categories,
 .paragraph--row-4__menu-brands,
 .paragraph--row-4__link-computers,
@@ -45,8 +51,3 @@
   margin-left: 1rem;
 }
 
-.paragraph--select-location,
-.paragraph--select-language,
-.paragraph--support-center {
-  width: 8rem;
-}

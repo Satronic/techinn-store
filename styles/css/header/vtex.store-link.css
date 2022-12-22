@@ -1,3 +1,13 @@
+.link--desktop__header-1--support-center,
+.link--desktop__header-1--returns {
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-family: Helvetica;
+  margin: 0.2rem;
+  padding: 0.1rem;
+  color: #3f3f40;
+}
+
 .link--minicart__header--goToCart {
   background-color: #ff652e;
   color: #fff;

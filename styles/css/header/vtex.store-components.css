@@ -1,3 +1,7 @@
+.imageElement--desktop__header-1--returns {
+  margin-left: 1rem;
+}
+
 .logoContainer,
 .sizeDestop {
   margin: 0;
@@ -102,6 +106,10 @@
 
 .imageElement--down-arrow {
   margin-right: 10%;
+}
+
+.imageElement--header-1__icon-arrow {
+  margin-right: 1%;
 }
 
 .imageElement--mobile__header--login {
