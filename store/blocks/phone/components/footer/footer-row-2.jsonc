@@ -1,5 +1,9 @@
 {
   "flex-layout.row#mobile__footer--row-2": {
+    "title": "Mobile Footer 2",
+    "props": {
+      "blockClass": "mobile__footer--row-2"
+    },
     "children": [
       "flex-layout.col#footer__row-2--col-1",
       "flex-layout.col#footer__row-2--col-2",
@@ -9,8 +13,10 @@
 
   // Col 1
   "flex-layout.col#footer__row-2--col-1": {
+    "title": "About TechInn",
     "props": {
-      "width": "33%"
+      "width": "33%",
+      "blockClass": "footer__col"
     },
     "children": [
       "disclosure-layout#footer__about-techinn"
@@ -19,6 +25,7 @@
 
   // Col 2
   "flex-layout.col#footer__row-2--col-2": {
+    "title": "Buy with confidence",
     "props": {
       "width": "34%"
     },
@@ -29,6 +36,7 @@
 
   // Col 3
   "flex-layout.col#footer__row-2--col-3": {
+    "title": "Buy with confidence",
     "props": {
       "width": "33%"
     },
@@ -39,6 +47,11 @@
 
   // About Us -----------------------------------------
   "disclosure-layout#footer__about-techinn": {
+    "title": "About TechInn",
+    "props": {
+      // "initialVisibility": "visible",
+      "blockClass": "footer__about-techinn"
+    },
     "children": [
       "disclosure-trigger#footer__about-techinn--trigger", 
       "disclosure-content#footer__about-techinn--content"
@@ -46,15 +59,29 @@
   },
 
   "disclosure-trigger#footer__about-techinn--trigger": {
-    "children": ["rich-text#about-techinn"]
+    "title": "About TechInn Trigger",
+    "children": ["flex-layout.row#about-techinn__trigger"]
   },
+
+  "flex-layout.row#about-techinn__trigger": {
+    "title": "About TechInn Trigger",
+    "props": {
+      "fullWidth": true,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true
+    },
+    "children": ["rich-text#about-techinn", "disclosure-state-indicator"]
+  },
+
   "disclosure-content#footer__about-techinn--content": {
+    "title": "About TechInn Content",
     "children": [
       "flex-layout.col#about-techinn__content"
     ]
   },
 
   "flex-layout.col#about-techinn__content" : {
+    "title": "About TechInn Content",
     "children": [
       "link#about-us",
       "link#our-team",
@@ -66,6 +93,7 @@
 
   // Buy with confidence -----------------------------------------
   "disclosure-layout#footer__row-2--buy-with-confidence": {
+    "title": "Buy with confidence",
     "children": [
       "disclosure-trigger#footer__buy-with-confidence--trigger", 
       "disclosure-content#footer__buy-with-confidence--content"
@@ -73,15 +101,30 @@
   },
 
   "disclosure-trigger#footer__buy-with-confidence--trigger": {
-    "children": ["rich-text#buy-with-confidence"]
+    "title": "Buy with confidence Trigger",
+    "children": ["flex-layout.row#buy-with-confidence__trigger"]
   },
+
+  "flex-layout.row#buy-with-confidence__trigger": {
+    "title": "Buy with confidence Trigger",
+    "props": {
+      "fullWidth": true,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true
+    },
+    "children": ["rich-text#buy-with-confidence", "disclosure-state-indicator"]
+  },
+  
+
   "disclosure-content#footer__buy-with-confidence--content": {
+    "title": "Buy with confidence Content",
     "children": [
       "flex-layout.col#buy-with-confidence__content"
     ]
   },
 
   "flex-layout.col#buy-with-confidence__content" : {
+    "title": "Buy with confidence Content",
     "children": [
       "link#how-to-place-an-order",
       "link#shipping-delivery",
@@ -93,6 +136,7 @@
 
   // Customer Support -----------------------------------------
   "disclosure-layout#footer__row-2--customer-support": {
+    "title": "Customer Support",
     "children": [
       "disclosure-trigger#footer__customer-support--trigger", 
       "disclosure-content#footer__customer-support--content"
@@ -100,15 +144,29 @@
   },
 
   "disclosure-trigger#footer__customer-support--trigger": {
+    "title": "Customer Support Trigger",
+    "children": ["flex-layout.row#customer-support__trigger"]
+  },
+
+  "flex-layout.row#customer-support__trigger": {
+    "title": "Customer Support Trigger",
+    "props": {
+      "fullWidth": true,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true
+    },
     "children": ["rich-text#customer-support", "disclosure-state-indicator"]
   },
+  
   "disclosure-content#footer__customer-support--content": {
+    "title": "Customer Support Content",
     "children": [
       "flex-layout.col#customer-support__content"
     ]
   },
 
   "flex-layout.col#customer-support__content" : {
+    "title": "Customer Support Content",
     "children": [
       "link#order-tracking",
       "link#contact-us",
@@ -119,9 +177,21 @@
   },
 
   "disclosure-state-indicator": {
+    "title": "State Indicator",
     "props": {
-      "Show": "image#icon-arrow",
-      "Hide": "image#icon-arrow"
+      "Show": "image#disclosure-arrow-show",
+      "Hide": "image#disclosure-arrow-show",
+      "blockClass": "disclosure-state-indicator"
+    }
+  },
+
+  "image#disclosure-arrow-show": {
+    "title": "Arrow Show",
+    "props": {
+      "src": "/arquivos/down-arrow.png",
+      "maxWidth": "12px",
+      "maxHeight": "12px",
+      "blockClass": "disclosure-state-indicator"
     }
   }
 }

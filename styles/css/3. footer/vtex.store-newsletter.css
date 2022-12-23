@@ -1,0 +1,42 @@
+.emailInputContainer--newsletter__input {
+  display: inline-block;
+  width: 70%;
+  /* padding-left: 2%; */
+}
+
+.formSubmitContainer--newsletter__submit {
+  display: inline-block;
+  width: 30%;
+  /* padding-left: 2%; */
+}
+
+/* Phone View */
+@media screen and (max-width: 623px) {
+  .emailInputContainer--newsletter__input {
+    display: inline-block;
+    width: 50%;
+    /* padding-right: 2%; */
+  }
+  
+  .formSubmitContainer--newsletter__submit {
+    display: inline-block;
+    width: 50%;
+    /* padding-left: 2%; */
+  }
+}
+
+/* Tablet View */
+@media (min-width: 623px) and (max-width: 1007px) {
+  .emailInputContainer--newsletter__input {
+    display: inline-block;
+    width: 53%;
+    /* padding-right: 2%; */
+  }
+  
+  .formSubmitContainer--newsletter__submit {
+    display: inline-block;
+    width: 40%;
+    /* padding-left: 2%; */
+  }
+}
+

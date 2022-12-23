@@ -89,17 +89,6 @@
   border-top: 2px solid #ccc;
 }
 
-.flexRow--footer__newsletter {
-  padding: 1.5rem 0;
-  border-top: 2px solid #ccc;
-  border-bottom: 2px solid #ccc;
-}
-
-.flexRow--footer__row-2 {
-  background-color: #efefef;
-  padding: 1rem;
-}
-
 /* Product */
 .flexRow--desktop__product--row {
   margin: 1rem;

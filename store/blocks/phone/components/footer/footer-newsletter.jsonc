@@ -1,0 +1,7 @@
+{
+  "flex-layout.row#mobile__footer--newsletter": {
+    "children": [
+      "flex-layout.row#footer__newsletter"
+    ]
+  }
+}
