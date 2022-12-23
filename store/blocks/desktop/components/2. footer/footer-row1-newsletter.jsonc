@@ -1,19 +1,20 @@
 {
   "flex-layout.row#footer__newsletter": {
+    "title": "Newsletter",
     "props": {
-      "width": "90%",
       "horizontalAlign": "center",
       "blockClass": "footer__newsletter"
     },
     "children": [
-      "flex-layout.col#newsletter__text",
-      "flex-layout.col#newsletter__form"
+      "flex-layout.col#footer__newsletter--text",
+      "flex-layout.col#footer__newsletter--form"
     ]
   },
 
-  "flex-layout.col#newsletter__text": {
+  "flex-layout.col#footer__newsletter--text": {
+    "title": "Newsletter Text",
     "props": {
-      "width": "48%"
+
     },
     "children": [
       "rich-text#newsletter__text--title",
@@ -22,12 +23,14 @@
   },
 
   "rich-text#newsletter__text--title": {
+    "title": "Newsletter Title",
     "props": {
       "text": "ENTÉRATE ANTES QUE NADIE"
     }
   },
 
   "rich-text#newsletter__text--content": {
+    "title": "Newsletter Content",
     "props": {
       "text": "Recibe ofertas exclusivas y novedades que te alegrarán el día!",
       "font": "t-small"
@@ -35,17 +38,19 @@
   },
 
   // Form
-  "flex-layout.col#newsletter__form": {
+  "flex-layout.col#footer__newsletter--form": {
+    "title": "Newsletter Form",
     "props": {
-      "width": "48%",
+      // "width": "48%",
       "paddingLeft": "5",
-      "paddingRight": "5"
-
+      "paddingRight": "5",
+      "blockClass": "newsletter__form"
     },
     "children": ["newsletter-form"]
   },
 
   "newsletter-form": {
+    "title": "Newsletter Form",
     "children": [
       "newsletter-input-email#newsletter__input",
       "newsletter-submit#newsletter__submit"
@@ -53,14 +58,18 @@
   },
 
   "newsletter-input-email#newsletter__input": {
+    "title": "Newsletter Input",
     "props": {
-      "placeholderText": "Tu E-mail"
+      "placeholderText": "Tu E-mail",
+      "blockClass": "newsletter__input"
     }
   },
 
   "newsletter-submit#newsletter__submit": {
+    "title": "Newsletter Submit",
     "props": {
-      "submitButtonLabel": "SUSCRIBIRME"
+      "submitButtonLabel": "SUSCRIBIRME",
+      "blockClass": "newsletter__submit"
     }
   }
 }
