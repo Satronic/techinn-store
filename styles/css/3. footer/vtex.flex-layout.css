@@ -12,6 +12,11 @@
   padding: 1rem;
 }
 
+.flexRow--mobile__footer--row-2 {
+  background-color: #efefef;
+  padding: 1rem 0; 
+}
+
 .flexRow--footer__newsletter {
   background-color: #efefef;
   padding: 1rem;
