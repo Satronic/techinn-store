@@ -6,7 +6,8 @@
       "flex-layout.row#desktop__product--details",
       "tab-layout#desktop__product--customers-reviews",
       "flex-layout.row#desktop__product--guarantee",
-      "list-context.product-list#desktop__product--sugested"
+      "list-context.product-list#desktop__product--sugested",
+      "modal-trigger#desktop__product--add-to-cart-info"
       // "shelf.relatedProducts"
     ]
   },
@@ -308,6 +309,8 @@
       }
     }
   }
+
+
 
   // "list-context.product-list": {
   //   "blocks": ["shelf.relatedProducts"]
