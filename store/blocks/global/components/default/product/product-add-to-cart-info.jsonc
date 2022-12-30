@@ -1,0 +1,14 @@
+{
+  "modal-trigger#desktop__product--add-to-cart-info": {
+    "title": "Add to Cart",
+    "children": ["modal-layout#product__add-to-cart-info--container"],
+    "props": {
+      "customPixelEventName": "addToCart"
+    }
+  },
+
+  "modal-layout#product__add-to-cart-info--container": {
+    "title": "Add to Cart Layout",
+    "children": ["add-to-cart-info"]
+  }
+}

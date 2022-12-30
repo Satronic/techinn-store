@@ -57,7 +57,8 @@
     "vtex.product-list": "0.x",
     "vtex.checkout-summary": "0.x",
     "vtex.overlay-layout": "0.x",
-    "itgloberspartnercl.whatsapp-button": "0.x"
+    "itgloberspartnercl.whatsapp-button": "0.x",
+    "itgloberspartnercl.add-to-cart-info": "0.x"
   },
   "peerDependencies": {
     "vtex.mega-menu": "2.x"
