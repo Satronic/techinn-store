@@ -1,12 +1,56 @@
-# Minimum Boilerplate Theme
+# TechInn Store
 
-The minimum Boilerplate Theme is basic store front model based on the VTEX IO Store Framework.
+TechInn Store is a copy of the e-commerce [TechInn](https://www.tradeinn.com/techinn/) e-commerce that was developed with the VTEX IO platform, in order to put into practice the technical concepts of web development seen in the Vtex University bootcamp.
 
-It should be used only when you want to start a new store theme without any pre-set configurations, as is the case with [Store Theme](https://github.com/vtex-apps/store-theme). 
+The website is divided into the following semantic sections that allow modularizing its development:
 
-While Store Theme gives developers a ready-to-go default store front structure, the Minimum Boilerplate Theme will enable you to build you store freely from scratch.
+## 1. Header
+### 1.1. Header Desktop
+![Media Placeholder](https://res.cloudinary.com/satronic/image/upload/v1672447977/Header-Desktop_rncp0l.jpg)
 
-## Configuration
+#### 1.1.1. Header Desktop Menu Categories
+![Media Placeholder](https://res.cloudinary.com/satronic/image/upload/v1672448210/Header-Desktop-Menu-Categories_mlnc36.jpg)
+
+### 1.2. Header Tablet
+![Media Placeholder](https://res.cloudinary.com/satronic/image/upload/v1672447422/Header-Tablet_b8frtb.jpg)
+
+#### 1.2.1. Header Tablet Menu Categories
+![Media Placeholder](https://res.cloudinary.com/satronic/image/upload/v1672448855/Header-Tablet-Menu-Categories_bjfelh.jpg)
+
+### 1.3. Header Phone
+![Media Placeholder](https://res.cloudinary.com/satronic/image/upload/v1672447715/Header-Phone_bgw7u6.jpg)
+
+#### 1.3.1. Header Phone Menu Categories
+![Media Placeholder](https://res.cloudinary.com/satronic/image/upload/v1672448583/Header-Phone-Menu-Categories_j6p9to.jpg)
+
+
+## 2. Home
+### 2.1. Home Desktop Slider Top
+![Media Placeholder](https://res.cloudinary.com/satronic/image/upload/v1672509125/Home-Desktop-Slider-Top_asdusa.jpg)
+
+### 2.2. Home Desktop Banners Categories and Brands
+![Media Placeholder](https://res.cloudinary.com/satronic/image/upload/v1672509408/Home-Desktop-Banners-Ctegories-Brands_edffre.jpg)
+
+### 2.2. Home Desktop Slider Products and About Us Section
+![Media Placeholder](https://res.cloudinary.com/satronic/image/upload/v1672509750/Home-Desktop-Slider-Products_quhfmu.jpg)
+
+
+## 3. Footer
+### 3.1. Footer Desktop
+![Media Placeholder](https://res.cloudinary.com/satronic/image/upload/v1672510642/Footer-Desktop_rn1a48.jpg)
+
+### 3.2. Footer Tablet
+![Media Placeholder](https://res.cloudinary.com/satronic/image/upload/v1672511069/Footer-Tablet_ntk4s6.jpg)
+
+### 3.3. Footer Phone
+![Media Placeholder](https://res.cloudinary.com/satronic/image/upload/v1672511386/Footer-Phone_my8rwb.jpg)
+
+
+#### 4. Search
+#### 5. Product
+#### 6. Custom
+
+## A. Configuration
 
 ### Step 1 -  Basic setup
 
