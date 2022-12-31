@@ -24,8 +24,17 @@ The website is divided into the following semantic sections that allow modulariz
 ![Media Placeholder](https://res.cloudinary.com/satronic/image/upload/v1672448583/Header-Phone-Menu-Categories_j6p9to.jpg)
 
 
-
 ### 2. Home
+### 2.1. Home Desktop Slider Top
+![Media Placeholder](https://res.cloudinary.com/satronic/image/upload/v1672509125/Home-Desktop-Slider-Top_asdusa.jpg)
+
+### 2.2. Home Desktop Banners Categories and Brands
+![Media Placeholder](https://res.cloudinary.com/satronic/image/upload/v1672509408/Home-Desktop-Banners-Ctegories-Brands_edffre.jpg)
+
+### 2.2. Home Desktop Slider Products and About Us Section
+![Media Placeholder](https://res.cloudinary.com/satronic/image/upload/v1672509750/Home-Desktop-Slider-Products_quhfmu.jpg)
+
+
 #### 3. Footer
 #### 4. Search
 #### 5. Product
