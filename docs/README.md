@@ -24,7 +24,7 @@ The website is divided into the following semantic sections that allow modulariz
 ![Media Placeholder](https://res.cloudinary.com/satronic/image/upload/v1672448583/Header-Phone-Menu-Categories_j6p9to.jpg)
 
 
-### 2. Home
+## 2. Home
 ### 2.1. Home Desktop Slider Top
 ![Media Placeholder](https://res.cloudinary.com/satronic/image/upload/v1672509125/Home-Desktop-Slider-Top_asdusa.jpg)
 
@@ -35,7 +35,17 @@ The website is divided into the following semantic sections that allow modulariz
 ![Media Placeholder](https://res.cloudinary.com/satronic/image/upload/v1672509750/Home-Desktop-Slider-Products_quhfmu.jpg)
 
 
-#### 3. Footer
+## 3. Footer
+### 3.1. Footer Desktop
+![Media Placeholder](https://res.cloudinary.com/satronic/image/upload/v1672510642/Footer-Desktop_rn1a48.jpg)
+
+### 3.2. Footer Tablet
+![Media Placeholder](https://res.cloudinary.com/satronic/image/upload/v1672511069/Footer-Tablet_ntk4s6.jpg)
+
+### 3.3. Footer Phone
+![Media Placeholder](https://res.cloudinary.com/satronic/image/upload/v1672511386/Footer-Phone_my8rwb.jpg)
+
+
 #### 4. Search
 #### 5. Product
 #### 6. Custom
